@@ -21,6 +21,7 @@
 @property(nonatomic,weak)IBOutlet UILabel * blackChessMan;
 @property(nonatomic,weak)IBOutlet UILabel * whiteChessMan;
 @property(nonatomic,weak)IBOutlet UIView * topView;
+@property(nonatomic,weak)IBOutlet UIImageView * wzq_loading;
 @property(nonatomic)BOOL soundOpen;
 @property(nonatomic,strong)NSMutableArray * pieces;
 @property(nonatomic)NSInteger undoCount;
@@ -74,6 +75,14 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.game begin];
     });
+     //获取storyboard: 通过bundle根据storyboard的名字来获取我们的storyboard,
+//    UIStoryboard * story=[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    //由storyboard根据myView的storyBoardID来获取我们要切换的视图
+//    UIImageView *wzq_loading = [story instantiateViewControllerWithIdentifier:@"wzq_loading"];
+//    [wzq_loading hi]
+//    wzq_loading.hidden = NO;
+    //显示ViewController
+    self.wzq_loading.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="g2e-T3-tb2">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="g2e-T3-tb2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Gomoku Game Sences View Controller-->
@@ -10,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="XHBGomokuGameSencesViewController" id="g2e-T3-tb2" customClass="XHBGomokuGameSencesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ewL-Hp-Etg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stone_white.png" id="Yd7-tC-yl5">
@@ -25,14 +29,14 @@
                                 <rect key="frame" x="251" y="80" width="61" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nAB-nT-azP">
                                 <rect key="frame" x="251" y="100" width="61" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="9bG-WZ-1aC">
@@ -44,7 +48,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" id="gjE-8Y-EGt">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
@@ -54,7 +58,7 @@
                                         <rect key="frame" x="20" y="26" width="27" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="bn_back.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnBackAction:" destination="g2e-T3-tb2" eventType="touchUpInside" id="dX5-xJ-wpc"/>
@@ -64,17 +68,17 @@
                                         <rect key="frame" x="110" y="28" width="100" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="erW-ys-g4N">
                                 <rect key="frame" x="20" y="84" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bn_soundoff.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected" image="bn_soundon.png"/>
                                 <connections>
@@ -86,8 +90,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="RESTART">
-                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="btnRestartAction:" destination="g2e-T3-tb2" eventType="touchUpInside" id="luu-kI-aS1"/>
@@ -98,8 +102,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="UNDO(3)">
-                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="btnUndoAction:" destination="g2e-T3-tb2" eventType="touchUpInside" id="OhF-wB-Ft6"/>
@@ -109,16 +113,23 @@
                                 <rect key="frame" x="115" y="85" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="CHANGE ROLE>">
-                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="CHANGE ROLE&gt;">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="btnChangePlayChess:" destination="g2e-T3-tb2" eventType="touchUpInside" id="510-eg-20m"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wzq_loading.jpg" id="aPs-03-XMW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="wzq_loading">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
@@ -133,37 +144,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Wo-1k-NNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346" y="70"/>
+            <point key="canvasLocation" x="553.60000000000002" y="62.968515742128943"/>
         </scene>
         <!--Gomoku Over View Controller-->
         <scene sceneID="cKZ-PB-wDS">
             <objects>
                 <viewController storyboardIdentifier="XHBGomokuOverViewController" id="7RA-4s-ubc" customClass="XHBGomokuOverViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nsd-UM-bSx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="CfU-vL-d3V">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3kB-qv-bcA">
-                                <rect key="frame" x="20" y="508" width="120" height="40"/>
+                                <rect key="frame" x="20" y="607" width="120" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Try Again">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="btnRestartAction:" destination="7RA-4s-ubc" eventType="touchUpInside" id="HxP-9T-1bW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ycl-ia-4Tk">
-                                <rect key="frame" x="180" y="508" width="120" height="40"/>
+                                <rect key="frame" x="180" y="607" width="120" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="btnBackAction:" destination="7RA-4s-ubc" eventType="touchUpInside" id="Rfg-hG-Kzt"/>
@@ -173,11 +184,11 @@
                                 <rect key="frame" x="0.0" y="265" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.91180294750000002" green="0.28581935409999998" blue="0.25415156789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.91180294750000002" green="0.28581935409999998" blue="0.25415156789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="backView" destination="CfU-vL-d3V" id="EVK-tJ-yMF"/>
@@ -188,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uc0-9r-A8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="701" y="70"/>
+            <point key="canvasLocation" x="1121.5999999999999" y="62.968515742128943"/>
         </scene>
     </scenes>
     <resources>
@@ -198,10 +209,6 @@
         <image name="gomokuboard.png" width="1229" height="1229"/>
         <image name="stone_black.png" width="80" height="80"/>
         <image name="stone_white.png" width="80" height="80"/>
+        <image name="wzq_loading.jpg" width="1024" height="1024"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

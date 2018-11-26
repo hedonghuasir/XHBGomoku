@@ -47,7 +47,7 @@
                           channel:channel
                  apsForProduction:isProduction
             advertisingIdentifier:advertisingId];
-
+    application.applicationIconBadgeNumber = 0;
     return YES;
 }
 - (void)application:(UIApplication *)application
@@ -160,6 +160,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    application.applicationIconBadgeNumber = 0;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

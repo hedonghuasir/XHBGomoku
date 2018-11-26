@@ -99,6 +99,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XHBGomoku.entitlements; sourceTree = "<group>"; };
 		316D206621AAFD78005D5E01 /* wzq_loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wzq_loading.jpg; sourceTree = "<group>"; };
 		7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
@@ -291,6 +292,7 @@
 		D26E530A19B43C880094EC28 /* XHBGomoku */ = {
 			isa = PBXGroup;
 			children = (
+				315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */,
 				7BFC5C2121ABC1A80067D78A /* lib */,
 				D296F5E019B8AA55005439A5 /* Component */,
 				D26E535D19B4B9D20094EC28 /* Resources */,
@@ -489,6 +491,11 @@
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
 						DevelopmentTeam = BRB3W2STGP;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					D26E532119B43C880094EC28 = {
 						TestTargetID = D26E530019B43C880094EC28;
@@ -722,6 +729,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = BRB3W2STGP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -734,6 +742,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -743,6 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = BRB3W2STGP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -755,6 +765,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

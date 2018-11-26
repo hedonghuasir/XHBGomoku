@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316D206721AAFD79005D5E01 /* wzq_loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 316D206621AAFD78005D5E01 /* wzq_loading.jpg */; };
 		D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */; };
 		D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */; };
 		D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */; };
@@ -86,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316D206621AAFD78005D5E01 /* wzq_loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wzq_loading.jpg; sourceTree = "<group>"; };
 		D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
 		D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
 		D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 		D26E535D19B4B9D20094EC28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				316D206621AAFD78005D5E01 /* wzq_loading.jpg */,
 				D2A4DA3F19B956E100192790 /* tips-hd.png */,
 				D296F5E419B8AB6E005439A5 /* bn_back.png */,
 				D296F5E519B8AB6E005439A5 /* bn_back@2x.png */,
@@ -425,7 +428,7 @@
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
-						DevelopmentTeam = 9J59RQ6A8X;
+						DevelopmentTeam = BRB3W2STGP;
 					};
 					D26E532119B43C880094EC28 = {
 						TestTargetID = D26E530019B43C880094EC28;
@@ -487,6 +490,7 @@
 				D296F5D119B8A8F3005439A5 /* pause.png in Resources */,
 				D26E530F19B43C880094EC28 /* InfoPlist.strings in Resources */,
 				D296F5EC19B8AB6E005439A5 /* bn_back@2x.png in Resources */,
+				316D206721AAFD79005D5E01 /* wzq_loading.jpg in Resources */,
 				D26E536719B4BAC60094EC28 /* topboard2.png in Resources */,
 				D26E536519B4BA440094EC28 /* stone_white.png in Resources */,
 				D296F5DC19B8A8F3005439A5 /* win.wav in Resources */,
@@ -659,10 +663,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BRB3W2STGP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -674,10 +680,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BRB3W2STGP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

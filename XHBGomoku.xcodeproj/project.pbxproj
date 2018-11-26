@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		316D206721AAFD79005D5E01 /* wzq_loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 316D206621AAFD78005D5E01 /* wzq_loading.jpg */; };
+		7BFC5C2721ABC1A80067D78A /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */; };
+		7BFC5C2821ABC1A80067D78A /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */; };
+		7BFC5C2921ABC1A80067D78A /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2621ABC1A80067D78A /* jcore-ios-1.2.5.a */; };
+		7BFC5C2B21ABC1C20067D78A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2A21ABC1C20067D78A /* CFNetwork.framework */; };
+		7BFC5C2D21ABC1CA0067D78A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2C21ABC1CA0067D78A /* CoreFoundation.framework */; };
+		7BFC5C2F21ABC1D20067D78A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2E21ABC1D20067D78A /* CoreTelephony.framework */; };
+		7BFC5C3121ABC1DD0067D78A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3021ABC1DC0067D78A /* SystemConfiguration.framework */; };
+		7BFC5C3321ABC1FC0067D78A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3221ABC1FC0067D78A /* Security.framework */; };
+		7BFC5C3521ABC20A0067D78A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3421ABC20A0067D78A /* libz.tbd */; };
+		7BFC5C3721ABC2120067D78A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3621ABC2120067D78A /* AdSupport.framework */; };
+		7BFC5C3921ABC21C0067D78A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3821ABC21C0067D78A /* UserNotifications.framework */; };
+		7BFC5C3B21ABC2250067D78A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C3A21ABC2250067D78A /* libresolv.tbd */; };
 		D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */; };
 		D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */; };
 		D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */; };
@@ -88,6 +100,20 @@
 
 /* Begin PBXFileReference section */
 		316D206621AAFD78005D5E01 /* wzq_loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wzq_loading.jpg; sourceTree = "<group>"; };
+		7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
+		7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
+		7BFC5C2421ABC1A80067D78A /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
+		7BFC5C2521ABC1A80067D78A /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		7BFC5C2621ABC1A80067D78A /* jcore-ios-1.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.2.5.a"; sourceTree = "<group>"; };
+		7BFC5C2A21ABC1C20067D78A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7BFC5C2C21ABC1CA0067D78A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7BFC5C2E21ABC1D20067D78A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7BFC5C3021ABC1DC0067D78A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7BFC5C3221ABC1FC0067D78A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7BFC5C3421ABC20A0067D78A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7BFC5C3621ABC2120067D78A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7BFC5C3821ABC21C0067D78A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		7BFC5C3A21ABC2250067D78A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
 		D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
 		D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
@@ -180,9 +206,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26E530719B43C880094EC28 /* CoreGraphics.framework in Frameworks */,
-				D26E530919B43C880094EC28 /* UIKit.framework in Frameworks */,
+				7BFC5C3B21ABC2250067D78A /* libresolv.tbd in Frameworks */,
+				7BFC5C3921ABC21C0067D78A /* UserNotifications.framework in Frameworks */,
+				7BFC5C3721ABC2120067D78A /* AdSupport.framework in Frameworks */,
+				7BFC5C3521ABC20A0067D78A /* libz.tbd in Frameworks */,
+				7BFC5C3321ABC1FC0067D78A /* Security.framework in Frameworks */,
 				D26E530519B43C880094EC28 /* Foundation.framework in Frameworks */,
+				D26E530719B43C880094EC28 /* CoreGraphics.framework in Frameworks */,
+				7BFC5C3121ABC1DD0067D78A /* SystemConfiguration.framework in Frameworks */,
+				7BFC5C2F21ABC1D20067D78A /* CoreTelephony.framework in Frameworks */,
+				7BFC5C2D21ABC1CA0067D78A /* CoreFoundation.framework in Frameworks */,
+				7BFC5C2B21ABC1C20067D78A /* CFNetwork.framework in Frameworks */,
+				D26E530919B43C880094EC28 /* UIKit.framework in Frameworks */,
+				7BFC5C2721ABC1A80067D78A /* jpush-extension-ios-1.1.1.a in Frameworks */,
+				7BFC5C2821ABC1A80067D78A /* jpush-ios-3.1.1.a in Frameworks */,
+				7BFC5C2921ABC1A80067D78A /* jcore-ios-1.2.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +237,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BFC5C2121ABC1A80067D78A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */,
+				7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */,
+				7BFC5C2421ABC1A80067D78A /* JPushNotificationExtensionService.h */,
+				7BFC5C2521ABC1A80067D78A /* JPUSHService.h */,
+				7BFC5C2621ABC1A80067D78A /* jcore-ios-1.2.5.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		D26E52F819B43C880094EC28 = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +271,15 @@
 		D26E530319B43C880094EC28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BFC5C3A21ABC2250067D78A /* libresolv.tbd */,
+				7BFC5C3821ABC21C0067D78A /* UserNotifications.framework */,
+				7BFC5C3621ABC2120067D78A /* AdSupport.framework */,
+				7BFC5C3421ABC20A0067D78A /* libz.tbd */,
+				7BFC5C3221ABC1FC0067D78A /* Security.framework */,
+				7BFC5C3021ABC1DC0067D78A /* SystemConfiguration.framework */,
+				7BFC5C2E21ABC1D20067D78A /* CoreTelephony.framework */,
+				7BFC5C2C21ABC1CA0067D78A /* CoreFoundation.framework */,
+				7BFC5C2A21ABC1C20067D78A /* CFNetwork.framework */,
 				D26E530419B43C880094EC28 /* Foundation.framework */,
 				D26E530619B43C880094EC28 /* CoreGraphics.framework */,
 				D26E530819B43C880094EC28 /* UIKit.framework */,
@@ -232,6 +291,7 @@
 		D26E530A19B43C880094EC28 /* XHBGomoku */ = {
 			isa = PBXGroup;
 			children = (
+				7BFC5C2121ABC1A80067D78A /* lib */,
 				D296F5E019B8AA55005439A5 /* Component */,
 				D26E535D19B4B9D20094EC28 /* Resources */,
 				D26E533A19B43CCC0094EC28 /* View */,
@@ -668,6 +728,10 @@
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHBGomoku/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -685,6 +749,10 @@
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHBGomoku/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

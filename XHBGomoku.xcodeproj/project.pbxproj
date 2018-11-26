@@ -490,7 +490,7 @@
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
-						DevelopmentTeam = BRB3W2STGP;
+						DevelopmentTeam = 94SZBFX4QS;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -731,7 +731,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = BRB3W2STGP;
+				DEVELOPMENT_TEAM = 94SZBFX4QS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
@@ -740,7 +740,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -754,7 +754,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = BRB3W2STGP;
+				DEVELOPMENT_TEAM = 94SZBFX4QS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
@@ -763,7 +763,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;

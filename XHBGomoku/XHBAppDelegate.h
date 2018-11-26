@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString *appKey = @"5717ca216213bcefaf6490ea";
+static NSString *appKey = @"7dad6240ca77d66aa46afae9";
 static NSString *channel = @"App Store";
 static BOOL isProduction = FALSE;
 @interface XHBAppDelegate : UIResponder <UIApplicationDelegate>

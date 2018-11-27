@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 static NSString *appKey = @"5717ca216213bcefaf6490ea";
 static NSString *channel = @"App Store";
-static BOOL isProduction = FALSE;
+static BOOL isProduction = YES;
 @interface XHBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

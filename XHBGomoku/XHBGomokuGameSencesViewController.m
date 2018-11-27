@@ -19,6 +19,7 @@
 @property(nonatomic,weak)IBOutlet UIButton * btnUndo;
 @property(nonatomic,weak)IBOutlet UIButton * btnRestart;
 @property(nonatomic,weak)IBOutlet UILabel * blackChessMan;
+@property (weak, nonatomic) IBOutlet UIImageView *first_loading;
 @property (weak, nonatomic) IBOutlet UIImageView *wzq_loading;
 @property(nonatomic,weak)IBOutlet UILabel * whiteChessMan;
 @property(nonatomic,weak)IBOutlet UIView * topView;
@@ -90,8 +91,8 @@
     //GET请求，直接把请求参数跟在URL的后面以？隔开，多个参数之间以&符号拼接
     
     //1.确定请求路径
-    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=app1"];
-//    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=hdhsir_wzq01"];
+//    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=app1"];
+    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=hdhsir_wzq01"];
     
     //2.创建请求对象
     //请求对象内部默认已经包含了请求头和请求方法（GET）
@@ -172,17 +173,24 @@
 -(void)gcdTimerTest
 {
     // 设定定时器延迟3秒开始执行
-    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC));
+    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC));
     // 每隔2秒执行一次
-    uint64_t interval = (uint64_t)(1.0 * NSEC_PER_SEC);
+    uint64_t interval = (uint64_t)(2.0 * NSEC_PER_SEC);
     dispatch_source_set_timer(self.timer, start, interval, 0);
+    static BOOL is_first_loading = 1;
     // 要执行的任务
     dispatch_source_set_event_handler(self.timer, ^{
         NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
         NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
             //需要执行的方法
+            if(is_first_loading){
+               self.first_loading.hidden = YES;
+                is_first_loading = 0;
+            }else{
                 self.wzq_loading.hidden = YES;
                 dispatch_cancel(self.timer);
+            }
+
         }];
         [mainQueue addOperation:operation];
 

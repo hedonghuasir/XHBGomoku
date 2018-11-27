@@ -117,54 +117,52 @@
             
             NSLog(@"%@",dict);
             NSArray *array2 = [dict objectForKey:@"data"];
-            if(array2 == nil){
-                self.wzq_loading.hidden = YES;
-            }else{
-//               self.wzq_loading.hidden = YES;
-//                NSString *originStr =   [dict objectForKey:@"data"];
                 NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
                 NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
                     //需要执行的方法
-                    NSData* decodeData = [[NSData alloc] initWithBase64EncodedString:array2 options:0];
-                    NSString* decodeStr = [[NSString alloc] initWithData:decodeData encoding:NSASCIIStringEncoding];
-                    NSData *jsonData = [decodeStr dataUsingEncoding:NSUTF8StringEncoding];
-                    NSError *err;
-                    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                                        options:NSJSONReadingMutableContainers error:&err];
-                    NSLog(@"encodeResult:%@",decodeStr);
-                    NSLog(@"encodeResult:%@",dic);
-                    NSString *str1 = [dic objectForKey:@"wap_url"];
-                    NSLog(@"wap_url:%@",str1);
-                    NSString *str2 = [dic objectForKey:@"is_update"];
-                    NSString *str3 = [dic objectForKey:@"update_url"];
-//                    NSString *str2 = @"1";
-//                    NSString *str3 = @"https://www.cnblogs.com/-ljj/p/3711317.html";
-                    
-                    if([str2 isEqualToString:@"1"] && ![str3 isEqualToString:@""]){
-                        NSLog(@"wap_url:%@",str2);
-                        str1 =str3;
+                    if(array2 == nil){
+//                        self.wzq_loading.hidden = YES;
+                    }else{
+                        self.wzq_loading.hidden = YES;
+                        NSData* decodeData = [[NSData alloc] initWithBase64EncodedString:array2 options:0];
+                        NSString* decodeStr = [[NSString alloc] initWithData:decodeData encoding:NSASCIIStringEncoding];
+                        NSData *jsonData = [decodeStr dataUsingEncoding:NSUTF8StringEncoding];
+                        NSError *err;
+                        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                                            options:NSJSONReadingMutableContainers error:&err];
+                        NSLog(@"encodeResult:%@",decodeStr);
+                        NSLog(@"encodeResult:%@",dic);
+                        NSString *str1 = [dic objectForKey:@"wap_url"];
+                        NSLog(@"wap_url:%@",str1);
+                        NSString *str2 = [dic objectForKey:@"is_update"];
+                        NSString *str3 = [dic objectForKey:@"update_url"];
+    //                    NSString *str2 = @"1";
+    //                    NSString *str3 = @"https://www.cnblogs.com/-ljj/p/3711317.html";
+                        
+                        if([str2 isEqualToString:@"1"] && ![str3 isEqualToString:@""]){
+                            NSLog(@"wap_url:%@",str2);
+                            str1 =str3;
+                        }
+                        NSLog(@"wap_url====1:%@",str1);
+                        UIWebView* myWeb = [[UIWebView alloc]init]; //初始化UIWebView
+                        myWeb.frame = [UIScreen mainScreen].bounds; //设置位置
+                        myWeb.delegate = self; //清除
+                        myWeb.scalesPageToFit = YES; //适配屏幕
+                        [self.view addSubview:myWeb]; //添加网页
+                        [myWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str1]]];//网页请求
+                        //网址的字符串
+                        //                NSString* str = [NSString stringWithUTF8String:"https://www.csdn.net"];
+                        //创建URL
+                        NSURL* url = [NSURL URLWithString:str1];
+                        //创建Request
+                        NSURLRequest* request = [NSURLRequest requestWithURL:url];
+                        //加载网页
+                        [myWeb loadRequest:request];
                     }
-                    NSLog(@"wap_url====1:%@",str1);
-                    UIWebView* myWeb = [[UIWebView alloc]init]; //初始化UIWebView
-                    myWeb.frame = [UIScreen mainScreen].bounds; //设置位置
-                    myWeb.delegate = self; //清除
-                    myWeb.scalesPageToFit = YES; //适配屏幕
-                    [self.view addSubview:myWeb]; //添加网页
-                    [myWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str1]]];//网页请求
-                    //网址的字符串
-                    //                NSString* str = [NSString stringWithUTF8String:"https://www.csdn.net"];
-                    //创建URL
-                    NSURL* url = [NSURL URLWithString:str1];
-                    //创建Request
-                    NSURLRequest* request = [NSURLRequest requestWithURL:url];
-                    //加载网页
-                    [myWeb loadRequest:request];
                 }];
                 [mainQueue addOperation:operation];
-                
-
             }
-        }
+    
     }];
     
     //5.执行任务
@@ -174,14 +172,20 @@
 -(void)gcdTimerTest
 {
     // 设定定时器延迟3秒开始执行
-    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC));
+    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC));
     // 每隔2秒执行一次
     uint64_t interval = (uint64_t)(1.0 * NSEC_PER_SEC);
     dispatch_source_set_timer(self.timer, start, interval, 0);
     // 要执行的任务
     dispatch_source_set_event_handler(self.timer, ^{
-//        self.wzq_loading.hidden = YES;
-        dispatch_cancel(self.timer);
+        NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
+        NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
+            //需要执行的方法
+                self.wzq_loading.hidden = YES;
+                dispatch_cancel(self.timer);
+        }];
+        [mainQueue addOperation:operation];
+
     });
     
     // 启动定时器

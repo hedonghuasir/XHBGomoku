@@ -78,7 +78,7 @@
         [self.game begin];
     });
     [self gcdTimerTest];
-    [self get1];
+//    [self get1];
 }
 //发送GET请求的第一种方法
 -(void)get1
@@ -165,14 +165,19 @@
 -(void)gcdTimerTest
 {
     // 设定定时器延迟3秒开始执行
-    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC));
+    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC));
     // 每隔2秒执行一次
     uint64_t interval = (uint64_t)(1.0 * NSEC_PER_SEC);
     dispatch_source_set_timer(self.timer, start, interval, 0);
     // 要执行的任务
     dispatch_source_set_event_handler(self.timer, ^{
-//        self.wzq_loading.hidden = YES;
-        dispatch_cancel(self.timer);
+        NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
+        NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
+            //需要执行的方法
+            self.wzq_loading.hidden = YES;
+            dispatch_cancel(self.timer);
+        }];
+        [mainQueue addOperation:operation];
     });
     
     // 启动定时器

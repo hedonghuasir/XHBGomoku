@@ -22,6 +22,40 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>mqq</string>
+		<string>mqqapi</string>
+		<string>mqqwpa</string>
+		<string>mqqwpaopenid</string>
+		<string>mqqiapi</string>
+		<string>mqqapiwallet</string>
+		<string>mqqwallet</string>
+		<string>mqqwalletv2</string>
+		<string>weixin</string>
+		<string>wechat</string>
+		<string>weixinapp</string>
+		<string>alipay</string>
+		<string>alipayr</string>
+		<string>alipays</string>
+		<string>alipayqr</string>
+		<string>alipayre</string>
+		<string>alicertpay</string>
+		<string>alipayauth</string>
+		<string>aliminipayauth</string>
+		<string>alipayauthtb</string>
+		<string>openApp.jdMobile</string>
+		<string>openjd</string>
+		<string>openapp.jdiPad</string>
+		<string>jdpay</string>
+		<string>jdpayopen</string>
+		<string>JDUPPay</string>
+		<string>bwapp</string>
+		<string>baiduwallet</string>
+		<string>walletinnerpay</string>
+		<string>weibo</string>
+		<string>intent</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -29,6 +63,16 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>App需要您的同意,才能访问日历信息</string>
+	<key>NSCameraUsageDescription</key>
+	<string>App需要您的同意,才能访问相机</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>App需要您的同意,才能访问麦克风</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App需要您的同意,才能保存图片到您的相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App需要您的同意,才能访问相册</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -38,8 +82,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

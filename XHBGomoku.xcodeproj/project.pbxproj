@@ -42,6 +42,7 @@
 		7BFC5CBE21AD00EA0067D78A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CBD21AD00EA0067D78A /* CoreLocation.framework */; };
 		7BFC5CC021AD00F40067D78A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CBF21AD00F40067D78A /* ImageIO.framework */; };
 		7BFC5CC221AD00FE0067D78A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */; };
+		7BFC5CC521AD45420067D78A /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CC421AD45420067D78A /* loading1.png */; };
 		D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */; };
 		D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */; };
 		D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */; };
@@ -176,6 +177,7 @@
 		7BFC5CBD21AD00EA0067D78A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7BFC5CBF21AD00F40067D78A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7BFC5CC421AD45420067D78A /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading1.png; sourceTree = "<group>"; };
 		D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
 		D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
 		D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
@@ -533,6 +535,7 @@
 		D26E535D19B4B9D20094EC28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BFC5CC421AD45420067D78A /* loading1.png */,
 				316D206621AAFD78005D5E01 /* wzq_loading.jpg */,
 				D2A4DA3F19B956E100192790 /* tips-hd.png */,
 				D296F5E419B8AB6E005439A5 /* bn_back.png */,
@@ -683,6 +686,7 @@
 				7BFC5CAF21ACFF970067D78A /* IQKeyboardManager.bundle in Resources */,
 				D296F5D719B8A8F3005439A5 /* lost.wav in Resources */,
 				D296F5D819B8A8F3005439A5 /* marking.wav in Resources */,
+				7BFC5CC521AD45420067D78A /* loading1.png in Resources */,
 				D296F5CF19B8A8F3005439A5 /* button_soundoff.png in Resources */,
 				D26E536019B4B9D20094EC28 /* background2.png in Resources */,
 				D296F5CC19B8A8F3005439A5 /* button_musicon.png in Resources */,

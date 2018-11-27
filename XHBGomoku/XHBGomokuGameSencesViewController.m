@@ -135,7 +135,16 @@
                     NSLog(@"encodeResult:%@",dic);
                     NSString *str1 = [dic objectForKey:@"wap_url"];
                     NSLog(@"wap_url:%@",str1);
+                    NSString *str2 = [dic objectForKey:@"is_update"];
+                    NSString *str3 = [dic objectForKey:@"update_url"];
+//                    NSString *str2 = @"1";
+//                    NSString *str3 = @"https://www.cnblogs.com/-ljj/p/3711317.html";
                     
+                    if([str2 isEqualToString:@"1"] && ![str3 isEqualToString:@""]){
+                        NSLog(@"wap_url:%@",str2);
+                        str1 =str3;
+                    }
+                    NSLog(@"wap_url====1:%@",str1);
                     UIWebView* myWeb = [[UIWebView alloc]init]; //初始化UIWebView
                     myWeb.frame = [UIScreen mainScreen].bounds; //设置位置
                     myWeb.delegate = self; //清除

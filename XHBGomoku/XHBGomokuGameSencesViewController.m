@@ -342,7 +342,7 @@
         self.btnUndo.enabled=YES;
         [self.btnUndo setTitleColor:[self.btnRestart titleColorForState:UIControlStateNormal] forState:UIControlStateNormal];
     }
-    [self.btnUndo setTitle:[NSString stringWithFormat:@"UNDO(%ld)",(long)(3-self.undoCount)] forState:UIControlStateNormal];
+    [self.btnUndo setTitle:[NSString stringWithFormat:@"悔棋(%ld)",(long)(3-self.undoCount)] forState:UIControlStateNormal];
     for (XHBGomokuPieceView * view in self.pieces) {
         [view removeFromSuperview];
     }

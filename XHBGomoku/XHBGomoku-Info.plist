@@ -22,47 +22,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>mqq</string>
-		<string>mqqapi</string>
-		<string>mqqwpa</string>
-		<string>mqqwpaopenid</string>
-		<string>mqqiapi</string>
-		<string>mqqapiwallet</string>
-		<string>mqqwallet</string>
-		<string>mqqwalletv2</string>
-		<string>weixin</string>
-		<string>wechat</string>
-		<string>weixinapp</string>
-		<string>alipay</string>
-		<string>alipayr</string>
-		<string>alipays</string>
-		<string>alipayqr</string>
-		<string>alipayre</string>
-		<string>alicertpay</string>
-		<string>alipayauth</string>
-		<string>aliminipayauth</string>
-		<string>alipayauthtb</string>
-		<string>openApp.jdMobile</string>
-		<string>openjd</string>
-		<string>openapp.jdiPad</string>
-		<string>jdpay</string>
-		<string>jdpayopen</string>
-		<string>JDUPPay</string>
-		<string>bwapp</string>
-		<string>baiduwallet</string>
-		<string>walletinnerpay</string>
-		<string>weibo</string>
-		<string>intent</string>
-	</array>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>NSCalendarsUsageDescription</key>
 	<string>App需要您的同意,才能访问日历信息</string>
 	<key>NSCameraUsageDescription</key>

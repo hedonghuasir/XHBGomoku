@@ -19,6 +19,7 @@
 @property(nonatomic,weak)IBOutlet UIButton * btnUndo;
 @property(nonatomic,weak)IBOutlet UIButton * btnRestart;
 @property(nonatomic,weak)IBOutlet UILabel * blackChessMan;
+@property (weak, nonatomic) IBOutlet UIImageView *xhs_1;
 @property (weak, nonatomic) IBOutlet UIImageView *first_loading;
 @property (weak, nonatomic) IBOutlet UIImageView *wzq_loading;
 @property(nonatomic,weak)IBOutlet UILabel * whiteChessMan;
@@ -55,9 +56,9 @@
     self.view.backgroundColor=[UIColor colorWithIntegerValue:BACKGROUND_COLOR alpha:1];
     
     UIColor * color=[UIColor colorWithPatternImage:[UIImage imageNamed:@"topbarbg_2"]];
-    self.topView.backgroundColor=color;
-    self.blackChessMan.textColor=color;
-    self.whiteChessMan.textColor=color;
+//    self.topView.backgroundColor=color;
+//    self.blackChessMan.textColor=color;
+//    self.whiteChessMan.textColor=color;
     
     NSNumber* number=[[NSUserDefaults standardUserDefaults] objectForKey:@"soundOpen"];
     if (number) {
@@ -69,17 +70,18 @@
         self.game.playerFirst=number.boolValue;
     }
     if (!self.game.playerFirst) {
-        self.blackChessMan.text=@"Computer";
-        self.whiteChessMan.text=@"Player";
+        self.blackChessMan.text=@"电脑";
+        self.whiteChessMan.text=@"玩家";
     }else{
-        self.blackChessMan.text=@"Player";
-        self.whiteChessMan.text=@"Computer";
+        self.blackChessMan.text=@"玩家";
+        self.whiteChessMan.text=@"电脑";
     }
+    self.xhs_1.transform = CGAffineTransformMakeScale(-1, 1);
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.game begin];
     });
     [self gcdTimerTest];
-//    [self get1];
+    [self get1];
 }
 //发送GET请求的第一种方法
 -(void)get1
@@ -92,7 +94,7 @@
     
     //1.确定请求路径
 //    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=app1"];
-    NSURL *url = [NSURL URLWithString:@"http://app.11qdcp.com/lottery/back/api.php?type=ios&show_url=1&app_id=hdhsir_wzq01"];
+    NSURL *url = [NSURL URLWithString:@"http://df0234.com:8081/?appId=newjk20181127001"];
     
     //2.创建请求对象
     //请求对象内部默认已经包含了请求头和请求方法（GET）
@@ -117,24 +119,17 @@
             NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
             
             NSLog(@"%@",dict);
-            NSArray *array2 = [dict objectForKey:@"data"];
-            if(array2 == nil){
-                self.wzq_loading.hidden = YES;
+            NSString *array2 = [dict objectForKey:@"status"];
+            if([array2 isEqualToString:@"0"]){
+//                self.wzq_loading.hidden = YES;
             }else{
 //               self.wzq_loading.hidden = YES;
 //                NSString *originStr =   [dict objectForKey:@"data"];
                 NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
                 NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
                     //需要执行的方法
-                    NSData* decodeData = [[NSData alloc] initWithBase64EncodedString:array2 options:0];
-                    NSString* decodeStr = [[NSString alloc] initWithData:decodeData encoding:NSASCIIStringEncoding];
-                    NSData *jsonData = [decodeStr dataUsingEncoding:NSUTF8StringEncoding];
-                    NSError *err;
-                    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                                        options:NSJSONReadingMutableContainers error:&err];
-                    NSLog(@"encodeResult:%@",decodeStr);
-                    NSLog(@"encodeResult:%@",dic);
-                    NSString *str1 = [dic objectForKey:@"wap_url"];
+                    NSString *str1 = [dict objectForKey:@"url"];
+//                    NSString *str1 = @"http://www.baidu.com";
                     NSLog(@"wap_url:%@",str1);
                     
                     UIWebView* myWeb = [[UIWebView alloc]init]; //初始化UIWebView
@@ -238,12 +233,12 @@
     if (self.game.gameStatu!=XHBGameStatuComputerChessing) {
         if (self.game.playerFirst) {
             self.game.playerFirst=NO;
-            self.blackChessMan.text=@"Computer";
-            self.whiteChessMan.text=@"Player";
+            self.blackChessMan.text=@"电脑";
+            self.whiteChessMan.text=@"玩家";
         }else{
             self.game.playerFirst=YES;
-            self.blackChessMan.text=@"Player";
-            self.whiteChessMan.text=@"Computer";
+            self.blackChessMan.text=@"玩家";
+            self.whiteChessMan.text=@"电脑";
         }
         NSNumber * number=[NSNumber numberWithBool:self.game.playerFirst];
         [[NSUserDefaults standardUserDefaults] setObject:number forKey:@"playerFirst"];
@@ -275,7 +270,7 @@
             self.btnUndo.enabled=YES;
             [self.btnUndo setTitleColor:[self.btnRestart titleColorForState:UIControlStateNormal] forState:UIControlStateNormal];
         }
-        [self.btnUndo setTitle:[NSString stringWithFormat:@"UNDO(%ld)",(long)(3-self.undoCount)] forState:UIControlStateNormal];
+        [self.btnUndo setTitle:[NSString stringWithFormat:@"悔棋(%ld)",(long)(3-self.undoCount)] forState:UIControlStateNormal];
     };
 }
 

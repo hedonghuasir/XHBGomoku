@@ -28,6 +28,11 @@
 		7BFC5CC021AD00F40067D78A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CBF21AD00F40067D78A /* ImageIO.framework */; };
 		7BFC5CC221AD00FE0067D78A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */; };
 		7BFC5CC521AD45420067D78A /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CC421AD45420067D78A /* loading1.png */; };
+		7BFC5CD721AE772C0067D78A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CD621AE772C0067D78A /* bg.png */; };
+		7BFC5CDB21AE9D4B0067D78A /* xhs.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CD921AE9D4A0067D78A /* xhs.png */; };
+		7BFC5CDC21AE9D4B0067D78A /* bg10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDA21AE9D4A0067D78A /* bg10.png */; };
+		7BFC5CDF21AEA1B20067D78A /* closeVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDD21AEA1B20067D78A /* closeVolice.png */; };
+		7BFC5CE021AEA1B20067D78A /* openVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDE21AEA1B20067D78A /* openVolice.png */; };
 		D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */; };
 		D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */; };
 		D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */; };
@@ -131,6 +136,11 @@
 		7BFC5CBF21AD00F40067D78A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7BFC5CC421AD45420067D78A /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading1.png; sourceTree = "<group>"; };
+		7BFC5CD621AE772C0067D78A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		7BFC5CD921AE9D4A0067D78A /* xhs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xhs.png; sourceTree = "<group>"; };
+		7BFC5CDA21AE9D4A0067D78A /* bg10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg10.png; sourceTree = "<group>"; };
+		7BFC5CDD21AEA1B20067D78A /* closeVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeVolice.png; sourceTree = "<group>"; };
+		7BFC5CDE21AEA1B20067D78A /* openVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openVolice.png; sourceTree = "<group>"; };
 		D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
 		D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
 		D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
@@ -405,6 +415,11 @@
 		D26E535D19B4B9D20094EC28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BFC5CDD21AEA1B20067D78A /* closeVolice.png */,
+				7BFC5CDE21AEA1B20067D78A /* openVolice.png */,
+				7BFC5CDA21AE9D4A0067D78A /* bg10.png */,
+				7BFC5CD921AE9D4A0067D78A /* xhs.png */,
+				7BFC5CD621AE772C0067D78A /* bg.png */,
 				3143369721ADB6CE00412C77 /* bg.jpg */,
 				3143369521ADB56300412C77 /* loading3.jpg */,
 				3143369321ADB1ED00412C77 /* loading2.png */,
@@ -558,8 +573,10 @@
 				D296F5D719B8A8F3005439A5 /* lost.wav in Resources */,
 				D296F5D819B8A8F3005439A5 /* marking.wav in Resources */,
 				7BFC5CC521AD45420067D78A /* loading1.png in Resources */,
+				7BFC5CDF21AEA1B20067D78A /* closeVolice.png in Resources */,
 				D296F5CF19B8A8F3005439A5 /* button_soundoff.png in Resources */,
 				D26E536019B4B9D20094EC28 /* background2.png in Resources */,
+				7BFC5CDC21AE9D4B0067D78A /* bg10.png in Resources */,
 				D296F5CC19B8A8F3005439A5 /* button_musicon.png in Resources */,
 				D296F5ED19B8AB6E005439A5 /* bn_soundoff.png in Resources */,
 				D296F5CB19B8A8F3005439A5 /* button_musicoff.png in Resources */,
@@ -569,6 +586,7 @@
 				D296F5EE19B8AB6E005439A5 /* bn_soundoff@2x.png in Resources */,
 				D296F5D519B8A8F3005439A5 /* check.wav in Resources */,
 				D26E531D19B43C880094EC28 /* Images.xcassets in Resources */,
+				7BFC5CDB21AE9D4B0067D78A /* xhs.png in Resources */,
 				D2A4DA4019B956E100192790 /* tips-hd.png in Resources */,
 				D296F5CD19B8A8F3005439A5 /* button_rank.png in Resources */,
 				D296F5D419B8A8F3005439A5 /* au_victory.wav in Resources */,
@@ -577,6 +595,7 @@
 				D296F5DD19B8A8F3005439A5 /* zoom_in_disabled.png in Resources */,
 				D296F5D619B8A8F3005439A5 /* down.wav in Resources */,
 				3143369621ADB56400412C77 /* loading3.jpg in Resources */,
+				7BFC5CE021AEA1B20067D78A /* openVolice.png in Resources */,
 				D296F5DF19B8A8F3005439A5 /* zoom_out.png in Resources */,
 				D296F5D319B8A8F3005439A5 /* au_gameover.wav in Resources */,
 				D296F5EB19B8AB6E005439A5 /* bn_back.png in Resources */,
@@ -599,6 +618,7 @@
 				D296F5C719B8A8F3005439A5 /* back_disabled.png in Resources */,
 				D296F5DA19B8A8F3005439A5 /* pipa.mp3 in Resources */,
 				D296F5EF19B8AB6E005439A5 /* bn_soundon.png in Resources */,
+				7BFC5CD721AE772C0067D78A /* bg.png in Resources */,
 				D296F5D919B8A8F3005439A5 /* mode.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

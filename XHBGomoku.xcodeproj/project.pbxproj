@@ -10,6 +10,30 @@
 		3143369421ADB1EE00412C77 /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369321ADB1ED00412C77 /* loading2.png */; };
 		3143369621ADB56400412C77 /* loading3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3143369521ADB56300412C77 /* loading3.jpg */; };
 		3143369821ADB6CE00412C77 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3143369721ADB6CE00412C77 /* bg.jpg */; };
+		6E795384DCE61C8E4A8A14F6 /* libPods-XHBGomoku.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */; };
+		7B5F153B21B0219D004709C1 /* XHBGomokuPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151821B0219D004709C1 /* XHBGomokuPieceView.m */; };
+		7B5F153C21B0219D004709C1 /* XHBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151B21B0219D004709C1 /* XHBViewController.m */; };
+		7B5F153D21B0219E004709C1 /* XHBGomokuOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151D21B0219D004709C1 /* XHBGomokuOverViewController.m */; };
+		7B5F153E21B0219E004709C1 /* XHBGomokuGameSencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151E21B0219D004709C1 /* XHBGomokuGameSencesViewController.m */; };
+		7B5F153F21B0219E004709C1 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152121B0219D004709C1 /* XHBGomokuChessModelTemplate.m */; };
+		7B5F154021B0219E004709C1 /* XHBGomokuChessboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152321B0219D004709C1 /* XHBGomokuChessboard.m */; };
+		7B5F154121B0219E004709C1 /* XHBGomokuGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152C21B0219D004709C1 /* XHBGomokuGameEngine.m */; };
+		7B5F154221B0219E004709C1 /* XHBGomokuEnvisionStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152D21B0219D004709C1 /* XHBGomokuEnvisionStack.m */; };
+		7B5F154321B0219E004709C1 /* XHBGomokuBaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152E21B0219D004709C1 /* XHBGomokuBaseStack.m */; };
+		7B5F154421B0219E004709C1 /* XHBGomokuChessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F152F21B0219D004709C1 /* XHBGomokuChessPoint.m */; };
+		7B5F154521B0219E004709C1 /* XHBGomokuActualStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153021B0219D004709C1 /* XHBGomokuActualStack.m */; };
+		7B5F154621B0219E004709C1 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153121B0219D004709C1 /* XHBGomokuLinePoints.m */; };
+		7B5F154721B0219E004709C1 /* XHBGomokuChessElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153221B0219D004709C1 /* XHBGomokuChessElement.m */; };
+		7B5F154821B0219E004709C1 /* CommonAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153421B0219D004709C1 /* CommonAlert.m */; };
+		7B5F154921B0219E004709C1 /* UIColor+setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153921B0219D004709C1 /* UIColor+setting.m */; };
+		7B5F154A21B0219E004709C1 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F153A21B0219D004709C1 /* HBPlaySoundUtil.m */; };
+		7B5F156321B023A0004709C1 /* libAVOSCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F155E21B02374004709C1 /* libAVOSCloud.a */; };
+		7B5F156421B023A4004709C1 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F156221B02374004709C1 /* libSDWebImage.a */; };
+		7B5F156F21B02F1A004709C1 /* LCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F156C21B02F19004709C1 /* LCLoginViewController.xib */; };
+		7B5F157021B02F1A004709C1 /* LCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F156D21B02F19004709C1 /* LCLoginViewController.m */; };
+		7B5F157421B039CA004709C1 /* wzq_loading1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F157121B039CA004709C1 /* wzq_loading1.jpg */; };
+		7B5F157521B039CA004709C1 /* wzq_loading2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F157221B039CA004709C1 /* wzq_loading2.jpg */; };
+		7B5F157621B039CA004709C1 /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F157321B039CA004709C1 /* bg2.jpg */; };
 		7BFC5C2721ABC1A80067D78A /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */; };
 		7BFC5C2821ABC1A80067D78A /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */; };
 		7BFC5C2921ABC1A80067D78A /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5C2621ABC1A80067D78A /* jcore-ios-1.2.5.a */; };
@@ -33,9 +57,6 @@
 		7BFC5CDC21AE9D4B0067D78A /* bg10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDA21AE9D4A0067D78A /* bg10.png */; };
 		7BFC5CDF21AEA1B20067D78A /* closeVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDD21AEA1B20067D78A /* closeVolice.png */; };
 		7BFC5CE021AEA1B20067D78A /* openVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDE21AEA1B20067D78A /* openVolice.png */; };
-		D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */; };
-		D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */; };
-		D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */; };
 		D26E530519B43C880094EC28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E530419B43C880094EC28 /* Foundation.framework */; };
 		D26E530719B43C880094EC28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E530619B43C880094EC28 /* CoreGraphics.framework */; };
 		D26E530919B43C880094EC28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E530819B43C880094EC28 /* UIKit.framework */; };
@@ -43,27 +64,17 @@
 		D26E531119B43C880094EC28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E531019B43C880094EC28 /* main.m */; };
 		D26E531519B43C880094EC28 /* XHBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E531419B43C880094EC28 /* XHBAppDelegate.m */; };
 		D26E531819B43C880094EC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E531619B43C880094EC28 /* Main.storyboard */; };
-		D26E531B19B43C880094EC28 /* XHBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E531A19B43C880094EC28 /* XHBViewController.m */; };
 		D26E531D19B43C880094EC28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26E531C19B43C880094EC28 /* Images.xcassets */; };
 		D26E532419B43C880094EC28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E532319B43C880094EC28 /* XCTest.framework */; };
 		D26E532519B43C880094EC28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E530419B43C880094EC28 /* Foundation.framework */; };
 		D26E532619B43C880094EC28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26E530819B43C880094EC28 /* UIKit.framework */; };
 		D26E532E19B43C880094EC28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D26E532C19B43C880094EC28 /* InfoPlist.strings */; };
 		D26E533019B43C880094EC28 /* XHBGomokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E532F19B43C880094EC28 /* XHBGomokuTests.m */; };
-		D26E533D19B43D130094EC28 /* XHBGomokuChessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E533C19B43D130094EC28 /* XHBGomokuChessPoint.m */; };
-		D26E534019B43D800094EC28 /* XHBGomokuChessElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E533F19B43D800094EC28 /* XHBGomokuChessElement.m */; };
-		D26E534319B4401B0094EC28 /* XHBGomokuChessboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E534219B4401B0094EC28 /* XHBGomokuChessboard.m */; };
-		D26E534619B456CD0094EC28 /* XHBGomokuBaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E534519B456CD0094EC28 /* XHBGomokuBaseStack.m */; };
-		D26E534C19B459480094EC28 /* XHBGomokuEnvisionStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E534B19B459480094EC28 /* XHBGomokuEnvisionStack.m */; };
-		D26E534F19B459660094EC28 /* XHBGomokuActualStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E534E19B459660094EC28 /* XHBGomokuActualStack.m */; };
-		D26E535619B45E5D0094EC28 /* XHBGomokuGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E535519B45E5D0094EC28 /* XHBGomokuGameEngine.m */; };
 		D26E536019B4B9D20094EC28 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = D26E535E19B4B9D20094EC28 /* background2.png */; };
 		D26E536119B4B9D20094EC28 /* gomokuboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D26E535F19B4B9D20094EC28 /* gomokuboard.png */; };
 		D26E536419B4BA440094EC28 /* stone_black.png in Resources */ = {isa = PBXBuildFile; fileRef = D26E536219B4BA440094EC28 /* stone_black.png */; };
 		D26E536519B4BA440094EC28 /* stone_white.png in Resources */ = {isa = PBXBuildFile; fileRef = D26E536319B4BA440094EC28 /* stone_white.png */; };
 		D26E536719B4BAC60094EC28 /* topboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = D26E536619B4BAC60094EC28 /* topboard2.png */; };
-		D26E536A19B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E536919B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.m */; };
-		D26E536D19B4C3620094EC28 /* XHBGomokuPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E536C19B4C3620094EC28 /* XHBGomokuPieceView.m */; };
 		D296F5C719B8A8F3005439A5 /* back_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5AD19B8A8F3005439A5 /* back_disabled.png */; };
 		D296F5C819B8A8F3005439A5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5AE19B8A8F3005439A5 /* back.png */; };
 		D296F5C919B8A8F3005439A5 /* button_exit.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5AF19B8A8F3005439A5 /* button_exit.png */; };
@@ -89,7 +100,6 @@
 		D296F5DD19B8A8F3005439A5 /* zoom_in_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5C419B8A8F3005439A5 /* zoom_in_disabled.png */; };
 		D296F5DE19B8A8F3005439A5 /* zoom_in.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5C519B8A8F3005439A5 /* zoom_in.png */; };
 		D296F5DF19B8A8F3005439A5 /* zoom_out.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5C619B8A8F3005439A5 /* zoom_out.png */; };
-		D296F5E319B8AA67005439A5 /* UIColor+setting.m in Sources */ = {isa = PBXBuildFile; fileRef = D296F5E219B8AA67005439A5 /* UIColor+setting.m */; };
 		D296F5EB19B8AB6E005439A5 /* bn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5E419B8AB6E005439A5 /* bn_back.png */; };
 		D296F5EC19B8AB6E005439A5 /* bn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5E519B8AB6E005439A5 /* bn_back@2x.png */; };
 		D296F5ED19B8AB6E005439A5 /* bn_soundoff.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5E619B8AB6E005439A5 /* bn_soundoff.png */; };
@@ -97,11 +107,31 @@
 		D296F5EF19B8AB6E005439A5 /* bn_soundon.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5E819B8AB6E005439A5 /* bn_soundon.png */; };
 		D296F5F019B8AB6E005439A5 /* bn_soundon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5E919B8AB6E005439A5 /* bn_soundon@2x.png */; };
 		D296F5F119B8AB6E005439A5 /* topbarbg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D296F5EA19B8AB6E005439A5 /* topbarbg_2.png */; };
-		D296F5F419B8BFB6005439A5 /* XHBGomokuOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D296F5F319B8BFB6005439A5 /* XHBGomokuOverViewController.m */; };
 		D2A4DA4019B956E100192790 /* tips-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A4DA3F19B956E100192790 /* tips-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7B5F155D21B02374004709C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA17EEFA536901ECA2F44C5BAC5EC390;
+			remoteInfo = AVOSCloud;
+		};
+		7B5F156121B02374004709C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC67BE420272781BCD2617FCD67EA57A;
+			remoteInfo = SDWebImage;
+		};
+		7B5F156A21B02A9A004709C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0804034C3046B69FA7E07674D387CE1;
+			remoteInfo = "Pods-XHBGomoku";
+		};
 		D26E532719B43C880094EC28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D26E52F919B43C880094EC28 /* Project object */;
@@ -112,10 +142,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B3BDB8BE784229A8F6B1B7 /* Pods-XHBGomoku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBGomoku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku.debug.xcconfig"; sourceTree = "<group>"; };
+		015FF4B79FE00DF7515210A5 /* Pods-XHBGomoku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBGomoku.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku.release.xcconfig"; sourceTree = "<group>"; };
 		3143369321ADB1ED00412C77 /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading2.png; sourceTree = "<group>"; };
 		3143369521ADB56300412C77 /* loading3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading3.jpg; sourceTree = "<group>"; };
 		3143369721ADB6CE00412C77 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XHBGomoku.entitlements; sourceTree = "<group>"; };
+		32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHBGomoku.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5F151821B0219D004709C1 /* XHBGomokuPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuPieceView.m; sourceTree = "<group>"; };
+		7B5F151921B0219D004709C1 /* XHBGomokuGameSencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuGameSencesViewController.h; sourceTree = "<group>"; };
+		7B5F151A21B0219D004709C1 /* XHBGomokuOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuOverViewController.h; sourceTree = "<group>"; };
+		7B5F151B21B0219D004709C1 /* XHBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBViewController.m; sourceTree = "<group>"; };
+		7B5F151C21B0219D004709C1 /* XHBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBViewController.h; sourceTree = "<group>"; };
+		7B5F151D21B0219D004709C1 /* XHBGomokuOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuOverViewController.m; sourceTree = "<group>"; };
+		7B5F151E21B0219D004709C1 /* XHBGomokuGameSencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuGameSencesViewController.m; sourceTree = "<group>"; };
+		7B5F151F21B0219D004709C1 /* XHBGomokuPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuPieceView.h; sourceTree = "<group>"; };
+		7B5F152121B0219D004709C1 /* XHBGomokuChessModelTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessModelTemplate.m; sourceTree = "<group>"; };
+		7B5F152221B0219D004709C1 /* XHBGomokuGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuGameEngine.h; sourceTree = "<group>"; };
+		7B5F152321B0219D004709C1 /* XHBGomokuChessboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessboard.m; sourceTree = "<group>"; };
+		7B5F152421B0219D004709C1 /* XHBGomokuChessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessPoint.h; sourceTree = "<group>"; };
+		7B5F152521B0219D004709C1 /* XHBGomokuBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuBaseStack.h; sourceTree = "<group>"; };
+		7B5F152621B0219D004709C1 /* XHBGomokuEnvisionStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuEnvisionStack.h; sourceTree = "<group>"; };
+		7B5F152721B0219D004709C1 /* XHBGomokuChessElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessElement.h; sourceTree = "<group>"; };
+		7B5F152821B0219D004709C1 /* XHBGomokuLinePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuLinePoints.h; sourceTree = "<group>"; };
+		7B5F152921B0219D004709C1 /* XHBGomokuActualStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuActualStack.h; sourceTree = "<group>"; };
+		7B5F152A21B0219D004709C1 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
+		7B5F152B21B0219D004709C1 /* XHBGomokuChessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessboard.h; sourceTree = "<group>"; };
+		7B5F152C21B0219D004709C1 /* XHBGomokuGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuGameEngine.m; sourceTree = "<group>"; };
+		7B5F152D21B0219D004709C1 /* XHBGomokuEnvisionStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuEnvisionStack.m; sourceTree = "<group>"; };
+		7B5F152E21B0219D004709C1 /* XHBGomokuBaseStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuBaseStack.m; sourceTree = "<group>"; };
+		7B5F152F21B0219D004709C1 /* XHBGomokuChessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessPoint.m; sourceTree = "<group>"; };
+		7B5F153021B0219D004709C1 /* XHBGomokuActualStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuActualStack.m; sourceTree = "<group>"; };
+		7B5F153121B0219D004709C1 /* XHBGomokuLinePoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuLinePoints.m; sourceTree = "<group>"; };
+		7B5F153221B0219D004709C1 /* XHBGomokuChessElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessElement.m; sourceTree = "<group>"; };
+		7B5F153421B0219D004709C1 /* CommonAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlert.m; sourceTree = "<group>"; };
+		7B5F153521B0219D004709C1 /* CommonAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlert.h; sourceTree = "<group>"; };
+		7B5F153721B0219D004709C1 /* UIColor+setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+setting.h"; sourceTree = "<group>"; };
+		7B5F153821B0219D004709C1 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
+		7B5F153921B0219D004709C1 /* UIColor+setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+setting.m"; sourceTree = "<group>"; };
+		7B5F153A21B0219D004709C1 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
+		7B5F155721B02374004709C1 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		7B5F156C21B02F19004709C1 /* LCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCLoginViewController.xib; sourceTree = "<group>"; };
+		7B5F156D21B02F19004709C1 /* LCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewController.m; sourceTree = "<group>"; };
+		7B5F156E21B02F19004709C1 /* LCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoginViewController.h; sourceTree = "<group>"; };
+		7B5F157121B039CA004709C1 /* wzq_loading1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wzq_loading1.jpg; sourceTree = "<group>"; };
+		7B5F157221B039CA004709C1 /* wzq_loading2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wzq_loading2.jpg; sourceTree = "<group>"; };
+		7B5F157321B039CA004709C1 /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
 		7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		7BFC5C2421ABC1A80067D78A /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
@@ -141,12 +213,6 @@
 		7BFC5CDA21AE9D4A0067D78A /* bg10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg10.png; sourceTree = "<group>"; };
 		7BFC5CDD21AEA1B20067D78A /* closeVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeVolice.png; sourceTree = "<group>"; };
 		7BFC5CDE21AEA1B20067D78A /* openVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openVolice.png; sourceTree = "<group>"; };
-		D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
-		D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
-		D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessModelTemplate.h; sourceTree = "<group>"; };
-		D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessModelTemplate.m; sourceTree = "<group>"; };
-		D2520EFB19B70053008591F3 /* XHBGomokuLinePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuLinePoints.h; sourceTree = "<group>"; };
-		D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuLinePoints.m; sourceTree = "<group>"; };
 		D26E530119B43C880094EC28 /* XHBGomoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHBGomoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E530419B43C880094EC28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D26E530619B43C880094EC28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -158,37 +224,17 @@
 		D26E531319B43C880094EC28 /* XHBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBAppDelegate.h; sourceTree = "<group>"; };
 		D26E531419B43C880094EC28 /* XHBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBAppDelegate.m; sourceTree = "<group>"; };
 		D26E531719B43C880094EC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D26E531919B43C880094EC28 /* XHBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBViewController.h; sourceTree = "<group>"; };
-		D26E531A19B43C880094EC28 /* XHBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBViewController.m; sourceTree = "<group>"; };
 		D26E531C19B43C880094EC28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D26E532219B43C880094EC28 /* XHBGomokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHBGomokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E532319B43C880094EC28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D26E532B19B43C880094EC28 /* XHBGomokuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHBGomokuTests-Info.plist"; sourceTree = "<group>"; };
 		D26E532D19B43C880094EC28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D26E532F19B43C880094EC28 /* XHBGomokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuTests.m; sourceTree = "<group>"; };
-		D26E533B19B43D130094EC28 /* XHBGomokuChessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessPoint.h; sourceTree = "<group>"; };
-		D26E533C19B43D130094EC28 /* XHBGomokuChessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessPoint.m; sourceTree = "<group>"; };
-		D26E533E19B43D800094EC28 /* XHBGomokuChessElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessElement.h; sourceTree = "<group>"; };
-		D26E533F19B43D800094EC28 /* XHBGomokuChessElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessElement.m; sourceTree = "<group>"; };
-		D26E534119B4401B0094EC28 /* XHBGomokuChessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuChessboard.h; sourceTree = "<group>"; };
-		D26E534219B4401B0094EC28 /* XHBGomokuChessboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuChessboard.m; sourceTree = "<group>"; };
-		D26E534419B456CD0094EC28 /* XHBGomokuBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuBaseStack.h; sourceTree = "<group>"; };
-		D26E534519B456CD0094EC28 /* XHBGomokuBaseStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuBaseStack.m; sourceTree = "<group>"; };
-		D26E534A19B459480094EC28 /* XHBGomokuEnvisionStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuEnvisionStack.h; sourceTree = "<group>"; };
-		D26E534B19B459480094EC28 /* XHBGomokuEnvisionStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuEnvisionStack.m; sourceTree = "<group>"; };
-		D26E534D19B459660094EC28 /* XHBGomokuActualStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuActualStack.h; sourceTree = "<group>"; };
-		D26E534E19B459660094EC28 /* XHBGomokuActualStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuActualStack.m; sourceTree = "<group>"; };
-		D26E535419B45E5D0094EC28 /* XHBGomokuGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuGameEngine.h; sourceTree = "<group>"; };
-		D26E535519B45E5D0094EC28 /* XHBGomokuGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuGameEngine.m; sourceTree = "<group>"; };
 		D26E535E19B4B9D20094EC28 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		D26E535F19B4B9D20094EC28 /* gomokuboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gomokuboard.png; sourceTree = "<group>"; };
 		D26E536219B4BA440094EC28 /* stone_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_black.png; sourceTree = "<group>"; };
 		D26E536319B4BA440094EC28 /* stone_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_white.png; sourceTree = "<group>"; };
 		D26E536619B4BAC60094EC28 /* topboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topboard2.png; sourceTree = "<group>"; };
-		D26E536819B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuGameSencesViewController.h; sourceTree = "<group>"; };
-		D26E536919B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuGameSencesViewController.m; sourceTree = "<group>"; };
-		D26E536B19B4C3620094EC28 /* XHBGomokuPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuPieceView.h; sourceTree = "<group>"; };
-		D26E536C19B4C3620094EC28 /* XHBGomokuPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuPieceView.m; sourceTree = "<group>"; };
 		D296F5AD19B8A8F3005439A5 /* back_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_disabled.png; sourceTree = "<group>"; };
 		D296F5AE19B8A8F3005439A5 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		D296F5AF19B8A8F3005439A5 /* button_exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_exit.png; sourceTree = "<group>"; };
@@ -214,8 +260,6 @@
 		D296F5C419B8A8F3005439A5 /* zoom_in_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom_in_disabled.png; sourceTree = "<group>"; };
 		D296F5C519B8A8F3005439A5 /* zoom_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom_in.png; sourceTree = "<group>"; };
 		D296F5C619B8A8F3005439A5 /* zoom_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom_out.png; sourceTree = "<group>"; };
-		D296F5E119B8AA67005439A5 /* UIColor+setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+setting.h"; sourceTree = "<group>"; };
-		D296F5E219B8AA67005439A5 /* UIColor+setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+setting.m"; sourceTree = "<group>"; };
 		D296F5E419B8AB6E005439A5 /* bn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bn_back.png; sourceTree = "<group>"; };
 		D296F5E519B8AB6E005439A5 /* bn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bn_back@2x.png"; sourceTree = "<group>"; };
 		D296F5E619B8AB6E005439A5 /* bn_soundoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bn_soundoff.png; sourceTree = "<group>"; };
@@ -223,8 +267,6 @@
 		D296F5E819B8AB6E005439A5 /* bn_soundon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bn_soundon.png; sourceTree = "<group>"; };
 		D296F5E919B8AB6E005439A5 /* bn_soundon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bn_soundon@2x.png"; sourceTree = "<group>"; };
 		D296F5EA19B8AB6E005439A5 /* topbarbg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbarbg_2.png; sourceTree = "<group>"; };
-		D296F5F219B8BFB6005439A5 /* XHBGomokuOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuOverViewController.h; sourceTree = "<group>"; };
-		D296F5F319B8BFB6005439A5 /* XHBGomokuOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuOverViewController.m; sourceTree = "<group>"; };
 		D2A4DA3F19B956E100192790 /* tips-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,6 +275,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5F156421B023A4004709C1 /* libSDWebImage.a in Frameworks */,
+				7B5F156321B023A0004709C1 /* libAVOSCloud.a in Frameworks */,
 				7BFC5C3121ABC1DD0067D78A /* SystemConfiguration.framework in Frameworks */,
 				D26E530719B43C880094EC28 /* CoreGraphics.framework in Frameworks */,
 				7BFC5C2B21ABC1C20067D78A /* CFNetwork.framework in Frameworks */,
@@ -253,6 +297,7 @@
 				7BFC5C2721ABC1A80067D78A /* jpush-extension-ios-1.1.1.a in Frameworks */,
 				7BFC5C2821ABC1A80067D78A /* jpush-ios-3.1.1.a in Frameworks */,
 				7BFC5C2921ABC1A80067D78A /* jcore-ios-1.2.5.a in Frameworks */,
+				6E795384DCE61C8E4A8A14F6 /* libPods-XHBGomoku.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +314,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DEEFB9DC147842980C61A37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B3BDB8BE784229A8F6B1B7 /* Pods-XHBGomoku.debug.xcconfig */,
+				015FF4B79FE00DF7515210A5 /* Pods-XHBGomoku.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B5F151621B01E8C004709C1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		7B5F151721B0219D004709C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F156E21B02F19004709C1 /* LCLoginViewController.h */,
+				7B5F156D21B02F19004709C1 /* LCLoginViewController.m */,
+				7B5F156C21B02F19004709C1 /* LCLoginViewController.xib */,
+				7B5F151A21B0219D004709C1 /* XHBGomokuOverViewController.h */,
+				7B5F151D21B0219D004709C1 /* XHBGomokuOverViewController.m */,
+				7B5F151921B0219D004709C1 /* XHBGomokuGameSencesViewController.h */,
+				7B5F151E21B0219D004709C1 /* XHBGomokuGameSencesViewController.m */,
+				7B5F151C21B0219D004709C1 /* XHBViewController.h */,
+				7B5F151B21B0219D004709C1 /* XHBViewController.m */,
+				7B5F151F21B0219D004709C1 /* XHBGomokuPieceView.h */,
+				7B5F151821B0219D004709C1 /* XHBGomokuPieceView.m */,
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+		7B5F152021B0219D004709C1 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F152121B0219D004709C1 /* XHBGomokuChessModelTemplate.m */,
+				7B5F152221B0219D004709C1 /* XHBGomokuGameEngine.h */,
+				7B5F152321B0219D004709C1 /* XHBGomokuChessboard.m */,
+				7B5F152421B0219D004709C1 /* XHBGomokuChessPoint.h */,
+				7B5F152521B0219D004709C1 /* XHBGomokuBaseStack.h */,
+				7B5F152621B0219D004709C1 /* XHBGomokuEnvisionStack.h */,
+				7B5F152721B0219D004709C1 /* XHBGomokuChessElement.h */,
+				7B5F152821B0219D004709C1 /* XHBGomokuLinePoints.h */,
+				7B5F152921B0219D004709C1 /* XHBGomokuActualStack.h */,
+				7B5F152A21B0219D004709C1 /* XHBGomokuChessModelTemplate.h */,
+				7B5F152B21B0219D004709C1 /* XHBGomokuChessboard.h */,
+				7B5F152C21B0219D004709C1 /* XHBGomokuGameEngine.m */,
+				7B5F152D21B0219D004709C1 /* XHBGomokuEnvisionStack.m */,
+				7B5F152E21B0219D004709C1 /* XHBGomokuBaseStack.m */,
+				7B5F152F21B0219D004709C1 /* XHBGomokuChessPoint.m */,
+				7B5F153021B0219D004709C1 /* XHBGomokuActualStack.m */,
+				7B5F153121B0219D004709C1 /* XHBGomokuLinePoints.m */,
+				7B5F153221B0219D004709C1 /* XHBGomokuChessElement.m */,
+			);
+			name = Engine;
+			path = Classes/Engine;
+			sourceTree = "<group>";
+		};
+		7B5F153321B0219D004709C1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F153421B0219D004709C1 /* CommonAlert.m */,
+				7B5F153521B0219D004709C1 /* CommonAlert.h */,
+			);
+			name = common;
+			path = Classes/common;
+			sourceTree = "<group>";
+		};
+		7B5F153621B0219D004709C1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F153721B0219D004709C1 /* UIColor+setting.h */,
+				7B5F153821B0219D004709C1 /* HBPlaySoundUtil.h */,
+				7B5F153921B0219D004709C1 /* UIColor+setting.m */,
+				7B5F153A21B0219D004709C1 /* HBPlaySoundUtil.m */,
+			);
+			name = Component;
+			path = Classes/Component;
+			sourceTree = "<group>";
+		};
+		7B5F155821B02374004709C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F155E21B02374004709C1 /* libAVOSCloud.a */,
+				7B5F156B21B02A9A004709C1 /* libPods-XHBGomoku.a */,
+				7B5F156221B02374004709C1 /* libSDWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7BFC5C2121ABC1A80067D78A /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,10 +422,12 @@
 		D26E52F819B43C880094EC28 = {
 			isa = PBXGroup;
 			children = (
+				7B5F155721B02374004709C1 /* Pods.xcodeproj */,
 				D26E530A19B43C880094EC28 /* XHBGomoku */,
 				D26E532919B43C880094EC28 /* XHBGomokuTests */,
 				D26E530319B43C880094EC28 /* Frameworks */,
 				D26E530219B43C880094EC28 /* Products */,
+				0DEEFB9DC147842980C61A37 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -321,6 +461,7 @@
 				D26E530619B43C880094EC28 /* CoreGraphics.framework */,
 				D26E530819B43C880094EC28 /* UIKit.framework */,
 				D26E532319B43C880094EC28 /* XCTest.framework */,
+				32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,17 +469,17 @@
 		D26E530A19B43C880094EC28 /* XHBGomoku */ = {
 			isa = PBXGroup;
 			children = (
+				7B5F151621B01E8C004709C1 /* common */,
+				7B5F153321B0219D004709C1 /* common */,
+				7B5F153621B0219D004709C1 /* Component */,
+				7B5F152021B0219D004709C1 /* Engine */,
+				7B5F151721B0219D004709C1 /* View */,
 				315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */,
 				7BFC5C2121ABC1A80067D78A /* lib */,
-				D296F5E019B8AA55005439A5 /* Component */,
 				D26E535D19B4B9D20094EC28 /* Resources */,
-				D26E533A19B43CCC0094EC28 /* View */,
-				D26E533919B43C9C0094EC28 /* Engine */,
 				D26E531319B43C880094EC28 /* XHBAppDelegate.h */,
 				D26E531419B43C880094EC28 /* XHBAppDelegate.m */,
 				D26E531619B43C880094EC28 /* Main.storyboard */,
-				D26E531919B43C880094EC28 /* XHBViewController.h */,
-				D26E531A19B43C880094EC28 /* XHBViewController.m */,
 				D26E531C19B43C880094EC28 /* Images.xcassets */,
 				D26E530B19B43C880094EC28 /* Supporting Files */,
 			);
@@ -374,47 +515,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D26E533919B43C9C0094EC28 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				D26E533B19B43D130094EC28 /* XHBGomokuChessPoint.h */,
-				D26E533C19B43D130094EC28 /* XHBGomokuChessPoint.m */,
-				D26E533E19B43D800094EC28 /* XHBGomokuChessElement.h */,
-				D26E533F19B43D800094EC28 /* XHBGomokuChessElement.m */,
-				D26E534119B4401B0094EC28 /* XHBGomokuChessboard.h */,
-				D26E534219B4401B0094EC28 /* XHBGomokuChessboard.m */,
-				D26E534419B456CD0094EC28 /* XHBGomokuBaseStack.h */,
-				D26E534519B456CD0094EC28 /* XHBGomokuBaseStack.m */,
-				D26E534A19B459480094EC28 /* XHBGomokuEnvisionStack.h */,
-				D26E534B19B459480094EC28 /* XHBGomokuEnvisionStack.m */,
-				D26E534D19B459660094EC28 /* XHBGomokuActualStack.h */,
-				D26E534E19B459660094EC28 /* XHBGomokuActualStack.m */,
-				D26E535419B45E5D0094EC28 /* XHBGomokuGameEngine.h */,
-				D26E535519B45E5D0094EC28 /* XHBGomokuGameEngine.m */,
-				D2520EF519B6FCB8008591F3 /* XHBGomokuChessModelTemplate.h */,
-				D2520EF619B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m */,
-				D2520EFB19B70053008591F3 /* XHBGomokuLinePoints.h */,
-				D2520EFC19B70053008591F3 /* XHBGomokuLinePoints.m */,
-			);
-			name = Engine;
-			sourceTree = "<group>";
-		};
-		D26E533A19B43CCC0094EC28 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D26E536819B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.h */,
-				D26E536919B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.m */,
-				D26E536B19B4C3620094EC28 /* XHBGomokuPieceView.h */,
-				D26E536C19B4C3620094EC28 /* XHBGomokuPieceView.m */,
-				D296F5F219B8BFB6005439A5 /* XHBGomokuOverViewController.h */,
-				D296F5F319B8BFB6005439A5 /* XHBGomokuOverViewController.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		D26E535D19B4B9D20094EC28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B5F157321B039CA004709C1 /* bg2.jpg */,
+				7B5F157121B039CA004709C1 /* wzq_loading1.jpg */,
+				7B5F157221B039CA004709C1 /* wzq_loading2.jpg */,
 				7BFC5CDD21AEA1B20067D78A /* closeVolice.png */,
 				7BFC5CDE21AEA1B20067D78A /* openVolice.png */,
 				7BFC5CDA21AE9D4A0067D78A /* bg10.png */,
@@ -474,17 +580,6 @@
 			path = sound;
 			sourceTree = "<group>";
 		};
-		D296F5E019B8AA55005439A5 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				D296F5E119B8AA67005439A5 /* UIColor+setting.h */,
-				D296F5E219B8AA67005439A5 /* UIColor+setting.m */,
-				D2482A7F19B83180003AF778 /* HBPlaySoundUtil.h */,
-				D2482A8019B83180003AF778 /* HBPlaySoundUtil.m */,
-			);
-			name = Component;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -492,9 +587,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26E533319B43C880094EC28 /* Build configuration list for PBXNativeTarget "XHBGomoku" */;
 			buildPhases = (
+				1C97E547505AC8453A0E5B48 /* [CP] Check Pods Manifest.lock */,
 				D26E52FD19B43C880094EC28 /* Sources */,
 				D26E52FE19B43C880094EC28 /* Frameworks */,
 				D26E52FF19B43C880094EC28 /* Resources */,
+				4DA4EE0DED745155F2E5FAEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -534,7 +631,6 @@
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
-						DevelopmentTeam = 94SZBFX4QS;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -557,6 +653,12 @@
 			mainGroup = D26E52F819B43C880094EC28;
 			productRefGroup = D26E530219B43C880094EC28 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B5F155821B02374004709C1 /* Products */;
+					ProjectRef = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D26E530019B43C880094EC28 /* XHBGomoku */,
@@ -565,12 +667,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7B5F155E21B02374004709C1 /* libAVOSCloud.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAVOSCloud.a;
+			remoteRef = 7B5F155D21B02374004709C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B5F156221B02374004709C1 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 7B5F156121B02374004709C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B5F156B21B02A9A004709C1 /* libPods-XHBGomoku.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-XHBGomoku.a";
+			remoteRef = 7B5F156A21B02A9A004709C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D26E52FF19B43C880094EC28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D296F5D719B8A8F3005439A5 /* lost.wav in Resources */,
+				7B5F157521B039CA004709C1 /* wzq_loading2.jpg in Resources */,
 				D296F5D819B8A8F3005439A5 /* marking.wav in Resources */,
 				7BFC5CC521AD45420067D78A /* loading1.png in Resources */,
 				7BFC5CDF21AEA1B20067D78A /* closeVolice.png in Resources */,
@@ -589,12 +716,14 @@
 				7BFC5CDB21AE9D4B0067D78A /* xhs.png in Resources */,
 				D2A4DA4019B956E100192790 /* tips-hd.png in Resources */,
 				D296F5CD19B8A8F3005439A5 /* button_rank.png in Resources */,
+				7B5F157421B039CA004709C1 /* wzq_loading1.jpg in Resources */,
 				D296F5D419B8A8F3005439A5 /* au_victory.wav in Resources */,
 				D296F5DE19B8A8F3005439A5 /* zoom_in.png in Resources */,
 				D296F5C919B8A8F3005439A5 /* button_exit.png in Resources */,
 				D296F5DD19B8A8F3005439A5 /* zoom_in_disabled.png in Resources */,
 				D296F5D619B8A8F3005439A5 /* down.wav in Resources */,
 				3143369621ADB56400412C77 /* loading3.jpg in Resources */,
+				7B5F157621B039CA004709C1 /* bg2.jpg in Resources */,
 				7BFC5CE021AEA1B20067D78A /* openVolice.png in Resources */,
 				D296F5DF19B8A8F3005439A5 /* zoom_out.png in Resources */,
 				D296F5D319B8A8F3005439A5 /* au_gameover.wav in Resources */,
@@ -617,6 +746,7 @@
 				D296F5F119B8AB6E005439A5 /* topbarbg_2.png in Resources */,
 				D296F5C719B8A8F3005439A5 /* back_disabled.png in Resources */,
 				D296F5DA19B8A8F3005439A5 /* pipa.mp3 in Resources */,
+				7B5F156F21B02F1A004709C1 /* LCLoginViewController.xib in Resources */,
 				D296F5EF19B8AB6E005439A5 /* bn_soundon.png in Resources */,
 				7BFC5CD721AE772C0067D78A /* bg.png in Resources */,
 				D296F5D919B8A8F3005439A5 /* mode.wav in Resources */,
@@ -633,28 +763,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C97E547505AC8453A0E5B48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XHBGomoku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA4EE0DED745155F2E5FAEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D26E52FD19B43C880094EC28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D296F5F419B8BFB6005439A5 /* XHBGomokuOverViewController.m in Sources */,
-				D26E535619B45E5D0094EC28 /* XHBGomokuGameEngine.m in Sources */,
-				D26E534319B4401B0094EC28 /* XHBGomokuChessboard.m in Sources */,
-				D296F5E319B8AA67005439A5 /* UIColor+setting.m in Sources */,
-				D26E533D19B43D130094EC28 /* XHBGomokuChessPoint.m in Sources */,
-				D26E531B19B43C880094EC28 /* XHBViewController.m in Sources */,
-				D2482A8119B83180003AF778 /* HBPlaySoundUtil.m in Sources */,
-				D26E536D19B4C3620094EC28 /* XHBGomokuPieceView.m in Sources */,
-				D2520EFD19B70053008591F3 /* XHBGomokuLinePoints.m in Sources */,
-				D26E534619B456CD0094EC28 /* XHBGomokuBaseStack.m in Sources */,
+				7B5F154421B0219E004709C1 /* XHBGomokuChessPoint.m in Sources */,
+				7B5F154A21B0219E004709C1 /* HBPlaySoundUtil.m in Sources */,
+				7B5F153F21B0219E004709C1 /* XHBGomokuChessModelTemplate.m in Sources */,
 				D26E531119B43C880094EC28 /* main.m in Sources */,
-				D26E534F19B459660094EC28 /* XHBGomokuActualStack.m in Sources */,
-				D26E536A19B4BBEC0094EC28 /* XHBGomokuGameSencesViewController.m in Sources */,
-				D26E534C19B459480094EC28 /* XHBGomokuEnvisionStack.m in Sources */,
+				7B5F154021B0219E004709C1 /* XHBGomokuChessboard.m in Sources */,
+				7B5F153D21B0219E004709C1 /* XHBGomokuOverViewController.m in Sources */,
+				7B5F154621B0219E004709C1 /* XHBGomokuLinePoints.m in Sources */,
+				7B5F157021B02F1A004709C1 /* LCLoginViewController.m in Sources */,
+				7B5F154221B0219E004709C1 /* XHBGomokuEnvisionStack.m in Sources */,
+				7B5F153B21B0219D004709C1 /* XHBGomokuPieceView.m in Sources */,
+				7B5F154121B0219E004709C1 /* XHBGomokuGameEngine.m in Sources */,
+				7B5F154821B0219E004709C1 /* CommonAlert.m in Sources */,
+				7B5F154721B0219E004709C1 /* XHBGomokuChessElement.m in Sources */,
+				7B5F154521B0219E004709C1 /* XHBGomokuActualStack.m in Sources */,
+				7B5F154921B0219E004709C1 /* UIColor+setting.m in Sources */,
 				D26E531519B43C880094EC28 /* XHBAppDelegate.m in Sources */,
-				D26E534019B43D800094EC28 /* XHBGomokuChessElement.m in Sources */,
-				D2520EF719B6FCB8008591F3 /* XHBGomokuChessModelTemplate.m in Sources */,
+				7B5F153E21B0219E004709C1 /* XHBGomokuGameSencesViewController.m in Sources */,
+				7B5F154321B0219E004709C1 /* XHBGomokuBaseStack.m in Sources */,
+				7B5F153C21B0219D004709C1 /* XHBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,23 +949,35 @@
 		};
 		D26E533419B43C880094EC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B3BDB8BE784229A8F6B1B7 /* Pods-XHBGomoku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 94SZBFX4QS;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloud\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-l\"AVOSCloud\"",
+					"-l\"SDWebImage\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -805,23 +988,35 @@
 		};
 		D26E533519B43C880094EC28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015FF4B79FE00DF7515210A5 /* Pods-XHBGomoku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 94SZBFX4QS;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloud\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-l\"AVOSCloud\"",
+					"-l\"SDWebImage\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
 				PRODUCT_NAME = "$(TARGET_NAME)";

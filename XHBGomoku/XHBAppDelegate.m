@@ -11,10 +11,14 @@
 #import "JPUSHService.h"
 // iOS10 注册 APNs 所需头文件
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#define APP_ID @"3DL8ClKklRkowz0SJKXK8lHh-gzGzoHsz"
+#define APP_KEY @"LdC0BcOM87aA314peGLYKWtY"
+
 #import <UserNotifications/UserNotifications.h>
 #endif
 // 如果需要使用 idfa 功能所需要引入的头文件（可选）
 #import <AdSupport/AdSupport.h>
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface XHBAppDelegate ()<JPUSHRegisterDelegate>
 @end
@@ -48,6 +52,13 @@
                  apsForProduction:isProduction
             advertisingIdentifier:advertisingId];
     application.applicationIconBadgeNumber = 0;
+    
+    //leancloud
+    //初始化 SDK
+    [AVOSCloud setApplicationId:APP_ID clientKey:APP_KEY];
+    //开启调试日志
+    [AVOSCloud setAllLogsEnabled:YES];
+//    [AVUser logOut];
     return YES;
 }
 

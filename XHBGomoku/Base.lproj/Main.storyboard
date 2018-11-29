@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg10.png" id="HcP-tg-aty">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg2.jpg" id="HcP-tg-aty">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
@@ -138,14 +138,14 @@
                                 <rect key="frame" x="180" y="510" width="192" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading1.png" id="aPs-03-XMW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wzq_loading1.jpg" id="aPs-03-XMW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="wzq_loading">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading3.jpg" id="GHz-Ld-3J3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wzq_loading2.jpg" id="GHz-Ld-3J3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -228,15 +228,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg10.png" width="140" height="1280"/>
+        <image name="bg2.jpg" width="525" height="300"/>
         <image name="bn_back.png" width="27" height="27"/>
         <image name="closeVolice.png" width="55" height="55"/>
         <image name="gomokuboard.png" width="1229" height="1229"/>
-        <image name="loading1.png" width="1242" height="2208"/>
-        <image name="loading3.jpg" width="124" height="220"/>
         <image name="openVolice.png" width="55" height="55"/>
         <image name="stone_black.png" width="80" height="80"/>
         <image name="stone_white.png" width="80" height="80"/>
+        <image name="wzq_loading1.jpg" width="500" height="349"/>
+        <image name="wzq_loading2.jpg" width="500" height="576"/>
         <image name="xhs.png" width="500" height="531"/>
     </resources>
 </document>

@@ -11,6 +11,8 @@
 #import "HBPlaySoundUtil.h"
 #import "UIColor+setting.h"
 #import "XHBGomokuOverViewController.h"
+#import <AVOSCloud/AVUser.h>
+#import "LCLoginViewController.h"
 
 @interface XHBGomokuGameSencesViewController ()
 @property(nonatomic,weak)IBOutlet UIView * boardView;
@@ -177,6 +179,12 @@
             }else{
                 self.wzq_loading.hidden = YES;
                 dispatch_cancel(self.timer);
+                NSString *currentUsername = [AVUser currentUser].username;// 当前用户名
+                if(currentUsername == nil){
+//                    [UIApplication sharedApplication].keyWindow.rootViewController = [[LCLoginViewController alloc]init];
+                    LCLoginViewController * controller=[[LCLoginViewController alloc]init];
+                    [self presentViewController:controller animated:NO completion:nil];
+                }
             }
         }];
         [mainQueue addOperation:operation];
@@ -379,6 +387,20 @@
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
+}
+//视图将要消失
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"%s", __FUNCTION__);
+    [super viewWillDisappear:animated];
+}
+//视图已经消失
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"%s", __FUNCTION__);
+    [super viewDidDisappear:animated];
+}
+// 视图被销毁
+- (void)dealloc {
+    NSLog(@"%s", __FUNCTION__);
 }
 
 

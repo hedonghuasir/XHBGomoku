@@ -1,0 +1,22 @@
+PODS:
+  - AVOSCloud (11.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - AVOSCloud (= 11.3.0)
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AVOSCloud: 6b3711de627beb1a26232b496a2822d713e3b8d5
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 6f37077722a7f99e0c6d1d3cb54e2487f64dfa08
+
+COCOAPODS: 1.5.3

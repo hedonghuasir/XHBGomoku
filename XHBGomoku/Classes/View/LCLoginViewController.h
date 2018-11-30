@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LCLoginViewController : UIViewController
+@interface LCLoginViewController : UIViewController <UITextFieldDelegate>
 
 @end

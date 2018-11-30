@@ -23,6 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.userNameTextField.delegate = self;//设置委托
+    self. passwordTextField.delegate = self;//设置委托
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
@@ -76,6 +78,16 @@
             [YZBAlert showAlert:self :@"注册失败，请您重新输入"];
         }
     }];
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+
+{
+    //当用户按下ruturn，把焦点从textField移开那么键盘就会消失了
+    
+    [textField resignFirstResponder];
+    
+    return YES;
+    
 }
 
 @end

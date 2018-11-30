@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3143369421ADB1EE00412C77 /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369321ADB1ED00412C77 /* loading2.png */; };
-		3143369621ADB56400412C77 /* loading3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3143369521ADB56300412C77 /* loading3.jpg */; };
 		3143369821ADB6CE00412C77 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3143369721ADB6CE00412C77 /* bg.jpg */; };
 		3143369F21B0592A00412C77 /* wzq_loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369D21B0592900412C77 /* wzq_loading2.png */; };
 		314336A021B0592A00412C77 /* wzq_loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369E21B0592A00412C77 /* wzq_loading1.png */; };
@@ -52,7 +50,6 @@
 		7BFC5CC021AD00F40067D78A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CBF21AD00F40067D78A /* ImageIO.framework */; };
 		7BFC5CC221AD00FE0067D78A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */; };
 		7BFC5CC521AD45420067D78A /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CC421AD45420067D78A /* loading1.png */; };
-		7BFC5CD721AE772C0067D78A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CD621AE772C0067D78A /* bg.png */; };
 		7BFC5CDB21AE9D4B0067D78A /* xhs.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CD921AE9D4A0067D78A /* xhs.png */; };
 		7BFC5CDC21AE9D4B0067D78A /* bg10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDA21AE9D4A0067D78A /* bg10.png */; };
 		7BFC5CDF21AEA1B20067D78A /* closeVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC5CDD21AEA1B20067D78A /* closeVolice.png */; };
@@ -132,6 +129,13 @@
 			remoteGlobalIDString = C0804034C3046B69FA7E07674D387CE1;
 			remoteInfo = "Pods-XHBGomoku";
 		};
+		7B5F158021B0E6C2004709C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B4BAC38D995C0C39A4F6B04C00F6EB;
+			remoteInfo = STCObfuscator;
+		};
 		D26E532719B43C880094EC28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D26E52F919B43C880094EC28 /* Project object */;
@@ -144,8 +148,6 @@
 /* Begin PBXFileReference section */
 		00B3BDB8BE784229A8F6B1B7 /* Pods-XHBGomoku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBGomoku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku.debug.xcconfig"; sourceTree = "<group>"; };
 		015FF4B79FE00DF7515210A5 /* Pods-XHBGomoku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBGomoku.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku.release.xcconfig"; sourceTree = "<group>"; };
-		3143369321ADB1ED00412C77 /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading2.png; sourceTree = "<group>"; };
-		3143369521ADB56300412C77 /* loading3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading3.jpg; sourceTree = "<group>"; };
 		3143369721ADB6CE00412C77 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		3143369D21B0592900412C77 /* wzq_loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wzq_loading2.png; sourceTree = "<group>"; };
 		3143369E21B0592A00412C77 /* wzq_loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wzq_loading1.png; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		7B5F156C21B02F19004709C1 /* LCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCLoginViewController.xib; sourceTree = "<group>"; };
 		7B5F156D21B02F19004709C1 /* LCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewController.m; sourceTree = "<group>"; };
 		7B5F156E21B02F19004709C1 /* LCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoginViewController.h; sourceTree = "<group>"; };
+		7B5F15B021B0F7A2004709C1 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
 		7BFC5C2221ABC1A80067D78A /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7BFC5C2321ABC1A80067D78A /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		7BFC5C2421ABC1A80067D78A /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
@@ -208,7 +211,6 @@
 		7BFC5CBF21AD00F40067D78A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		7BFC5CC121AD00FE0067D78A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7BFC5CC421AD45420067D78A /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading1.png; sourceTree = "<group>"; };
-		7BFC5CD621AE772C0067D78A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		7BFC5CD921AE9D4A0067D78A /* xhs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xhs.png; sourceTree = "<group>"; };
 		7BFC5CDA21AE9D4A0067D78A /* bg10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg10.png; sourceTree = "<group>"; };
 		7BFC5CDD21AEA1B20067D78A /* closeVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeVolice.png; sourceTree = "<group>"; };
@@ -323,13 +325,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7B5F151621B01E8C004709C1 /* common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = common;
-			sourceTree = "<group>";
-		};
 		7B5F151721B0219D004709C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +398,7 @@
 				7B5F155E21B02374004709C1 /* libAVOSCloud.a */,
 				7B5F156B21B02A9A004709C1 /* libPods-XHBGomoku.a */,
 				7B5F156221B02374004709C1 /* libSDWebImage.a */,
+				7B5F158121B0E6C2004709C1 /* libSTCObfuscator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -469,7 +465,6 @@
 		D26E530A19B43C880094EC28 /* XHBGomoku */ = {
 			isa = PBXGroup;
 			children = (
-				7B5F151621B01E8C004709C1 /* common */,
 				7B5F153321B0219D004709C1 /* common */,
 				7B5F153621B0219D004709C1 /* Component */,
 				7B5F152021B0219D004709C1 /* Engine */,
@@ -480,6 +475,7 @@
 				D26E531319B43C880094EC28 /* XHBAppDelegate.h */,
 				D26E531419B43C880094EC28 /* XHBAppDelegate.m */,
 				D26E531619B43C880094EC28 /* Main.storyboard */,
+				7B5F15B021B0F7A2004709C1 /* STCDefination.h */,
 				D26E531C19B43C880094EC28 /* Images.xcassets */,
 				D26E530B19B43C880094EC28 /* Supporting Files */,
 			);
@@ -525,10 +521,7 @@
 				7BFC5CDE21AEA1B20067D78A /* openVolice.png */,
 				7BFC5CDA21AE9D4A0067D78A /* bg10.png */,
 				7BFC5CD921AE9D4A0067D78A /* xhs.png */,
-				7BFC5CD621AE772C0067D78A /* bg.png */,
 				3143369721ADB6CE00412C77 /* bg.jpg */,
-				3143369521ADB56300412C77 /* loading3.jpg */,
-				3143369321ADB1ED00412C77 /* loading2.png */,
 				7BFC5CC421AD45420067D78A /* loading1.png */,
 				D2A4DA3F19B956E100192790 /* tips-hd.png */,
 				D296F5E419B8AB6E005439A5 /* bn_back.png */,
@@ -592,6 +585,7 @@
 				D26E52FE19B43C880094EC28 /* Frameworks */,
 				D26E52FF19B43C880094EC28 /* Resources */,
 				4DA4EE0DED745155F2E5FAEF /* [CP] Copy Pods Resources */,
+				7B5F158221B0E6FE004709C1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -631,6 +625,7 @@
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
+						DevelopmentTeam = NKU4WU78DQ;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -689,6 +684,13 @@
 			remoteRef = 7B5F156A21B02A9A004709C1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7B5F158121B0E6C2004709C1 /* libSTCObfuscator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSTCObfuscator.a;
+			remoteRef = 7B5F158021B0E6C2004709C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -720,7 +722,6 @@
 				D296F5C919B8A8F3005439A5 /* button_exit.png in Resources */,
 				D296F5DD19B8A8F3005439A5 /* zoom_in_disabled.png in Resources */,
 				D296F5D619B8A8F3005439A5 /* down.wav in Resources */,
-				3143369621ADB56400412C77 /* loading3.jpg in Resources */,
 				7BFC5CE021AEA1B20067D78A /* openVolice.png in Resources */,
 				D296F5DF19B8A8F3005439A5 /* zoom_out.png in Resources */,
 				D296F5D319B8A8F3005439A5 /* au_gameover.wav in Resources */,
@@ -739,14 +740,12 @@
 				D296F5DC19B8A8F3005439A5 /* win.wav in Resources */,
 				D296F5C819B8A8F3005439A5 /* back.png in Resources */,
 				D26E531819B43C880094EC28 /* Main.storyboard in Resources */,
-				3143369421ADB1EE00412C77 /* loading2.png in Resources */,
 				314336A021B0592A00412C77 /* wzq_loading1.png in Resources */,
 				D296F5F119B8AB6E005439A5 /* topbarbg_2.png in Resources */,
 				D296F5C719B8A8F3005439A5 /* back_disabled.png in Resources */,
 				D296F5DA19B8A8F3005439A5 /* pipa.mp3 in Resources */,
 				7B5F156F21B02F1A004709C1 /* LCLoginViewController.xib in Resources */,
 				D296F5EF19B8AB6E005439A5 /* bn_soundon.png in Resources */,
-				7BFC5CD721AE772C0067D78A /* bg.png in Resources */,
 				314336A221B0596000412C77 /* bg2.png in Resources */,
 				3143369F21B0592A00412C77 /* wzq_loading2.png in Resources */,
 				D296F5D919B8A8F3005439A5 /* mode.wav in Resources */,
@@ -799,6 +798,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHBGomoku/Pods-XHBGomoku-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7B5F158221B0E6FE004709C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=${SRCROOT}\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\n    find -P $dir -name $file_name > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\n    fi\n    fi\n    done";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -955,9 +967,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"ROOT_PATH=\"${SRCROOT}\"",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -966,6 +984,7 @@
 				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",
@@ -994,7 +1013,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1005,6 +1024,7 @@
 				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHBGomoku/lib",

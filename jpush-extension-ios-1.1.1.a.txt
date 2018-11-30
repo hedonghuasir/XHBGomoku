@@ -1,0 +1,907 @@
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionRequest.o):
+0000000000000afe t -[JPushExtensionRequest .cxx_destruct]
+0000000000000aa5 t -[JPushExtensionRequest ackTimeoutTimer]
+00000000000002de t -[JPushExtensionRequest encyptBody:]
+00000000000004ec t -[JPushExtensionRequest generateBody]
+00000000000001cd t -[JPushExtensionRequest generateHead]
+0000000000000000 t -[JPushExtensionRequest init]
+0000000000000982 t -[JPushExtensionRequest onAckTimeout:]
+00000000000000ae t -[JPushExtensionRequest packetData]
+0000000000000a1b t -[JPushExtensionRequest protocolType]
+0000000000000a3c t -[JPushExtensionRequest rid]
+0000000000000ade t -[JPushExtensionRequest seed]
+0000000000000ab6 t -[JPushExtensionRequest setAckTimeoutTimer:]
+0000000000000aca t -[JPushExtensionRequest setPacketData:]
+0000000000000a2c t -[JPushExtensionRequest setProtocolType:]
+0000000000000a4d t -[JPushExtensionRequest setRid:]
+0000000000000aee t -[JPushExtensionRequest setSeed:]
+0000000000000a6f t -[JPushExtensionRequest setUid:]
+0000000000000a91 t -[JPushExtensionRequest setUserInfo:]
+0000000000000a0b t -[JPushExtensionRequest setVersion:]
+00000000000008dd t -[JPushExtensionRequest startAckTimeoutTimer]
+0000000000000935 t -[JPushExtensionRequest stopAckTimeoutTimer]
+0000000000000a5e t -[JPushExtensionRequest uid]
+0000000000000a80 t -[JPushExtensionRequest userInfo]
+00000000000009fa t -[JPushExtensionRequest version]
+0000000000000d8b t -[JPushExtensionResponse handleReceipt]
+0000000000000b40 t -[JPushExtensionResponse initWithBuffer:length:]
+0000000000000dff t -[JPushExtensionResponse protocolType]
+0000000000000e64 t -[JPushExtensionResponse resCode]
+0000000000000e20 t -[JPushExtensionResponse rid]
+0000000000000e10 t -[JPushExtensionResponse setProtocolType:]
+0000000000000e75 t -[JPushExtensionResponse setResCode:]
+0000000000000e31 t -[JPushExtensionResponse setRid:]
+0000000000000e53 t -[JPushExtensionResponse setUid:]
+0000000000000def t -[JPushExtensionResponse setVersion:]
+0000000000000e42 t -[JPushExtensionResponse uid]
+0000000000000dde t -[JPushExtensionResponse version]
+                 U _JPushExtensionDecodeUInt16FromBuffer
+                 U _JPushExtensionDecodeUInt64FromBuffer
+                 U _JPushExtensionDecodeUInt8FromBuffer
+0000000000000e90 S _OBJC_CLASS_$_JPushExtensionRequest
+0000000000000ee0 S _OBJC_CLASS_$_JPushExtensionResponse
+                 U _OBJC_CLASS_$_JPushExtensionSession
+                 U _OBJC_CLASS_$_JPushExtensionUtilities
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSTimer
+                 U _OBJC_CLASS_$_NSUserDefaults
+00000000000018e0 S _OBJC_IVAR_$_JPushExtensionRequest._ackTimeoutTimer
+00000000000018d0 S _OBJC_IVAR_$_JPushExtensionRequest._packetData
+00000000000018f0 S _OBJC_IVAR_$_JPushExtensionRequest._protocolType
+00000000000018f8 S _OBJC_IVAR_$_JPushExtensionRequest._rid
+00000000000018d8 S _OBJC_IVAR_$_JPushExtensionRequest._seed
+0000000000001900 S _OBJC_IVAR_$_JPushExtensionRequest._uid
+0000000000001908 S _OBJC_IVAR_$_JPushExtensionRequest._userInfo
+00000000000018e8 S _OBJC_IVAR_$_JPushExtensionRequest._version
+0000000000001918 S _OBJC_IVAR_$_JPushExtensionResponse._protocolType
+0000000000001930 S _OBJC_IVAR_$_JPushExtensionResponse._resCode
+0000000000001920 S _OBJC_IVAR_$_JPushExtensionResponse._rid
+0000000000001928 S _OBJC_IVAR_$_JPushExtensionResponse._uid
+0000000000001910 S _OBJC_IVAR_$_JPushExtensionResponse._version
+0000000000000eb8 S _OBJC_METACLASS_$_JPushExtensionRequest
+0000000000000f08 S _OBJC_METACLASS_$_JPushExtensionResponse
+                 U _OBJC_METACLASS_$_NSObject
+                 U ___CFConstantStringClassReference
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U __objc_empty_cache
+                 U _arc4random
+                 U _free
+                 U _malloc
+                 U _memcpy
+                 U _memset
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+00000000000019b0 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionRequest
+0000000000001e18 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionResponse
+0000000000001bf8 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionRequest
+0000000000001f40 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionResponse
+0000000000001d00 s l_OBJC_$_PROP_LIST_JPushExtensionRequest
+0000000000001fe8 s l_OBJC_$_PROP_LIST_JPushExtensionResponse
+0000000000001d88 s l_OBJC_CLASS_RO_$_JPushExtensionRequest
+0000000000002040 s l_OBJC_CLASS_RO_$_JPushExtensionResponse
+0000000000001968 s l_OBJC_METACLASS_RO_$_JPushExtensionRequest
+0000000000001dd0 s l_OBJC_METACLASS_RO_$_JPushExtensionResponse
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionReachability.o):
+000000000000028a t +[JPushExtensionReachability reachabilityForInternetConnection]
+000000000000032a t +[JPushExtensionReachability reachabilityForLocalWiFi]
+000000000000020b t +[JPushExtensionReachability reachabilityWithAddressFourth:]
+000000000000018c t +[JPushExtensionReachability reachabilityWithAddressSix:]
+0000000000000104 t +[JPushExtensionReachability reachabilityWithHostName:]
+0000000000000434 t -[JPushExtensionReachability connectionRequired]
+0000000000000466 t -[JPushExtensionReachability currentReachabilityStatus]
+00000000000000b1 t -[JPushExtensionReachability dealloc]
+00000000000003e5 t -[JPushExtensionReachability localWiFiStatusForFlags:]
+00000000000003ff t -[JPushExtensionReachability networkStatusForFlags:]
+0000000000000000 t -[JPushExtensionReachability startNotifier]
+000000000000007a t -[JPushExtensionReachability stopNotifier]
+                 U _CFRelease
+                 U _CFRunLoopGetCurrent
+0000000000000074 t _JPushExtensionReachabilityCallback
+0000000000000698 S _OBJC_CLASS_$_JPushExtensionReachability
+                 U _OBJC_CLASS_$_JPushExtensionSession
+                 U _OBJC_CLASS_$_NSObject
+00000000000004c8 S _OBJC_IVAR_$_JPushExtensionReachability.localWiFiRef
+00000000000004c0 S _OBJC_IVAR_$_JPushExtensionReachability.reachabilityRef
+00000000000006c0 S _OBJC_METACLASS_$_JPushExtensionReachability
+                 U _OBJC_METACLASS_$_NSObject
+                 U _SCNetworkReachabilityCreateWithAddress
+                 U _SCNetworkReachabilityCreateWithName
+                 U _SCNetworkReachabilityGetFlags
+                 U _SCNetworkReachabilityScheduleWithRunLoop
+                 U _SCNetworkReachabilitySetCallback
+                 U _SCNetworkReachabilityUnscheduleFromRunLoop
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U __objc_empty_cache
+                 U _kCFAllocatorDefault
+                 U _kCFRunLoopDefaultMode
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+00000000000007d0 s l_OBJC_$_CLASS_METHODS_JPushExtensionReachability
+0000000000000898 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionReachability
+0000000000000948 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionReachability
+0000000000000990 s l_OBJC_CLASS_RO_$_JPushExtensionReachability
+0000000000000850 s l_OBJC_METACLASS_RO_$_JPushExtensionReachability
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionUdpSocket.o):
+0000000000000326 t -[JPushExtensionUdpPacket .cxx_destruct]
+000000000000028b t -[JPushExtensionUdpPacket address]
+0000000000000266 t -[JPushExtensionUdpPacket buffer]
+0000000000000000 t -[JPushExtensionUdpPacket initWithType:data:address:timeout:udpSocket:]
+00000000000001ee t -[JPushExtensionUdpPacket invalidTimeoutTimer]
+000000000000029c t -[JPushExtensionUdpPacket setAddress:]
+0000000000000277 t -[JPushExtensionUdpPacket setBuffer:]
+00000000000002c2 t -[JPushExtensionUdpPacket setTimeout:]
+00000000000002e4 t -[JPushExtensionUdpPacket setType:]
+000000000000014f t -[JPushExtensionUdpPacket timeoutCallback:]
+00000000000002f4 t -[JPushExtensionUdpPacket timeoutTimer]
+00000000000002b0 t -[JPushExtensionUdpPacket timeout]
+00000000000002d4 t -[JPushExtensionUdpPacket type]
+000000000000030d t -[JPushExtensionUdpPacket udpSocket]
+0000000000000ffc t -[JPushExtensionUdpSocket .cxx_destruct]
+0000000000000631 t -[JPushExtensionUdpSocket close]
+00000000000005f3 t -[JPushExtensionUdpSocket dealloc]
+0000000000000f91 t -[JPushExtensionUdpSocket delayedDidNotReceivedDataWithError:]
+0000000000000f4b t -[JPushExtensionUdpSocket delayedDidNotSendData:]
+0000000000000f6e t -[JPushExtensionUdpSocket delayedDidReceivedData:]
+0000000000000f28 t -[JPushExtensionUdpSocket delayedDidSendData:]
+0000000000000fca t -[JPushExtensionUdpSocket delegate]
+0000000000000d59 t -[JPushExtensionUdpSocket dequeueFromSendQueue]
+0000000000000963 t -[JPushExtensionUdpSocket doCFSocketCallback:forSocket:withAddress:withData:]
+0000000000000b72 t -[JPushExtensionUdpSocket doRecv:]
+00000000000009c9 t -[JPushExtensionUdpSocket doSend:]
+0000000000000d35 t -[JPushExtensionUdpSocket enqueueToSendQueue:]
+0000000000000375 t -[JPushExtensionUdpSocket initWithDelegate:]
+0000000000000fec t -[JPushExtensionUdpSocket isConnected]
+0000000000000fba t -[JPushExtensionUdpSocket isSetuped]
+0000000000000846 t -[JPushExtensionUdpSocket receiveDataWithTimeout:]
+0000000000000e6d t -[JPushExtensionUdpSocket receiveTimeout:]
+0000000000000cd2 t -[JPushExtensionUdpSocket reenableSocketCallbacks]
+0000000000000731 t -[JPushExtensionUdpSocket sendData:toHost:port:withTimeout:]
+0000000000000946 t -[JPushExtensionUdpSocket sendQueueCount]
+0000000000000fdb t -[JPushExtensionUdpSocket setDelegate:]
+00000000000003e5 t -[JPushExtensionUdpSocket setup]
+00000000000008ce t -[JPushExtensionUdpSocket stopReceiveTimeoutTimer]
+0000000000000dde t -[JPushExtensionUdpSocket timeoutWithUdpPacket:]
+                 U _CFRelease
+                 U _CFRunLoopAddSource
+                 U _CFRunLoopGetCurrent
+                 U _CFRunLoopRemoveSource
+                 U _CFSocketCreate
+                 U _CFSocketCreateRunLoopSource
+                 U _CFSocketDisableCallBacks
+                 U _CFSocketEnableCallBacks
+                 U _CFSocketGetNative
+                 U _CFSocketGetSocketFlags
+                 U _CFSocketInvalidate
+                 U _CFSocketIsValid
+                 U _CFSocketSetSocketFlags
+                 U _JPushExtensionGetDataAddressByHostAndPort
+0000000000000595 t _MyUdpCFSocketCallback
+                 U _OBJC_CLASS_$_JPushExtensionSession
+0000000000001038 S _OBJC_CLASS_$_JPushExtensionUdpPacket
+0000000000001088 S _OBJC_CLASS_$_JPushExtensionUdpSocket
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSTimer
+0000000000001728 S _OBJC_IVAR_$_JPushExtensionUdpPacket._address
+0000000000001720 S _OBJC_IVAR_$_JPushExtensionUdpPacket._buffer
+0000000000001730 S _OBJC_IVAR_$_JPushExtensionUdpPacket._timeout
+0000000000001740 S _OBJC_IVAR_$_JPushExtensionUdpPacket._timeoutTimer
+0000000000001718 S _OBJC_IVAR_$_JPushExtensionUdpPacket._type
+0000000000001738 S _OBJC_IVAR_$_JPushExtensionUdpPacket._udpSocket
+0000000000001748 S _OBJC_IVAR_$_JPushExtensionUdpSocket._delegate
+0000000000001750 S _OBJC_IVAR_$_JPushExtensionUdpSocket._isConnected
+0000000000001758 S _OBJC_IVAR_$_JPushExtensionUdpSocket._isSetuped
+0000000000001780 S _OBJC_IVAR_$_JPushExtensionUdpSocket._receiveBuffer
+0000000000001778 S _OBJC_IVAR_$_JPushExtensionUdpSocket._recvTimeoutTimer
+0000000000001770 S _OBJC_IVAR_$_JPushExtensionUdpSocket._rls
+0000000000001760 S _OBJC_IVAR_$_JPushExtensionUdpSocket._sendQueue
+0000000000001768 S _OBJC_IVAR_$_JPushExtensionUdpSocket._socket
+0000000000001060 S _OBJC_METACLASS_$_JPushExtensionUdpPacket
+00000000000010b0 S _OBJC_METACLASS_$_JPushExtensionUdpSocket
+                 U _OBJC_METACLASS_$_NSObject
+                 U ___CFConstantStringClassReference
+                 U ___error
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U __objc_empty_cache
+                 U _kCFAllocatorDefault
+                 U _kCFRunLoopDefaultMode
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+                 U _recvfrom
+                 U _send
+                 U _sendto
+                 U _setsockopt
+00000000000018c0 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionUdpPacket
+0000000000001bd8 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionUdpSocket
+0000000000001a18 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionUdpPacket
+0000000000001e38 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionUdpSocket
+0000000000001ae0 s l_OBJC_$_PROP_LIST_JPushExtensionUdpPacket
+0000000000001f40 s l_OBJC_$_PROP_LIST_JPushExtensionUdpSocket
+0000000000001b48 s l_OBJC_CLASS_RO_$_JPushExtensionUdpPacket
+0000000000001f78 s l_OBJC_CLASS_RO_$_JPushExtensionUdpSocket
+0000000000001878 s l_OBJC_METACLASS_RO_$_JPushExtensionUdpPacket
+0000000000001b90 s l_OBJC_METACLASS_RO_$_JPushExtensionUdpSocket
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushNotificationExtensionService.o):
+0000000000000076 t +[JPushNotificationExtensionService jpushReceiveNotificationRequest:with:]
+0000000000000000 t +[JPushNotificationExtensionService jpushSetAppkey:]
+0000000000000100 t +[JPushNotificationExtensionService setLogOff]
+000000000000020b t +[JPushNotificationExtensionService sharedInstance]
+000000000000096f t -[JPushNotificationExtensionService .cxx_destruct]
+00000000000008bf t -[JPushNotificationExtensionService apnsSendFail]
+0000000000000867 t -[JPushNotificationExtensionService apnsSendSuccess]
+000000000000094b t -[JPushNotificationExtensionService completion]
+0000000000000144 t -[JPushNotificationExtensionService init]
+000000000000031d t -[JPushNotificationExtensionService jpushReceiveNotificationRequest:with:]
+000000000000027e t -[JPushNotificationExtensionService jpushSetAppkey:]
+000000000000077c t -[JPushNotificationExtensionService sendAPNS]
+0000000000000813 t -[JPushNotificationExtensionService sessionDidSetup]
+0000000000000825 t -[JPushNotificationExtensionService sessionTimeOut]
+0000000000000901 t -[JPushNotificationExtensionService session]
+000000000000095e t -[JPushNotificationExtensionService setCompletion:]
+0000000000000763 t -[JPushNotificationExtensionService setLogOff]
+0000000000000912 t -[JPushNotificationExtensionService setSession:]
+0000000000000937 t -[JPushNotificationExtensionService setUserInfo:]
+0000000000000926 t -[JPushNotificationExtensionService userInfo]
+                 U _OBJC_CLASS_$_JPushExtensionLog
+                 U _OBJC_CLASS_$_JPushExtensionSession
+                 U _OBJC_CLASS_$_JPushExtensionUtilities
+00000000000009b8 S _OBJC_CLASS_$_JPushNotificationExtensionService
+                 U _OBJC_CLASS_$_NSNull
+                 U _OBJC_CLASS_$_NSObject
+0000000000001108 S _OBJC_IVAR_$_JPushNotificationExtensionService._completion
+0000000000001110 S _OBJC_IVAR_$_JPushNotificationExtensionService._session
+0000000000001118 S _OBJC_IVAR_$_JPushNotificationExtensionService._userInfo
+00000000000009e0 S _OBJC_METACLASS_$_JPushNotificationExtensionService
+                 U _OBJC_METACLASS_$_NSObject
+                 U __NSConcreteGlobalBlock
+000000000000023b t ___51+[JPushNotificationExtensionService sharedInstance]_block_invoke
+000000000000075d t ___74-[JPushNotificationExtensionService jpushReceiveNotificationRequest:with:]_block_invoke
+                 U ___CFConstantStringClassReference
+0000000000000fe8 s ___block_descriptor_tmp
+0000000000001028 s ___block_descriptor_tmp.40
+0000000000001008 s ___block_literal_global
+0000000000001048 s ___block_literal_global.41
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleaseReturnValue
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+0000000000005978 b _sharedInstance.instance
+0000000000005970 b _sharedInstance.onceToken
+0000000000001280 s l_OBJC_$_CLASS_METHODS_JPushNotificationExtensionService
+00000000000016c0 s l_OBJC_$_INSTANCE_METHODS_JPushNotificationExtensionService
+0000000000001848 s l_OBJC_$_INSTANCE_VARIABLES_JPushNotificationExtensionService
+00000000000018b0 s l_OBJC_$_PROP_LIST_JPushNotificationExtensionService
+00000000000014d8 s l_OBJC_$_PROP_LIST_NSObject
+00000000000015d8 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JPushExtensionSessionDelegate
+00000000000012e8 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00000000000014b8 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0000000000001640 s l_OBJC_$_PROTOCOL_METHOD_TYPES_JPushExtensionSessionDelegate
+0000000000001520 s l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00000000000015c0 s l_OBJC_$_PROTOCOL_REFS_JPushExtensionSessionDelegate
+0000000000001660 s l_OBJC_CLASS_PROTOCOLS_$_JPushNotificationExtensionService
+0000000000001928 s l_OBJC_CLASS_RO_$_JPushNotificationExtensionService
+0000000000001a38 S l_OBJC_LABEL_PROTOCOL_$_JPushExtensionSessionDelegate
+0000000000001a30 S l_OBJC_LABEL_PROTOCOL_$_NSObject
+0000000000001678 s l_OBJC_METACLASS_RO_$_JPushNotificationExtensionService
+00000000000019d0 D l_OBJC_PROTOCOL_$_JPushExtensionSessionDelegate
+0000000000001970 D l_OBJC_PROTOCOL_$_NSObject
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionSession.o):
+0000000000000166 t +[JPushExtensionSession sharedInstance]
+000000000000368b t -[JPushExtensionSession .cxx_destruct]
+00000000000032ef t -[JPushExtensionSession appKey]
+00000000000031c5 t -[JPushExtensionSession clientThreadMain]
+00000000000008ce t -[JPushExtensionSession closeNetwork]
+0000000000000968 t -[JPushExtensionSession close]
+0000000000003647 t -[JPushExtensionSession connCursor]
+00000000000022fa t -[JPushExtensionSession connectWithTcpAddress:]
+000000000000040e t -[JPushExtensionSession connect]
+0000000000002a0a t -[JPushExtensionSession connection:didReceiveElement:]
+0000000000002a64 t -[JPushExtensionSession connection:didSendData:]
+00000000000029e9 t -[JPushExtensionSession connectionDidClose:]
+0000000000002842 t -[JPushExtensionSession connectionDidSetup:]
+0000000000000814 t -[JPushExtensionSession continueConnect]
+00000000000035db t -[JPushExtensionSession continueTimeoutTimer]
+00000000000034dc t -[JPushExtensionSession coreAddress]
+0000000000003548 t -[JPushExtensionSession defDomainAddress]
+0000000000003524 t -[JPushExtensionSession defSRVAddress]
+000000000000339a t -[JPushExtensionSession delegate]
+00000000000027d9 t -[JPushExtensionSession didNotReceivedDataAtUdpSocket:withError:]
+0000000000002736 t -[JPushExtensionSession didNotSendData:atUdpSocket:]
+0000000000002779 t -[JPushExtensionSession didReceivedData:atUdpSocket:]
+000000000000123b t -[JPushExtensionSession didReceivedSisData:]
+0000000000002730 t -[JPushExtensionSession didSendData:atUdpSocket:]
+0000000000003669 t -[JPushExtensionSession dnsAddressIdx]
+000000000000356c t -[JPushExtensionSession dnsAddress]
+0000000000002f62 t -[JPushExtensionSession doSessionTimeOut:]
+0000000000001e44 t -[JPushExtensionSession getAddressFromDNS:]
+000000000000157f t -[JPushExtensionSession getAddressFromDNSWithSrvResult]
+00000000000002ae t -[JPushExtensionSession getRId]
+0000000000002dbd t -[JPushExtensionSession getSendingRequestWithRid:]
+00000000000014ac t -[JPushExtensionSession getSisHostAddress:]
+0000000000003375 t -[JPushExtensionSession hostIpvSixPrefix]
+0000000000003625 t -[JPushExtensionSession idx]
+0000000000000000 t -[JPushExtensionSession init]
+0000000000003335 t -[JPushExtensionSession isConnected]
+0000000000003355 t -[JPushExtensionSession isIPV6]
+00000000000033bc t -[JPushExtensionSession isSetup]
+00000000000007b4 t -[JPushExtensionSession moveCursor]
+0000000000002a6a t -[JPushExtensionSession onAckOrRespReceived:]
+0000000000002d38 t -[JPushExtensionSession onAckTimeoutForRequest:]
+0000000000003500 t -[JPushExtensionSession optionAddress]
+000000000000104d t -[JPushExtensionSession parse:]
+00000000000033dc t -[JPushExtensionSession rId]
+0000000000003600 t -[JPushExtensionSession reconnectTimeoutTimer]
+00000000000007e6 t -[JPushExtensionSession reconnect]
+0000000000000a11 t -[JPushExtensionSession requestAddressFromSis]
+0000000000000cdf t -[JPushExtensionSession requestData]
+000000000000086f t -[JPushExtensionSession reset]
+0000000000003492 t -[JPushExtensionSession resolver]
+0000000000001cb7 t -[JPushExtensionSession runWithDefaultSRVName]
+0000000000002498 t -[JPushExtensionSession sendRequest:]
+0000000000000b70 t -[JPushExtensionSession sendSisRequest:]
+0000000000002588 t -[JPushExtensionSession sendUserInfos:]
+0000000000002605 t -[JPushExtensionSession sendUserinfo]
+0000000000003591 t -[JPushExtensionSession sessionTimeoutTimer]
+0000000000003302 t -[JPushExtensionSession setAppKey:]
+0000000000003658 t -[JPushExtensionSession setConnCursor:]
+00000000000035ec t -[JPushExtensionSession setContinueTimeoutTimer:]
+00000000000034ef t -[JPushExtensionSession setCoreAddress:]
+000000000000355b t -[JPushExtensionSession setDefDomainAddress:]
+0000000000003537 t -[JPushExtensionSession setDefSRVAddress:]
+00000000000033ab t -[JPushExtensionSession setDelegate:]
+000000000000357d t -[JPushExtensionSession setDnsAddress:]
+000000000000367a t -[JPushExtensionSession setDnsAddressIdx:]
+0000000000003386 t -[JPushExtensionSession setHostIpvSixPrefix:]
+0000000000003636 t -[JPushExtensionSession setIdx:]
+0000000000003345 t -[JPushExtensionSession setIsConnected:]
+0000000000003365 t -[JPushExtensionSession setIsIPV6:]
+00000000000033cc t -[JPushExtensionSession setIsSetup:]
+0000000000003513 t -[JPushExtensionSession setOptionAddress:]
+00000000000033ed t -[JPushExtensionSession setRId:]
+0000000000003611 t -[JPushExtensionSession setReconnectTimeoutTimer:]
+00000000000034a3 t -[JPushExtensionSession setResolver:]
+00000000000035a2 t -[JPushExtensionSession setSessionTimeoutTimer:]
+00000000000035c7 t -[JPushExtensionSession setSisTimeoutTimer:]
+00000000000034c8 t -[JPushExtensionSession setTcpSendingQueue:]
+0000000000003459 t -[JPushExtensionSession setTcpSocket:]
+000000000000347e t -[JPushExtensionSession setUdpSocket:]
+0000000000003324 t -[JPushExtensionSession setUid:]
+000000000000340f t -[JPushExtensionSession setUserinfos:]
+0000000000003434 t -[JPushExtensionSession setWorkThread:]
+00000000000001d9 t -[JPushExtensionSession setup]
+00000000000035b6 t -[JPushExtensionSession sisTimeoutTimer]
+0000000000000c64 t -[JPushExtensionSession sisTimeout]
+0000000000001dc8 t -[JPushExtensionSession srvResolver:didReceiveResult:]
+0000000000001dce t -[JPushExtensionSession srvResolver:didStopWithError:]
+000000000000300c t -[JPushExtensionSession startSessionTimeOutTimer]
+0000000000003064 t -[JPushExtensionSession stopSessionTimeOutTimer]
+0000000000000c92 t -[JPushExtensionSession stopSisTimeOutTimer]
+00000000000034b7 t -[JPushExtensionSession tcpSendingQueue]
+0000000000003448 t -[JPushExtensionSession tcpSocket]
+0000000000003238 t -[JPushExtensionSession threadSetup]
+00000000000030b1 t -[JPushExtensionSession timeoutClose]
+000000000000346d t -[JPushExtensionSession udpSocket]
+0000000000000b2e t -[JPushExtensionSession udpStop]
+0000000000003313 t -[JPushExtensionSession uid]
+00000000000033fe t -[JPushExtensionSession userinfos]
+0000000000003423 t -[JPushExtensionSession workThread]
+00000000000037e8 s GCC_except_table41
+                 U _CFArrayGetCount
+                 U _CFArrayGetValueAtIndex
+                 U _CFDataGetBytePtr
+                 U _CFHostCreateWithName
+                 U _CFHostGetAddressing
+                 U _CFHostStartInfoResolution
+                 U _CFRelease
+                 U _CFRunLoopAddTimer
+                 U _CFRunLoopGetCurrent
+                 U _CFRunLoopRun
+                 U _CFRunLoopTimerCreate
+                 U _CFStringCreateWithCString
+                 U _JPushExtensionCTCarrierName
+                 U _JPushExtensionCTGenerationNumber
+                 U _JPushExtensionGzip
+                 U _JPushExtensionGzipUnpack
+                 U _JPushExtensionJSONData
+                 U _JPushExtensionJSONObject
+00000000000031bf T _JPushExtensionRunLoopTimerCallBack
+                 U _OBJC_CLASS_$_JPushExtensionRequest
+                 U _OBJC_CLASS_$_JPushExtensionSRVResolver
+0000000000004210 S _OBJC_CLASS_$_JPushExtensionSession
+                 U _OBJC_CLASS_$_JPushExtensionTCPSocket
+                 U _OBJC_CLASS_$_JPushExtensionUdpSocket
+                 U _OBJC_CLASS_$_JPushExtensionUtilities
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSThread
+                 U _OBJC_CLASS_$_NSTimer
+                 U _OBJC_CLASS_$_NSUserDefaults
+00000000000055f8 S _OBJC_IVAR_$_JPushExtensionSession._appKey
+0000000000005660 S _OBJC_IVAR_$_JPushExtensionSession._connCursor
+00000000000055d0 S _OBJC_IVAR_$_JPushExtensionSession._continueTimeoutTimer
+0000000000005630 S _OBJC_IVAR_$_JPushExtensionSession._coreAddress
+0000000000005648 S _OBJC_IVAR_$_JPushExtensionSession._defDomainAddress
+0000000000005640 S _OBJC_IVAR_$_JPushExtensionSession._defSRVAddress
+0000000000005618 S _OBJC_IVAR_$_JPushExtensionSession._delegate
+0000000000005650 S _OBJC_IVAR_$_JPushExtensionSession._dnsAddress
+0000000000005668 S _OBJC_IVAR_$_JPushExtensionSession._dnsAddressIdx
+0000000000005610 S _OBJC_IVAR_$_JPushExtensionSession._hostIpvSixPrefix
+0000000000005658 S _OBJC_IVAR_$_JPushExtensionSession._idx
+00000000000055c0 S _OBJC_IVAR_$_JPushExtensionSession._isConnected
+0000000000005608 S _OBJC_IVAR_$_JPushExtensionSession._isIPV6
+00000000000055a0 S _OBJC_IVAR_$_JPushExtensionSession._isSetup
+0000000000005638 S _OBJC_IVAR_$_JPushExtensionSession._optionAddress
+00000000000055a8 S _OBJC_IVAR_$_JPushExtensionSession._rId
+00000000000055b0 S _OBJC_IVAR_$_JPushExtensionSession._reconnectTimeoutTimer
+00000000000055e8 S _OBJC_IVAR_$_JPushExtensionSession._resolver
+00000000000055f0 S _OBJC_IVAR_$_JPushExtensionSession._sessionTimeoutTimer
+00000000000055e0 S _OBJC_IVAR_$_JPushExtensionSession._sisTimeoutTimer
+00000000000055b8 S _OBJC_IVAR_$_JPushExtensionSession._tcpSendingQueue
+00000000000055c8 S _OBJC_IVAR_$_JPushExtensionSession._tcpSocket
+00000000000055d8 S _OBJC_IVAR_$_JPushExtensionSession._udpSocket
+0000000000005600 S _OBJC_IVAR_$_JPushExtensionSession._uid
+0000000000005620 S _OBJC_IVAR_$_JPushExtensionSession._userinfos
+0000000000005628 S _OBJC_IVAR_$_JPushExtensionSession._workThread
+0000000000004238 S _OBJC_METACLASS_$_JPushExtensionSession
+                 U _OBJC_METACLASS_$_NSObject
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteGlobalBlock
+                 U __NSConcreteStackBlock
+                 U __Unwind_Resume
+0000000000000950 t ___37-[JPushExtensionSession closeNetwork]_block_invoke
+0000000000000196 t ___39+[JPushExtensionSession sharedInstance]_block_invoke
+0000000000002ed7 t ___50-[JPushExtensionSession getSendingRequestWithRid:]_block_invoke
+0000000000002eb2 t ___Block_byref_object_copy_
+0000000000002ec8 t ___Block_byref_object_dispose_
+                 U ___CFConstantStringClassReference
+00000000000054f0 s ___block_descriptor_tmp
+0000000000005530 s ___block_descriptor_tmp.102
+0000000000005570 s ___block_descriptor_tmp.318
+0000000000005510 s ___block_literal_global
+0000000000005550 s ___block_literal_global.103
+0000000000002f38 t ___copy_helper_block_
+0000000000002f4f t ___destroy_helper_block_
+                 U ___objc_personality_v0
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+0000000000004208 S __numberOfSisHostDomains
+                 U __objc_empty_cache
+0000000000004070 D __sisHostDomains
+                 U _arc4random
+                 U _dispatch_once
+                 U _inet_ntoa
+                 U _inet_ntop
+                 U _kCFAllocatorDefault
+                 U _kCFRunLoopDefaultMode
+                 U _kJPushExtensionSRVResolverPort
+                 U _kJPushExtensionSRVResolverTarget
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_enumerationMutation
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleaseReturnValue
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _rand
+0000000000016910 b _sharedInstance.instance
+0000000000016908 b _sharedInstance.onceToken
+0000000000005a20 s l_OBJC_$_CLASS_METHODS_JPushExtensionSession
+0000000000005f28 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionSession
+0000000000006860 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionSession
+0000000000006ba8 s l_OBJC_$_PROP_LIST_JPushExtensionSession
+0000000000005c30 s l_OBJC_$_PROP_LIST_NSObject
+0000000000005d30 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JPushExtensionTCPSocketDelegate
+0000000000005dd0 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JPushExtensionUdpSocketDelegate
+0000000000005a40 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+0000000000005e70 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_JPushExtensionnSRVResolverDelegate
+0000000000005c10 s l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0000000000005d98 s l_OBJC_$_PROTOCOL_METHOD_TYPES_JPushExtensionTCPSocketDelegate
+0000000000005e38 s l_OBJC_$_PROTOCOL_METHOD_TYPES_JPushExtensionUdpSocketDelegate
+0000000000005ea8 s l_OBJC_$_PROTOCOL_METHOD_TYPES_JPushExtensionnSRVResolverDelegate
+0000000000005c78 s l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0000000000005d18 s l_OBJC_$_PROTOCOL_REFS_JPushExtensionTCPSocketDelegate
+0000000000005db8 s l_OBJC_$_PROTOCOL_REFS_JPushExtensionUdpSocketDelegate
+0000000000005e58 s l_OBJC_$_PROTOCOL_REFS_JPushExtensionnSRVResolverDelegate
+0000000000005eb8 s l_OBJC_CLASS_PROTOCOLS_$_JPushExtensionSession
+0000000000006d90 s l_OBJC_CLASS_RO_$_JPushExtensionSession
+0000000000006de0 S l_OBJC_LABEL_PROTOCOL_$_JPushExtensionTCPSocketDelegate
+0000000000006de8 S l_OBJC_LABEL_PROTOCOL_$_JPushExtensionUdpSocketDelegate
+0000000000006df0 S l_OBJC_LABEL_PROTOCOL_$_JPushExtensionnSRVResolverDelegate
+0000000000006dd8 S l_OBJC_LABEL_PROTOCOL_$_NSObject
+0000000000005ee0 s l_OBJC_METACLASS_RO_$_JPushExtensionSession
+00000000000040e8 D l_OBJC_PROTOCOL_$_JPushExtensionTCPSocketDelegate
+0000000000004148 D l_OBJC_PROTOCOL_$_JPushExtensionUdpSocketDelegate
+00000000000041a8 D l_OBJC_PROTOCOL_$_JPushExtensionnSRVResolverDelegate
+0000000000004088 D l_OBJC_PROTOCOL_$_NSObject
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionUtilities.o):
+0000000000001e2d t +[JPushExtensionUtilities JPushExtensionSDKVer]
+00000000000011c7 t +[JPushExtensionUtilities aesDecryptData:withKey:isEcb:]
+000000000000103f t +[JPushExtensionUtilities aesEncryptData:withKey:isEcb:]
+00000000000019dc t +[JPushExtensionUtilities clearDisk]
+0000000000001d43 t +[JPushExtensionUtilities clearUidList]
+0000000000001352 t +[JPushExtensionUtilities encryptKeyWithSeed:]
+0000000000001ce5 t +[JPushExtensionUtilities getUidList]
+0000000000001a81 t +[JPushExtensionUtilities getUserInfoList]
+00000000000016d4 t +[JPushExtensionUtilities isJpushUserInfo:]
+0000000000001e4c t +[JPushExtensionUtilities isValidAppKey:]
+0000000000001ad7 t +[JPushExtensionUtilities removeDiskUserInfo:]
+0000000000001b6b t +[JPushExtensionUtilities saveUid:]
+00000000000017f4 t +[JPushExtensionUtilities saveUserInfo:]
+000000000000175e t +[JPushExtensionUtilities setupCachePath]
+000000000000205a t -[NSMutableData(JPushExtensionMakePacket) jpush_appendDataWithLength:]
+0000000000001f56 t -[NSMutableData(JPushExtensionMakePacket) jpush_appendInt16:]
+0000000000001f84 t -[NSMutableData(JPushExtensionMakePacket) jpush_appendInt32:]
+0000000000001faf t -[NSMutableData(JPushExtensionMakePacket) jpush_appendInt64:]
+0000000000001f2d t -[NSMutableData(JPushExtensionMakePacket) jpush_appendInt8:]
+0000000000001fdc t -[NSMutableData(JPushExtensionMakePacket) jpush_appendString:]
+00000000000020c4 t -[NSMutableData(JPushExtensionMakePacket) jpush_setPacketLen]
+                 U _CCCrypt
+                 U _CC_MD5
+                 U _CTRadioAccessTechnologyCDMA1x
+                 U _CTRadioAccessTechnologyCDMAEVDORev0
+                 U _CTRadioAccessTechnologyCDMAEVDORevA
+                 U _CTRadioAccessTechnologyCDMAEVDORevB
+                 U _CTRadioAccessTechnologyEdge
+                 U _CTRadioAccessTechnologyGPRS
+                 U _CTRadioAccessTechnologyHSDPA
+                 U _CTRadioAccessTechnologyHSUPA
+                 U _CTRadioAccessTechnologyLTE
+                 U _CTRadioAccessTechnologyWCDMA
+                 U _CTRadioAccessTechnologyeHRPD
+0000000000000495 T _JPUSHCTCarrierInfo
+00000000000004f1 T _JPushExtensionCTCarrierName
+0000000000000573 T _JPushExtensionCTGeneration
+00000000000007fe T _JPushExtensionCTGenerationNumber
+00000000000001d1 T _JPushExtensionConvertHostFromIPv4ToIPv6
+0000000000000b5d T _JPushExtensionDecodeStringFromBuffer
+0000000000000ae3 T _JPushExtensionDecodeUInt16FromBuffer
+0000000000000b11 T _JPushExtensionDecodeUInt32FromBuffer
+0000000000000b36 T _JPushExtensionDecodeUInt64FromBuffer
+0000000000000abb T _JPushExtensionDecodeUInt8FromBuffer
+0000000000000000 T _JPushExtensionGetDataAddressByHostAndPort
+0000000000000c7d T _JPushExtensionGzip
+0000000000000e5d T _JPushExtensionGzipUnpack
+000000000000093a T _JPushExtensionJSONData
+0000000000000899 T _JPushExtensionJSONObject
+00000000000009b5 T _JPushExtensionStringHashingByMD5
+                 U _NSSearchPathForDirectoriesInDomains
+                 U _OBJC_CLASS_$_CTTelephonyNetworkInfo
+                 U _OBJC_CLASS_$_JPushExtensionReachability
+                 U _OBJC_CLASS_$_JPushExtensionSession
+0000000000002d00 S _OBJC_CLASS_$_JPushExtensionUtilities
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSFileManager
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_UIDevice
+0000000000002d28 S _OBJC_METACLASS_$_JPushExtensionUtilities
+                 U _OBJC_METACLASS_$_NSObject
+                 U __DefaultRuneLocale
+                 U ___CFConstantStringClassReference
+                 U ___maskrune
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+000000000000c018 b __cachePath
+                 U __objc_empty_cache
+                 U _deflate
+                 U _deflateEnd
+                 U _deflateInit2_
+000000000000c010 b _encryptKeyWithSeed:.mutableDict
+000000000000c008 b _encryptKeyWithSeed:.oldSeed
+                 U _free
+                 U _inet_addr
+                 U _inet_pton
+                 U _inflate
+                 U _inflateEnd
+                 U _inflateInit2_
+                 U _malloc
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _strlen
+0000000000002fe0 s l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableData_$_JPushExtensionMakePacket
+0000000000003090 s l_OBJC_$_CATEGORY_NSMutableData_$_JPushExtensionMakePacket
+0000000000002df8 s l_OBJC_$_CLASS_METHODS_JPushExtensionUtilities
+0000000000002f98 s l_OBJC_CLASS_RO_$_JPushExtensionUtilities
+0000000000002f50 s l_OBJC_METACLASS_RO_$_JPushExtensionUtilities
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionTCPSocket.o):
+00000000000010d6 t -[JPushExtensionTCPSocket .cxx_destruct]
+00000000000010c6 t -[JPushExtensionTCPSocket careAllDataSent]
+0000000000000760 t -[JPushExtensionTCPSocket closeBecauseOfSessionTimeout]
+000000000000064b t -[JPushExtensionTCPSocket close]
+00000000000010b6 t -[JPushExtensionTCPSocket connectionState]
+0000000000000203 t -[JPushExtensionTCPSocket dealloc]
+0000000000000f2f t -[JPushExtensionTCPSocket delayedDidReceiveElement:]
+0000000000000fca t -[JPushExtensionTCPSocket delayedDidSendData:]
+0000000000001065 t -[JPushExtensionTCPSocket delegate]
+0000000000000817 t -[JPushExtensionTCPSocket doCFSocketCallback:forSocket:withData:]
+00000000000009b5 t -[JPushExtensionTCPSocket doRead]
+0000000000000c65 t -[JPushExtensionTCPSocket doSend]
+0000000000001092 t -[JPushExtensionTCPSocket host]
+0000000000000050 t -[JPushExtensionTCPSocket initWithHost:port:delegate:]
+000000000000092e t -[JPushExtensionTCPSocket isConnected]
+0000000000000942 t -[JPushExtensionTCPSocket onConnectedWithErrorCode:]
+0000000000000dd7 t -[JPushExtensionTCPSocket onlyResetInfo]
+00000000000005cb t -[JPushExtensionTCPSocket p_cleanSocket]
+00000000000010a5 t -[JPushExtensionTCPSocket port]
+0000000000000df8 t -[JPushExtensionTCPSocket reenableSocketCallbacks]
+0000000000000da9 t -[JPushExtensionTCPSocket resetReadInfo]
+0000000000000e7c t -[JPushExtensionTCPSocket sendData:]
+0000000000000271 t -[JPushExtensionTCPSocket setCareAllDataSent:]
+000000000000107e t -[JPushExtensionTCPSocket setDelegate:]
+0000000000000000 t -[JPushExtensionTCPSocket setSocket:]
+0000000000000293 t -[JPushExtensionTCPSocket setup]
+000000000000003f t -[JPushExtensionTCPSocket socket]
+                 U _CFRelease
+                 U _CFRunLoopAddSource
+                 U _CFRunLoopGetCurrent
+                 U _CFRunLoopRemoveSource
+                 U _CFSocketConnectToAddress
+                 U _CFSocketCreate
+                 U _CFSocketCreateRunLoopSource
+                 U _CFSocketDisableCallBacks
+                 U _CFSocketEnableCallBacks
+                 U _CFSocketGetNative
+                 U _CFSocketGetSocketFlags
+                 U _CFSocketInvalidate
+                 U _CFSocketIsValid
+                 U _CFSocketSetSocketFlags
+                 U _JPushExtensionConvertHostFromIPv4ToIPv6
+                 U _JPushExtensionGetDataAddressByHostAndPort
+000000000000051a t _MyTcpCFSocketCallback
+                 U _OBJC_CLASS_$_JPushExtensionResponse
+                 U _OBJC_CLASS_$_JPushExtensionSession
+0000000000001190 S _OBJC_CLASS_$_JPushExtensionTCPSocket
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSRecursiveLock
+0000000000001178 S _OBJC_IVAR_$_JPushExtensionTCPSocket._careAllDataSent
+0000000000001180 S _OBJC_IVAR_$_JPushExtensionTCPSocket._connectionState
+0000000000001140 S _OBJC_IVAR_$_JPushExtensionTCPSocket._delegate
+0000000000001138 S _OBJC_IVAR_$_JPushExtensionTCPSocket._host
+0000000000001148 S _OBJC_IVAR_$_JPushExtensionTCPSocket._isSetuped
+0000000000001120 S _OBJC_IVAR_$_JPushExtensionTCPSocket._mutex
+0000000000001130 S _OBJC_IVAR_$_JPushExtensionTCPSocket._port
+0000000000001170 S _OBJC_IVAR_$_JPushExtensionTCPSocket._receivingBuffer
+0000000000001188 S _OBJC_IVAR_$_JPushExtensionTCPSocket._rls
+0000000000001158 S _OBJC_IVAR_$_JPushExtensionTCPSocket._sendQueue
+0000000000001128 S _OBJC_IVAR_$_JPushExtensionTCPSocket._socket
+0000000000001168 S _OBJC_IVAR_$_JPushExtensionTCPSocket._ulDefaultReceiveBufferSize
+0000000000001160 S _OBJC_IVAR_$_JPushExtensionTCPSocket._ulReceivedLen
+0000000000001150 S _OBJC_IVAR_$_JPushExtensionTCPSocket._ulSendingDataSentLen
+00000000000011b8 S _OBJC_METACLASS_$_JPushExtensionTCPSocket
+                 U _OBJC_METACLASS_$_NSObject
+                 U __NSConcreteGlobalBlock
+00000000000008eb t ___65-[JPushExtensionTCPSocket doCFSocketCallback:forSocket:withData:]_block_invoke
+                 U ___assert_rtn
+0000000000001840 s ___block_descriptor_tmp
+0000000000001860 s ___block_literal_global
+                 U ___error
+                 U __objc_empty_cache
+                 U _dispatch_once
+0000000000007df0 b _doCFSocketCallback:forSocket:withData:.lock
+0000000000007df8 b _doCFSocketCallback:forSocket:withData:.onceToken
+                 U _free
+                 U _kCFAllocatorDefault
+                 U _kCFRunLoopDefaultMode
+                 U _malloc
+                 U _memcpy
+                 U _memset
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_getProperty
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+                 U _pthread_mutex_destroy
+                 U _pthread_mutex_init
+                 U _pthread_mutex_lock
+                 U _pthread_mutex_unlock
+                 U _recv
+                 U _send
+                 U _setsockopt
+00000000000018e8 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionTCPSocket
+0000000000001b78 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionTCPSocket
+0000000000001d40 s l_OBJC_$_PROP_LIST_JPushExtensionTCPSocket
+0000000000001da8 s l_OBJC_CLASS_RO_$_JPushExtensionTCPSocket
+00000000000018a0 s l_OBJC_METACLASS_RO_$_JPushExtensionTCPSocket
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionSRVResolver.o):
+0000000000000dc0 t -[JPushExtensionSRVResolver .cxx_destruct]
+00000000000000f0 t -[JPushExtensionSRVResolver dealloc]
+0000000000000d19 t -[JPushExtensionSRVResolver delegate]
+0000000000000d66 t -[JPushExtensionSRVResolver error]
+0000000000000000 t -[JPushExtensionSRVResolver initWithSRVName:]
+0000000000000d46 t -[JPushExtensionSRVResolver isFinished]
+000000000000058e t -[JPushExtensionSRVResolver processRecord:length:]
+0000000000000d8a t -[JPushExtensionSRVResolver resultsMutable]
+0000000000000546 t -[JPushExtensionSRVResolver results]
+0000000000000d32 t -[JPushExtensionSRVResolver setDelegate:]
+0000000000000d79 t -[JPushExtensionSRVResolver setError:]
+0000000000000d56 t -[JPushExtensionSRVResolver setFinished:]
+0000000000000dac t -[JPushExtensionSRVResolver setTimer:]
+0000000000000d06 t -[JPushExtensionSRVResolver srvName]
+00000000000009fb t -[JPushExtensionSRVResolver startInternal]
+000000000000012e t -[JPushExtensionSRVResolver start]
+00000000000004e5 t -[JPushExtensionSRVResolver stopWithDNSServiceError:]
+00000000000003e5 t -[JPushExtensionSRVResolver stopWithError:]
+0000000000000338 t -[JPushExtensionSRVResolver stopWithTimeout]
+000000000000024c t -[JPushExtensionSRVResolver stop]
+0000000000000d9b t -[JPushExtensionSRVResolver timer]
+                 U _CFRelease
+                 U _CFRunLoopAddSource
+                 U _CFRunLoopGetCurrent
+                 U _CFRunLoopRemoveSource
+                 U _CFSocketCreateRunLoopSource
+                 U _CFSocketCreateWithNative
+                 U _CFSocketGetSocketFlags
+                 U _CFSocketInvalidate
+                 U _CFSocketSetSocketFlags
+                 U _DNSServiceProcessResult
+                 U _DNSServiceQueryRecord
+                 U _DNSServiceRefDeallocate
+                 U _DNSServiceRefSockFD
+                 U _NSLocalizedDescriptionKey
+0000000000000e30 S _OBJC_CLASS_$_JPushExtensionSRVResolver
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSIndexSet
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSTimer
+0000000000001340 S _OBJC_IVAR_$_JPushExtensionSRVResolver._delegate
+0000000000001350 S _OBJC_IVAR_$_JPushExtensionSRVResolver._error
+0000000000001348 S _OBJC_IVAR_$_JPushExtensionSRVResolver._finished
+0000000000001320 S _OBJC_IVAR_$_JPushExtensionSRVResolver._resultsMutable
+0000000000001330 S _OBJC_IVAR_$_JPushExtensionSRVResolver._rls
+0000000000001328 S _OBJC_IVAR_$_JPushExtensionSRVResolver._sdRef
+0000000000001338 S _OBJC_IVAR_$_JPushExtensionSRVResolver._sdRefSocket
+0000000000001318 S _OBJC_IVAR_$_JPushExtensionSRVResolver._srvName
+0000000000001358 S _OBJC_IVAR_$_JPushExtensionSRVResolver._timer
+0000000000000e58 S _OBJC_METACLASS_$_JPushExtensionSRVResolver
+                 U _OBJC_METACLASS_$_NSObject
+0000000000000b7f t _QueryRecordCallback
+0000000000000c71 t _SDRefSocketCallback
+                 U ___CFConstantStringClassReference
+                 U __objc_empty_cache
+                 U _dns_free_resource_record
+                 U _dns_parse_resource_record
+                 U _kCFRunLoopDefaultMode
+00000000000013a8 D _kJPushExtensionSRVResolverErrorDomain
+00000000000013c0 D _kJPushExtensionSRVResolverPort
+00000000000013b0 D _kJPushExtensionSRVResolverPriority
+00000000000013c8 D _kJPushExtensionSRVResolverTarget
+00000000000013b8 D _kJPushExtensionSRVResolverWeight
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_getProperty
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+0000000000001688 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionSRVResolver
+0000000000001888 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionSRVResolver
+00000000000019b0 s l_OBJC_$_PROP_LIST_JPushExtensionSRVResolver
+0000000000001a28 s l_OBJC_CLASS_RO_$_JPushExtensionSRVResolver
+0000000000001640 s l_OBJC_METACLASS_RO_$_JPushExtensionSRVResolver
+
+/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-extension-ios-1.1.1.a(JPushExtensionLog.o):
+00000000000000b7 t +[JPushExtensionLog logWithFormat:]
+0000000000000073 t +[JPushExtensionLog setLogOff]
+0000000000000000 t +[JPushExtensionLog share]
+0000000000000259 t -[JPushExtensionLog logOff]
+0000000000000242 t -[JPushExtensionLog logWithMessage:]
+0000000000000269 t -[JPushExtensionLog setLogOff:]
+000000000000022b t -[JPushExtensionLog setLogOff]
+                 U _NSLog
+0000000000000280 S _OBJC_CLASS_$_JPushExtensionLog
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+0000000000000428 S _OBJC_IVAR_$_JPushExtensionLog._logOff
+00000000000002a8 S _OBJC_METACLASS_$_JPushExtensionLog
+                 U _OBJC_METACLASS_$_NSObject
+                 U __NSConcreteGlobalBlock
+0000000000000030 t ___26+[JPushExtensionLog share]_block_invoke
+                 U ___CFConstantStringClassReference
+00000000000003c8 s ___block_descriptor_tmp
+00000000000003e8 s ___block_literal_global
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleaseReturnValue
+                 U _objc_retainAutoreleasedReturnValue
+0000000000002400 b _share.instance
+0000000000002408 b _share.onceToken
+0000000000000478 s l_OBJC_$_CLASS_METHODS_JPushExtensionLog
+0000000000000510 s l_OBJC_$_INSTANCE_METHODS_JPushExtensionLog
+0000000000000578 s l_OBJC_$_INSTANCE_VARIABLES_JPushExtensionLog
+00000000000005a0 s l_OBJC_$_PROP_LIST_JPushExtensionLog
+00000000000005b8 s l_OBJC_CLASS_RO_$_JPushExtensionLog
+00000000000004c8 s l_OBJC_METACLASS_RO_$_JPushExtensionLog

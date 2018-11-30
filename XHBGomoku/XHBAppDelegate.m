@@ -19,6 +19,7 @@
 // 如果需要使用 idfa 功能所需要引入的头文件（可选）
 #import <AdSupport/AdSupport.h>
 #import <AVOSCloud/AVOSCloud.h>
+#import "STCObfuscator.h"
 
 @interface XHBAppDelegate ()<JPUSHRegisterDelegate>
 @end
@@ -27,6 +28,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#if (DEBUG == 1)
+    // 该类的类名、属性和方法都不混淆
+    [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
+    // 以testStaticLib为前缀开头的方法符号不混淆
+    [STCObfuscator obfuscatorManager].unConfuseMethodPrefix = @[@"testStaticLib"];
+    // 以RAC为前缀开头的类的类名、属性和方法都不混淆
+    [STCObfuscator obfuscatorManager].unConfuseClassPrefix = @[@"RAC"];
+    // md5加盐
+    [STCObfuscator obfuscatorManager].md5Salt = @"go die trump";
+    [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
+#endif
     // Override point for customization after application launch.
     //Required
     //notice: 3.0.0 及以后版本注册可以这样写，也可以继续用之前的注册方式

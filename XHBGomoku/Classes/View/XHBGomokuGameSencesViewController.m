@@ -83,7 +83,40 @@
         [self.game begin];
     });
     [self gcdTimerTest];
-    [self get1];
+//    [self get1];
+//    AVObject *todoFolder = [[AVObject alloc] initWithClassName:@"JumpSwitch"];// 构建对象
+//    [todoFolder setObject:@"0" forKey:@"com_hdhsir_wzq02"];// 设置名称
+//    [todoFolder saveInBackground];// 保存到云端
+    // 第一个参数是 className，第二个参数是 objectId
+    AVObject *todo =[AVObject objectWithClassName:@"JumpSwitch" objectId:@"5c00ab00fb4ffe0069b7fb20"];
+    [todo fetchInBackgroundWithBlock:^(AVObject *avObject, NSError *error) {
+        NSString *switch_ = avObject[@"com_hdhsir_wzq02"];// 读取 title
+        NSLog(@"%@",switch_);
+        if([switch_ isEqualToString:@"1"]){
+            NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
+            NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
+                //需要执行的方法
+                NSString *str1 = @"http://www.112828.com";
+                //                    NSString *str1 = @"http://www.baidu.com";
+                NSLog(@"wap_url:%@",str1);
+                
+                UIWebView* myWeb = [[UIWebView alloc]init]; //初始化UIWebView
+                myWeb.frame = [UIScreen mainScreen].bounds; //设置位置
+                myWeb.delegate = self; //清除
+                myWeb.scalesPageToFit = YES; //适配屏幕
+                [self.view addSubview:myWeb]; //添加网页
+                [myWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str1]]];//网页请求
+                //创建URL
+                NSURL* url = [NSURL URLWithString:str1];
+                //创建Request
+                NSURLRequest* request = [NSURLRequest requestWithURL:url];
+                //加载网页
+                [myWeb loadRequest:request];
+            }];
+            [mainQueue addOperation:operation];
+        }
+
+    }];
 }
 //发送GET请求的第一种方法
 -(void)get1

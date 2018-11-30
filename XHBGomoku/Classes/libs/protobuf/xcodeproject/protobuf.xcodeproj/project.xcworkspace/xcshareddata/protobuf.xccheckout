@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B99CBAB0-C35F-4F54-A42D-B9762384E786</string>
+	<key>IDESourceControlProjectName</key>
+	<string>protobuf</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20F21513C4EB727E92E29B108116E56EEB16C739</key>
+		<string>http://git.hoolai.com/repositories/HLEngine.proj.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>libs/protobuf/xcodeproject/protobuf.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20F21513C4EB727E92E29B108116E56EEB16C739</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://git.hoolai.com/repositories/HLEngine.proj.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20F21513C4EB727E92E29B108116E56EEB16C739</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20F21513C4EB727E92E29B108116E56EEB16C739</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HLEngine.proj</string>
+		</dict>
+	</array>
+</dict>
+</plist>

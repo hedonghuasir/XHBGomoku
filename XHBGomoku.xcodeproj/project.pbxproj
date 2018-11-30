@@ -108,6 +108,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6BCBBFCD21B1223F00C7F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D97CBEC2147E22A100BCB5FB;
+			remoteInfo = "protobuf-full-ios";
+		};
+		6BCBBFCF21B1223F00C7F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D932DE2B1504690900476829;
+			remoteInfo = "protobuf-lite-ios";
+		};
+		6BCBBFD121B1223F00C7F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9EE157C16A8F82C003C65F9;
+			remoteInfo = "protobuf-full-mac";
+		};
+		6BCBBFD321B1223F00C7F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9EE14F516A8F81B003C65F9;
+			remoteInfo = "protobuf-lite-mac";
+		};
+		6BCBBFD521B1223F00C7F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9656F5E16D7B43600F882CF;
+			remoteInfo = protoc;
+		};
 		7B5F155D21B02374004709C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
@@ -154,6 +189,7 @@
 		314336A121B0595F00412C77 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 		315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XHBGomoku.entitlements; sourceTree = "<group>"; };
 		32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHBGomoku.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = protobuf.xcodeproj; path = XHBGomoku/Classes/libs/protobuf/xcodeproject/protobuf.xcodeproj; sourceTree = "<group>"; };
 		7B5F151821B0219D004709C1 /* XHBGomokuPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBGomokuPieceView.m; sourceTree = "<group>"; };
 		7B5F151921B0219D004709C1 /* XHBGomokuGameSencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuGameSencesViewController.h; sourceTree = "<group>"; };
 		7B5F151A21B0219D004709C1 /* XHBGomokuOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBGomokuOverViewController.h; sourceTree = "<group>"; };
@@ -325,6 +361,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6BCBBFC621B1223E00C7F08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBBFCE21B1223F00C7F08C /* libprotobuf-full-ios.a */,
+				6BCBBFD021B1223F00C7F08C /* libprotobuf-lite-ios.a */,
+				6BCBBFD221B1223F00C7F08C /* libprotobuf-full-mac.a */,
+				6BCBBFD421B1223F00C7F08C /* libprotobuf-lite-mac.a */,
+				6BCBBFD621B1223F00C7F08C /* protoc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7B5F151721B0219D004709C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +466,7 @@
 		D26E52F819B43C880094EC28 = {
 			isa = PBXGroup;
 			children = (
+				6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */,
 				7B5F155721B02374004709C1 /* Pods.xcodeproj */,
 				D26E530A19B43C880094EC28 /* XHBGomoku */,
 				D26E532919B43C880094EC28 /* XHBGomokuTests */,
@@ -625,7 +674,8 @@
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
 					D26E530019B43C880094EC28 = {
-						DevelopmentTeam = NKU4WU78DQ;
+						DevelopmentTeam = XMZD79ZNTL;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -653,6 +703,10 @@
 					ProductGroup = 7B5F155821B02374004709C1 /* Products */;
 					ProjectRef = 7B5F155721B02374004709C1 /* Pods.xcodeproj */;
 				},
+				{
+					ProductGroup = 6BCBBFC621B1223E00C7F08C /* Products */;
+					ProjectRef = 6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -663,6 +717,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6BCBBFCE21B1223F00C7F08C /* libprotobuf-full-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-full-ios.a";
+			remoteRef = 6BCBBFCD21B1223F00C7F08C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCBBFD021B1223F00C7F08C /* libprotobuf-lite-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-lite-ios.a";
+			remoteRef = 6BCBBFCF21B1223F00C7F08C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCBBFD221B1223F00C7F08C /* libprotobuf-full-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-full-mac.a";
+			remoteRef = 6BCBBFD121B1223F00C7F08C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCBBFD421B1223F00C7F08C /* libprotobuf-lite-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-lite-mac.a";
+			remoteRef = 6BCBBFD321B1223F00C7F08C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCBBFD621B1223F00C7F08C /* protoc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = protoc;
+			remoteRef = 6BCBBFD521B1223F00C7F08C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		7B5F155E21B02374004709C1 /* libAVOSCloud.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -966,8 +1055,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NKU4WU78DQ;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XMZD79ZNTL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -981,6 +1071,9 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					/Classes/other_class/OpenThreads/include,
+					/Classes/other_class/kazmath/include,
+					"/Classes/other_class/spine-c/include",
 				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -998,9 +1091,10 @@
 					"-l\"AVOSCloud\"",
 					"-l\"SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "909e097d-dabb-49d0-b728-52fd1ab78ad6";
+				PROVISIONING_PROFILE_SPECIFIER = wzq03_publish;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1012,8 +1106,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = XHBGomoku/XHBGomoku.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NKU4WU78DQ;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XMZD79ZNTL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHBGomoku/XHBGomoku-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1021,6 +1116,9 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(PROJECT_DIR)/libs/other_class/OpenThreads/include",
+					"$(PROJECT_DIR)/libs/other_class/kazmath/include",
+					"$(PROJECT_DIR)/libs/other_class/spine-c/include",
 				);
 				INFOPLIST_FILE = "XHBGomoku/XHBGomoku-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1038,9 +1136,10 @@
 					"-l\"AVOSCloud\"",
 					"-l\"SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdhsir.wzq03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "909e097d-dabb-49d0-b728-52fd1ab78ad6";
+				PROVISIONING_PROFILE_SPECIFIER = wzq03_publish;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

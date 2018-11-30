@@ -69,7 +69,7 @@
     //初始化 SDK
     [AVOSCloud setApplicationId:APP_ID clientKey:APP_KEY];
     //开启调试日志
-    [AVOSCloud setAllLogsEnabled:YES];
+    [AVOSCloud setAllLogsEnabled:NO];
 //    [AVUser logOut];
     return YES;
 }

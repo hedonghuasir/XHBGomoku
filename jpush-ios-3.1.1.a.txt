@@ -1,5 +1,5 @@
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHService.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHService.o):
 0000000000001aa7 t +[JPUSHService addNotification:]
 00000000000019c8 t +[JPUSHService addTags:completion:seq:]
 0000000000001a0a t +[JPUSHService beginLogPageView:duration:]
@@ -259,15 +259,15 @@
 00000000000029f0 D l_OBJC_PROTOCOL_$_NSCoding
 0000000000002990 D l_OBJC_PROTOCOL_$_NSCopying
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHLocalNotificationController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHLocalNotificationController.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAlias.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAlias.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHAutomatedTester.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHAutomatedTester.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHAliasOperation.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHAliasOperation.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasVO.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasVO.o):
 00000000000000f8 t -[JPUSHTagAliasVO .cxx_destruct]
 00000000000000d4 t -[JPUSHTagAliasVO aliasCompletion]
 0000000000000068 t -[JPUSHTagAliasVO alias]
@@ -304,27 +304,27 @@
 00000000000004c8 s l_OBJC_CLASS_RO_$_JPUSHTagAliasVO
 00000000000001b0 s l_OBJC_METACLASS_RO_$_JPUSHTagAliasVO
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasManagerController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasManagerController.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHMessageReport.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHMessageReport.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHBadgeNumberController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHBadgeNumberController.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagsOperation.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagsOperation.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHBadgeNumberReport.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHBadgeNumberReport.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHDeviceTokenController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHDeviceTokenController.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHUserPropertyController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHUserPropertyController.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHUserProperty.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHUserProperty.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHSetTagAliasArg.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHSetTagAliasArg.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHSetTagAlias.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHSetTagAlias.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHHelper.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHHelper.o):
 0000000000000000 t +[JPUSHHelper JPUSHDisplayVersion]
 00000000000003c8 b _JPUSHDisplayVersionName
 0000000000000328 S _OBJC_CLASS_$_JPUSHHelper
@@ -344,6 +344,6 @@
 00000000000002b8 s l_OBJC_CLASS_RO_$_JPUSHHelper
 0000000000000270 s l_OBJC_METACLASS_RO_$_JPUSHHelper
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasValidation.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHTagAliasValidation.o):
 
-/Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHClientController.o):
+/Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/lib/jpush-ios-3.1.1.a(JPUSHClientController.o):

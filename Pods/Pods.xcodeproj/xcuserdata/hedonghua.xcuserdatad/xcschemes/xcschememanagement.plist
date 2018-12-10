@@ -7,17 +7,22 @@
 		<key>AVOSCloud.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Pods-XHBGomoku.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>7</integer>
 		</dict>
 		<key>SDWebImage.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>8</integer>
+		</dict>
+		<key>STCObfuscator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 </dict>

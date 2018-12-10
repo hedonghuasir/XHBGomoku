@@ -11,6 +11,9 @@
 		3143369F21B0592A00412C77 /* wzq_loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369D21B0592900412C77 /* wzq_loading2.png */; };
 		314336A021B0592A00412C77 /* wzq_loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3143369E21B0592A00412C77 /* wzq_loading1.png */; };
 		314336A221B0596000412C77 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 314336A121B0595F00412C77 /* bg2.png */; };
+		315B059421BED4F400642CEC /* SelectGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315B059321BED4F400642CEC /* SelectGameViewController.m */; };
+		315B059921BED79500642CEC /* wuziqi.png in Resources */ = {isa = PBXBuildFile; fileRef = 315B059721BED79300642CEC /* wuziqi.png */; };
+		315B059A21BED79500642CEC /* dafeiji.png in Resources */ = {isa = PBXBuildFile; fileRef = 315B059821BED79500642CEC /* dafeiji.png */; };
 		6E795384DCE61C8E4A8A14F6 /* libPods-XHBGomoku.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */; };
 		7B5F153B21B0219D004709C1 /* XHBGomokuPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151821B0219D004709C1 /* XHBGomokuPieceView.m */; };
 		7B5F153C21B0219D004709C1 /* XHBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F151B21B0219D004709C1 /* XHBViewController.m */; };
@@ -187,6 +190,10 @@
 		3143369D21B0592900412C77 /* wzq_loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wzq_loading2.png; sourceTree = "<group>"; };
 		3143369E21B0592A00412C77 /* wzq_loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wzq_loading1.png; sourceTree = "<group>"; };
 		314336A121B0595F00412C77 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		315B058921BED4F300642CEC /* SelectGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectGameViewController.h; sourceTree = "<group>"; };
+		315B059321BED4F400642CEC /* SelectGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectGameViewController.m; sourceTree = "<group>"; };
+		315B059721BED79300642CEC /* wuziqi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuziqi.png; sourceTree = "<group>"; };
+		315B059821BED79500642CEC /* dafeiji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dafeiji.png; sourceTree = "<group>"; };
 		315E2F1821AC5D32008510E9 /* XHBGomoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XHBGomoku.entitlements; sourceTree = "<group>"; };
 		32FC12C0D8CE6E43A6965193 /* libPods-XHBGomoku.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHBGomoku.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCBBFC521B1223E00C7F08C /* protobuf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = protobuf.xcodeproj; path = XHBGomoku/Classes/libs/protobuf/xcodeproject/protobuf.xcodeproj; sourceTree = "<group>"; };
@@ -376,6 +383,8 @@
 		7B5F151721B0219D004709C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				315B058921BED4F300642CEC /* SelectGameViewController.h */,
+				315B059321BED4F400642CEC /* SelectGameViewController.m */,
 				7B5F156E21B02F19004709C1 /* LCLoginViewController.h */,
 				7B5F156D21B02F19004709C1 /* LCLoginViewController.m */,
 				7B5F156C21B02F19004709C1 /* LCLoginViewController.xib */,
@@ -563,6 +572,8 @@
 		D26E535D19B4B9D20094EC28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				315B059821BED79500642CEC /* dafeiji.png */,
+				315B059721BED79300642CEC /* wuziqi.png */,
 				314336A121B0595F00412C77 /* bg2.png */,
 				3143369E21B0592A00412C77 /* wzq_loading1.png */,
 				3143369D21B0592900412C77 /* wzq_loading2.png */,
@@ -801,6 +812,8 @@
 				D296F5CA19B8A8F3005439A5 /* button_how.png in Resources */,
 				3143369821ADB6CE00412C77 /* bg.jpg in Resources */,
 				D296F5EE19B8AB6E005439A5 /* bn_soundoff@2x.png in Resources */,
+				315B059A21BED79500642CEC /* dafeiji.png in Resources */,
+				315B059921BED79500642CEC /* wuziqi.png in Resources */,
 				D296F5D519B8A8F3005439A5 /* check.wav in Resources */,
 				D26E531D19B43C880094EC28 /* Images.xcassets in Resources */,
 				7BFC5CDB21AE9D4B0067D78A /* xhs.png in Resources */,
@@ -910,6 +923,7 @@
 			files = (
 				7B5F154421B0219E004709C1 /* XHBGomokuChessPoint.m in Sources */,
 				7B5F154A21B0219E004709C1 /* HBPlaySoundUtil.m in Sources */,
+				315B059421BED4F400642CEC /* SelectGameViewController.m in Sources */,
 				7B5F153F21B0219E004709C1 /* XHBGomokuChessModelTemplate.m in Sources */,
 				D26E531119B43C880094EC28 /* main.m in Sources */,
 				7B5F154021B0219E004709C1 /* XHBGomokuChessboard.m in Sources */,

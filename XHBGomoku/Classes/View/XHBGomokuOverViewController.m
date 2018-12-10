@@ -32,16 +32,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     if (self.success) {
-        self.labelAlert.text=@"Congratulations,You Won!";
+        self.labelAlert.text=@"恭喜，您赢了!";
     }else{
-        self.labelAlert.text=@"Sorry,You Lose!";
+        self.labelAlert.text=@"抱歉,您输了!";
     }
     self.view.backgroundColor=[UIColor colorWithIntegerValue:BACKGROUND_COLOR alpha:1];
     self.backView.image=self.backImage;
     
-    UIColor * color=[UIColor colorWithPatternImage:[UIImage imageNamed:@"topbarbg_2"]];
-    [self.btnBack setBackgroundColor:color];
-    [self.btnRetart setBackgroundColor:color];
+//    UIColor * color=[UIColor colorWithPatternImage:[UIImage imageNamed:@"topbarbg_2"]];
+//    [self.btnBack setBackgroundColor:color];
+//    [self.btnRetart setBackgroundColor:color];
 }
 
 - (void)didReceiveMemoryWarning

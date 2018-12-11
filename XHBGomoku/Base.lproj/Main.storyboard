@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="g2e-T3-tb2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="CSo-KZ-8X0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Select Game View Controller-->
+        <scene sceneID="YRf-yV-pHB">
+            <objects>
+                <viewController id="CSo-KZ-8X0" customClass="SelectGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sGL-6Y-ZT5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="f4B-if-O5x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OkM-Fb-gat">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="wuziqi.png"/>
+                                <connections>
+                                    <segue destination="g2e-T3-tb2" kind="modal" id="6Nk-qQ-F3h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YSJ-0f-xBb">
+                                <rect key="frame" x="0.0" y="334" width="375" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button" image="dafeiji.png"/>
+                                <connections>
+                                    <segue destination="MWg-0L-3ca" kind="modal" id="GNY-jn-5s6"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="B0v-LT-Mgi">
+                                <rect key="frame" x="0.0" y="333" width="375" height="2"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmy-gp-Rgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1650" y="46"/>
+        </scene>
         <!--Gomoku Game Sences View Controller-->
         <scene sceneID="Z1U-0a-lkt">
             <objects>
@@ -154,6 +196,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CJ7-05-gQK">
+                                <rect key="frame" x="5" y="25" width="30" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="back_btn.png"/>
+                                <connections>
+                                    <segue destination="CSo-KZ-8X0" kind="modal" id="Zev-Hn-FCj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97344825642847388" green="1" blue="0.97378112848902132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -175,6 +225,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Wo-1k-NNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2266.8800000000001" y="45.719269300881798"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vZ4-7j-6QJ">
+            <objects>
+                <viewController id="MWg-0L-3ca" customClass="SKViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eJH-la-oJM" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1U0-tz-5a6">
+                                <rect key="frame" x="5" y="25" width="30" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="back_btn.png"/>
+                                <connections>
+                                    <segue destination="CSo-KZ-8X0" kind="modal" id="75T-uI-DxO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mdw-tN-4Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233.5" y="820.5"/>
         </scene>
         <!--Gomoku Over View Controller-->
         <scene sceneID="cKZ-PB-wDS">
@@ -235,57 +309,9 @@
             </objects>
             <point key="canvasLocation" x="4594.0735999999997" y="45.835260702782904"/>
         </scene>
-        <!--Select Game View Controller-->
-        <scene sceneID="owm-ED-4Ts">
-            <objects>
-                <viewController id="t7y-oq-Xgn" customClass="SelectGameViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0xt-Lr-pBc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="tEL-DE-A3O">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kh7-Mg-jXt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="wuziqi.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bgy-xW-YkQ">
-                                <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="dafeiji.png"/>
-                            </button>
-                            <view contentMode="scaleToFill" id="s41-X2-rnw">
-                                <rect key="frame" x="0.0" y="333" width="375" height="2"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O0W-VA-4A8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1521" y="31"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Pxt-pn-EAc">
-            <objects>
-                <viewController id="hqs-vd-aTK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Y5l-hR-Wgc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jmE-0L-hsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
+        <image name="back_btn.png" width="500" height="462"/>
         <image name="bg2.png" width="1242" height="2208"/>
         <image name="bn_back.png" width="27" height="27"/>
         <image name="closeVolice.png" width="55" height="55"/>
@@ -299,4 +325,7 @@
         <image name="wzq_loading1.png" width="1242" height="2208"/>
         <image name="xhs.png" width="500" height="531"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="75T-uI-DxO"/>
+    </inferredMetricsTieBreakers>
 </document>

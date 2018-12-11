@@ -6,12 +6,6 @@
 //  Copyright © 2018 Danqing. All rights reserved.
 //
 #import "SelectGameViewController.h"
-#import "hdhSettingsViewController.h"
-#import "hdhScene.h"
-#import "hdhGameManager.h"
-#import "hdhScoreView.h"
-#import "hdhOverlay.h"
-#import "hdhGridView.h"
 #import <AVOSCloud/AVUser.h>
 #import "LCLoginViewController.h"
 #import "DKSHTMLController.h"

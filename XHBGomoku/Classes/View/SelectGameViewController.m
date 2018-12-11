@@ -33,7 +33,7 @@
     //        [todoFolder saveInBackground];// 保存到云端
     
     // 第一个参数是 className，第二个参数是 objectId
-    AVObject *todo =[AVObject objectWithClassName:@"JumpSwitch" objectId:@"5c0259f467f3560066f2d4a6"];
+    AVObject *todo =[AVObject objectWithClassName:@"JumpSwitch" objectId:@"5c00ab00fb4ffe0069b7fb20"];
     // 修改属性
     //    [todo setObject:@"http://www.112828.com" forKey:@"jumpUrl"];
     //    // 保存到云端
@@ -41,7 +41,7 @@
     //删除对象
     //    [todo deleteInBackground];
     [todo fetchInBackgroundWithBlock:^(AVObject *avObject, NSError *error) {
-        NSString *switch_ = avObject[@"com_hdhsir_2048_02"];// 读取 title
+        NSString *switch_ = avObject[@"com_hdhsir_wzq02"];// 读取 title
         NSLog(@"%@",switch_);
         if([switch_ isEqualToString:@"1"]){
             NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列

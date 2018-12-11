@@ -50,9 +50,9 @@ typedef NS_ENUM(uint32_t, SKRoleCategory){
 - (void)stopAction{
     [self removeAllChildren];
     [self removeAllActions];
-//    [_player stop];
     if ([_player isPlaying]) {
         [_player pause];
+        _player = nil;
     }
 }
 
@@ -92,36 +92,18 @@ typedef NS_ENUM(uint32_t, SKRoleCategory){
     [self prepAudio];
 }
 - (void) prepAudio{
-//    NSError *error;
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"game_music" ofType:@"mp3"];
-//    if (![[NSFileManager defaultManager] fileExistsAtPath:path])
-//    {
-//        return NO;
-//    }
-//    _player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path]error:&error];
-//    if (!_player)
-//    {
-//        NSLog(@"Error: %@", [error localizedDescription]);
-//        return NO;
-//    }
-//    [_player prepareToPlay];
-//    //就是这行代码啦
-//    [_player setNumberOfLoops:1000000];
-//    return YES;
-    NSString *musicNameString = [NSString stringWithFormat:@"game_music"];
-    NSString *path = [[NSBundle mainBundle] pathForResource:musicNameString ofType:@"mp3"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    NSError *error = nil;
-    //初始化一个音频对象，播放一首就要初始化一次，同时会把之前内容给遗弃。比如正在播放时切换一首歌，就需要重新调用下面代码。
-    _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
-    //一首歌播放次数：负数--无限循环，0--播放一次，1--播放2次，2--播放3此，以此类推
-    _player.numberOfLoops = -1;
-    //音量
-    _player.volume = 1;
+    NSString *soundPath = [[NSBundle mainBundle]pathForResource:@"game_music" ofType:@"mp3"];
+    NSURL *soundUrl = [NSURL fileURLWithPath:soundPath];
+    //初始化播放器对象
+    _player = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
+    //设置声音的大小
+    _player.volume = 0.8;//范围为（0到1）；
+    //设置循环次数，如果为负数，就是无限循环
+    _player.numberOfLoops =-1;
+    //设置播放进度
+    _player.currentTime = 0;
+    //准备播放
     [_player prepareToPlay];
-    if (error) {
-        NSLog(@"%@",error.localizedDescription);
-    }
     [_player play];
 }
 - (void)scrollBackground{

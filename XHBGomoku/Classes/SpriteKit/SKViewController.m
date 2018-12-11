@@ -20,6 +20,7 @@
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = NO;
     skView.showsNodeCount = NO;
+    skView.paused = NO;
     is_show_feiji = YES;
     // Create and configure the scene.
     SKScene * scene = [SKMainScene sceneWithSize:skView.bounds.size];
@@ -131,8 +132,10 @@
     NSLog(@"%s", __FUNCTION__);
     [super viewDidDisappear:animated];
 //    [self.view removeFromSuperview];
+//    [self dismissViewControllerAnimated:YES completion:nil];
     [[NSNotificationCenter defaultCenter]postNotificationName:@"stopNotification" object:nil];
     is_show_feiji = NO;
+    ((SKView *)self.view).paused = YES;
 }
 // 视图被销毁
 - (void)dealloc {

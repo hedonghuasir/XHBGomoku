@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "XHBGomokuGameEngine.h"
-@interface XHBGomokuGameSencesViewController : UIViewController<XHBGomokuGameEngineProtocol>
+#import<AVFoundation/AVFoundation.h>
+
+@interface XHBGomokuGameSencesViewController : UIViewController<XHBGomokuGameEngineProtocol>{
+    AVAudioPlayer *_player;
+
+}
 
 @end

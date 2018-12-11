@@ -43,9 +43,16 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wzq_loading1.png" id="4qS-Sz-Kl8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="m_loading" destination="4qS-Sz-Kl8" id="68r-Jp-eIo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmy-gp-Rgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,7 +246,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back_btn.png"/>
                                 <connections>
-                                    <segue destination="CSo-KZ-8X0" kind="modal" id="75T-uI-DxO"/>
+                                    <segue destination="CSo-KZ-8X0" kind="modal" id="BU5-ZU-Aax"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -326,6 +333,6 @@
         <image name="xhs.png" width="500" height="531"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="75T-uI-DxO"/>
+        <segue reference="BU5-ZU-Aax"/>
     </inferredMetricsTieBreakers>
 </document>

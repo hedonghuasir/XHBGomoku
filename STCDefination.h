@@ -1,213 +1,217 @@
 
-//warning btnRestartAction hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnRestartAction hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnRestartAction btnRestartAction 
-//warning first_loading hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning first_loading hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define first_loading first_loading 
 #define _first_loading _first_loading 
 #define setFirst_loading setFirst_loading 
-//warning objectId hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+//warning objectId hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
 #define objectId objectId 
 #define _objectId _objectId 
 #define setObjectId setObjectId 
-//warning SignUpBtnClick hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
+//warning SignUpBtnClick hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
 #define SignUpBtnClick SignUpBtnClick 
-//warning wzq_loading hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning wzq_loading hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define wzq_loading wzq_loading 
 #define _wzq_loading _wzq_loading 
 #define setWzq_loading setWzq_loading 
-//warning btnUndoAction hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnUndoAction hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnUndoAction btnUndoAction 
-//warning localData hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning localData hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define localData localData 
 #define _localData _localData 
 #define setLocalData setLocalData 
-//warning smsCode hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning smsCode hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define smsCode smsCode 
-//warning userNameTextField hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
+//warning userNameTextField hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
 #define userNameTextField userNameTextField 
 #define _userNameTextField _userNameTextField 
 #define setUserNameTextField setUserNameTextField 
-//warning highlights hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
+//warning highlights hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
 #define highlights highlights 
 #define _highlights _highlights 
 #define setHighlights setHighlights 
-//warning btnSound hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnSound hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnSound btnSound 
 #define _btnSound _btnSound 
 #define setBtnSound setBtnSound 
-//warning deviceProfile hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning deviceProfile hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define deviceProfile deviceProfile 
 #define _deviceProfile _deviceProfile 
 #define setDeviceProfile setDeviceProfile 
-//warning hits hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
+//warning hits hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
 #define hits hits 
 #define _hits _hits 
 #define setHits setHits 
-//warning labelAlert hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning labelAlert hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define labelAlert labelAlert 
 #define _labelAlert _labelAlert 
 #define setLabelAlert setLabelAlert 
-//warning apnsTeamId hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning apnsTeamId hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define apnsTeamId apnsTeamId 
 #define _apnsTeamId _apnsTeamId 
 #define setApnsTeamId setApnsTeamId 
-//warning btnSoundAction hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnSoundAction hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnSoundAction btnSoundAction 
-//warning LCDatabase hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.m
+//warning LCDatabase hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.m
 #define LCDatabase LCDatabase 
-//warning apnsTopic hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning apnsTopic hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define apnsTopic apnsTopic 
 #define _apnsTopic _apnsTopic 
 #define setApnsTopic setApnsTopic 
-//warning XHBGomokuOverViewController hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning XHBGomokuOverViewController hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define XHBGomokuOverViewController XHBGomokuOverViewController 
-//warning op hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
+//warning op hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
 #define op op 
-//warning sinceId hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+//warning sinceId hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
 #define sinceId sinceId 
 #define _sinceId _sinceId 
 #define setSinceId setSinceId 
-//warning blackChessMan hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning blackChessMan hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define blackChessMan blackChessMan 
 #define _blackChessMan _blackChessMan 
 #define setBlackChessMan setBlackChessMan 
-//warning btnRestart hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnRestart hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnRestart btnRestart 
 #define _btnRestart _btnRestart 
 #define setBtnRestart setBtnRestart 
-//warning failOnNotExist hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning failOnNotExist hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define failOnNotExist failOnNotExist 
 #define _failOnNotExist _failOnNotExist 
 #define setFailOnNotExist setFailOnNotExist 
-//warning requestLoginSmsCode hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning requestLoginSmsCode hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestLoginSmsCode requestLoginSmsCode 
-//warning inSetter hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning inSetter hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define inSetter inSetter 
 #define _inSetter _inSetter 
 #define setInSetter setInSetter 
-//warning requestEmailVerify hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning requestEmailVerify hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestEmailVerify requestEmailVerify 
-//warning estimatedData hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
-#define estimatedData estimatedData 
-#define _estimatedData _estimatedData 
-#define setEstimatedData setEstimatedData 
-//warning createdAt hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
-#define createdAt createdAt 
-#define _createdAt _createdAt 
-#define setCreatedAt setCreatedAt 
-//warning btnRetart hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnRetart hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnRetart btnRetart 
 #define _btnRetart _btnRetart 
 #define setBtnRetart setBtnRetart 
-//warning xhs_1 hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning createdAt hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+#define createdAt createdAt 
+#define _createdAt _createdAt 
+#define setCreatedAt setCreatedAt 
+//warning xhs_1 hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define xhs_1 xhs_1 
 #define _xhs_1 _xhs_1 
 #define setXhs_1 setXhs_1 
-//warning inboxType hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
-#define inboxType inboxType 
-#define _inboxType _inboxType 
-#define setInboxType setInboxType 
-//warning installationId hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning installationId hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define installationId installationId 
 #define _installationId _installationId 
 #define setInstallationId setInstallationId 
-//warning networkReachabilityStatus hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.m
+//warning inboxType hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+#define inboxType inboxType 
+#define _inboxType _inboxType 
+#define setInboxType setInboxType 
+//warning estimatedData hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+#define estimatedData estimatedData 
+#define _estimatedData _estimatedData 
+#define setEstimatedData setEstimatedData 
+//warning networkReachabilityStatus hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.m
 #define networkReachabilityStatus networkReachabilityStatus 
 #define _networkReachabilityStatus _networkReachabilityStatus 
 #define setNetworkReachabilityStatus setNetworkReachabilityStatus 
-//warning pinnedCertificates hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.m
+//warning pinnedCertificates hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.m
 #define pinnedCertificates pinnedCertificates 
 #define _pinnedCertificates _pinnedCertificates 
 #define setPinnedCertificates setPinnedCertificates 
-//warning deviceToken hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning deviceToken hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define deviceToken deviceToken 
 #define _deviceToken _deviceToken 
 #define setDeviceToken setDeviceToken 
-//warning boardView hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning boardView hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define boardView boardView 
 #define _boardView _boardView 
 #define setBoardView setBoardView 
-//warning hasDataForCloud hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning hasDataForCloud hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define hasDataForCloud hasDataForCloud 
 #define _hasDataForCloud _hasDataForCloud 
 #define setHasDataForCloud setHasDataForCloud 
-//warning maxId hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+//warning SelectGameViewController hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+#define SelectGameViewController SelectGameViewController 
+//warning maxId hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
 #define maxId maxId 
 #define _maxId _maxId 
 #define setMaxId setMaxId 
-//warning isPointer hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning isPointer hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define isPointer isPointer 
 #define _isPointer _isPointer 
 #define setIsPointer setIsPointer 
-//warning passwordTextField hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
+//warning passwordTextField hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
 #define passwordTextField passwordTextField 
 #define _passwordTextField _passwordTextField 
 #define setPasswordTextField setPasswordTextField 
-//warning fetchWhenSave hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning fetchWhenSave hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define fetchWhenSave fetchWhenSave 
 #define _fetchWhenSave _fetchWhenSave 
 #define setFetchWhenSave setFetchWhenSave 
-//warning hasDataForInitial hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning hasDataForInitial hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define hasDataForInitial hasDataForInitial 
 #define _hasDataForInitial _hasDataForInitial 
 #define setHasDataForInitial setHasDataForInitial 
-//warning pvalues hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+//warning pvalues hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
 #define pvalues pvalues 
-//warning acc hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h
+//warning acc hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h
 #define acc acc 
 #define _acc _acc 
 #define setAcc setAcc 
-//warning playerFirst hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/XHBGomokuGameSencesViewController.m
+//warning playerFirst hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/XHBGomokuGameSencesViewController.m
 #define playerFirst playerFirst 
 #define _playerFirst _playerFirst 
 #define setPlayerFirst setPlayerFirst 
-//warning relationData hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning relationData hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define relationData relationData 
 #define _relationData _relationData 
 #define setRelationData setRelationData 
-//warning btnChangePlayChess hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnChangePlayChess hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnChangePlayChess btnChangePlayChess 
-//warning soundOpen hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/XHBGomokuGameSencesViewController.m
+//warning soundOpen hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/XHBGomokuGameSencesViewController.m
 #define soundOpen soundOpen 
 #define _soundOpen _soundOpen 
 #define setSoundOpen setSoundOpen 
-//warning fields hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
-#define fields fields 
-#define _fields _fields 
-#define setFields setFields 
-//warning XHBGomokuGameSencesViewController hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning m_loading hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+#define m_loading m_loading 
+#define _m_loading _m_loading 
+#define setM_loading setM_loading 
+//warning XHBGomokuGameSencesViewController hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define XHBGomokuGameSencesViewController XHBGomokuGameSencesViewController 
-//warning btnBackAction hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnBackAction hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnBackAction btnBackAction 
-//warning LCLoginViewController hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
+//warning LCLoginViewController hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
 #define LCLoginViewController LCLoginViewController 
-//warning ACL hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.m
+//warning SKViewController hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+#define SKViewController SKViewController 
+//warning LoginBtnClick hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
+#define LoginBtnClick LoginBtnClick 
+//warning ACL hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.m
 #define ACL ACL 
 #define _ACL _ACL 
 #define setACL setACL 
-//warning LoginBtnClick hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Classes/View/LCLoginViewController.xib
-#define LoginBtnClick LoginBtnClick 
-//warning btnBack hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnBack hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnBack btnBack 
 #define _btnBack _btnBack 
 #define setBtnBack setBtnBack 
-//warning updatedAt hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning updatedAt hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define updatedAt updatedAt 
 #define _updatedAt _updatedAt 
 #define setUpdatedAt setUpdatedAt 
-//warning whiteChessMan hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning whiteChessMan hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define whiteChessMan whiteChessMan 
 #define _whiteChessMan _whiteChessMan 
 #define setWhiteChessMan setWhiteChessMan 
-//warning include hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+//warning include hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
 #define include include 
 #define _include _include 
 #define setInclude setInclude 
-//warning btnUndo hardcode in /Users/hoolai/Documents/code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
+//warning btnUndo hardcode in /Users/hdh/code/resource_code/XHBGomoku/XHBGomoku/Base.lproj/Main.storyboard
 #define btnUndo btnUndo 
 #define _btnUndo _btnUndo 
 #define setBtnUndo setBtnUndo 
-//warning requestMobilePhoneVerify hardcode in /Users/hoolai/Documents/code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning requestMobilePhoneVerify hardcode in /Users/hdh/code/resource_code/XHBGomoku/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestMobilePhoneVerify requestMobilePhoneVerify 
 
 
@@ -232,6 +236,9 @@
 #endif
 #ifndef SDWebImageManager
 #define SDWebImageManager _STCAE238ADF8EE478E19006AFC0D1D7D2EC_
+#endif
+#ifndef SKSharedAtles
+#define SKSharedAtles _STC3937AADF72257CFE4101D9405F414700_
 #endif
 #ifndef LCDatabasePool
 #define LCDatabasePool _STC810A6E0AEE18D2B0881FF67EE9D574C8_
@@ -290,6 +297,9 @@
 #ifndef XHBGomokuChessModelTemplate
 #define XHBGomokuChessModelTemplate _STC3DA8066A086BC3B37BA86882B6E1306D_
 #endif
+#ifndef SKViewController
+#define SKViewController _STC75A11B52E75A5915F7F7848DA6501D57_
+#endif
 #ifndef AVFileQuery
 #define AVFileQuery _STC1EEED47BD53CC291155AAC2D12572544_
 #endif
@@ -322,6 +332,9 @@
 #endif
 #ifndef SDWebImageCombinedOperation
 #define SDWebImageCombinedOperation _STC4A67C81062FFB09CD7DDBB52215D72A5_
+#endif
+#ifndef SKFoePlane
+#define SKFoePlane _STC90E6450B22D95EDC5B533548B334DAD7_
 #endif
 #ifndef AVAnalyticsUtils
 #define AVAnalyticsUtils _STC4703D00E9C19F733A2AEABE29510E4DA_
@@ -437,6 +450,9 @@
 #ifndef LCRouter
 #define LCRouter _STCB0DE3A87ADD21C30FCFE0E5689F3F90B_
 #endif
+#ifndef SKMainScene
+#define SKMainScene _STC8BC653FBF65C5FAFEC5B36A7F2A99174_
+#endif
 #ifndef SDWebImageCodersManager
 #define SDWebImageCodersManager _STCE0ED3022188860C91BC0BE875882F666_
 #endif
@@ -448,6 +464,9 @@
 #endif
 #ifndef _LCURLSessionTaskSwizzling
 #define _LCURLSessionTaskSwizzling _STCD98201A8EEAC8B07E1BD24FF8408FF14_
+#endif
+#ifndef SelectGameViewController
+#define SelectGameViewController _STCEE201636CB7BBFB5A4308EC6651B58C2_
 #endif
 #ifndef LCFileTaskManager
 #define LCFileTaskManager _STCD67B229B25FE7D5B848460E05A52822A_
@@ -485,6 +504,9 @@
 #ifndef AVKeychain
 #define AVKeychain _STC2493D574E6F5F77534DA9280EB8355EA_
 #endif
+#ifndef DKSHTMLController
+#define DKSHTMLController _STCC506C2776497923CDEC40F92C29539B3_
+#endif
 #ifndef LCHTTPResponseSerializer
 #define LCHTTPResponseSerializer _STC2EA271F63CA8010802DB249D0CFACD54_
 #endif
@@ -496,6 +518,9 @@
 #endif
 #ifndef LCPropertyListResponseSerializer
 #define LCPropertyListResponseSerializer _STC5F4F3EC4F9D9FF03C735ABD6DD25C57A_
+#endif
+#ifndef DKSWebViewController
+#define DKSWebViewController _STC50FD8A95D4D6E2560EA34E2B7CD7E30B_
 #endif
 #ifndef XHBGomokuChessPoint
 #define XHBGomokuChessPoint _STC7EA90F5CC1C77641E419F70314C33053_
@@ -665,8 +690,14 @@
 #ifndef popHead
 #define popHead _STC6FF3DF79646D9785B432833A66064499_
 #endif
+#ifndef addProgressBar
+#define addProgressBar _STCEB1CC0885FCE6444057AC907CDF3A265_
+#endif
 #ifndef lncldServerForModule
 #define lncldServerForModule _STC5A2B9A8E040332CC2ED3BA4FF7F471A5_
+#endif
+#ifndef gameOver
+#define gameOver _STC44CFF13911F4009472D2521360564554_
 #endif
 #ifndef atTimeToUpload
 #define atTimeToUpload _STC2CEB1373411A779269671331FFF33775_
@@ -733,6 +764,9 @@
 #endif
 #ifndef defaultDuration
 #define defaultDuration _STC764006AD0B905277F075CEA68EA1775A_
+#endif
+#ifndef stopAction
+#define stopAction _STCC0C2E7A72650B7C56FEAC0CD0C1067EE_
 #endif
 #ifndef executeStatements
 #define executeStatements _STCBEB72ED845875C9A763F83C4A8D445E5_
@@ -818,6 +852,9 @@
 #ifndef startInBackground
 #define startInBackground _STC01C02FF824E2D900810B66AADE7106E2_
 #endif
+#ifndef timerCallback
+#define timerCallback _STCDCE3AC83823DE63349623A712AF30981_
+#endif
 #ifndef removeDict
 #define removeDict _STC30983BFE990701D65C8B4AAC5F62620C_
 #endif
@@ -854,6 +891,9 @@
 #ifndef executeStatements
 #define executeStatements _STCBEB72ED845875C9A763F83C4A8D445E5_
 #endif
+#ifndef blowupActionWithFoePlaneType
+#define blowupActionWithFoePlaneType _STC9C3F7E385BAFBFFA54EAFE1841C254F6_
+#endif
 #ifndef keyValueDatabasePath
 #define keyValueDatabasePath _STCB800EC9197B843D52A084812F529E8A9_
 #endif
@@ -877,6 +917,12 @@
 #endif
 #ifndef pvalues
 #define pvalues _STC3AA772C75C57AF69592481C858D496FD_
+#endif
+#ifndef blowupTextureWithPlaneType
+#define blowupTextureWithPlaneType _STC9786AE34B1E9099A5B5FE8D212486074_
+#endif
+#ifndef animatonIndex
+#define animatonIndex _STCE2DE1007283E305FCBFD0E5C81D08B7B_
 #endif
 #ifndef relationForKey
 #define relationForKey _STC3DBB53EA387D990606C727EF3C4E2779_
@@ -928,6 +974,9 @@
 #endif
 #ifndef userDefaultsKeyValueStore
 #define userDefaultsKeyValueStore _STCB13FC2A27A84DC0499CBEB709EF48A39_
+#endif
+#ifndef playerPlaneBlowupAction
+#define playerPlaneBlowupAction _STC4F8B5E8650CF38C5851C2DABF87C0B68_
 #endif
 #ifndef deleteKey
 #define deleteKey _STC5D9B6A6B936B8B368F83C3CCA4079C5D_
@@ -994,6 +1043,9 @@
 #endif
 #ifndef calculateSecond
 #define calculateSecond _STCC9E6BEB7978BE75C58EE5670D0131B43_
+#endif
+#ifndef createBigPlane
+#define createBigPlane _STC7CB1D547FBB4CCB5F3ACDAF3CF972EA5_
 #endif
 #ifndef resultSetWithStatement
 #define resultSetWithStatement _STC83CB0DA43321CF618F6D941D10FCD04F_
@@ -1069,6 +1121,9 @@
 #endif
 #ifndef fallbackAPIURLString
 #define fallbackAPIURLString _STC3CBB2CF7894748848A8F66CEC7818402_
+#endif
+#ifndef prepAudio
+#define prepAudio _STCF25BF893580DCCE04D8FCDAA6E2217D6_
 #endif
 #ifndef objectFromDictionary
 #define objectFromDictionary _STCB7034F6A01EC895B57D8159E9DDD524F_
@@ -1163,6 +1218,12 @@
 #ifndef gcdTimerTest
 #define gcdTimerTest _STC199930D66E8D1677555D828FB37D61AB_
 #endif
+#ifndef loadHTML
+#define loadHTML _STCA1F7FE57CAF62E29664546AA6C8EF947_
+#endif
+#ifndef scrollBackground
+#define scrollBackground _STC13C342B66BB43DC45B03358663C9EDE5_
+#endif
 #ifndef findArrayInDict
 #define findArrayInDict _STCCD3C336033FE3D72855C366B6F7DC6AA_
 #endif
@@ -1253,6 +1314,9 @@
 #ifndef isLinkedWithUser
 #define isLinkedWithUser _STCB780006CA6E35C7D3B862C30E92062E5_
 #endif
+#ifndef playerPlaneCollisionAnimation
+#define playerPlaneCollisionAnimation _STC1D90AC61205611E0EE88969E254482D6_
+#endif
 #ifndef serializerWithReadingOptions
 #define serializerWithReadingOptions _STC40B28547F26763D07785A939D64B84ED_
 #endif
@@ -1298,6 +1362,9 @@
 #ifndef isRoleClass
 #define isRoleClass _STC03F6CFC7EE3F446354EC0A1070475CFE_
 #endif
+#ifndef firingBullets
+#define firingBullets _STCCDF3E1DD6E9B58C3D5BFA864B28952C7_
+#endif
 #ifndef geoPoint
 #define geoPoint _STC73CC512DB19BE9E1845326DE9FC88D8B_
 #endif
@@ -1339,6 +1406,9 @@
 #endif
 #ifndef onlyPop
 #define onlyPop _STC7D8FA83CDB2A02AEF9151FE0BF759839_
+#endif
+#ifndef changeScore
+#define changeScore _STC58282659B03F017BD62D1702F7F179AE_
 #endif
 #ifndef callIdResultBlock
 #define callIdResultBlock _STCE4EBFA0F2084F01A60C75ACED4A113CD_
@@ -1454,6 +1524,9 @@
 #ifndef requestPasswordResetForEmailInBackground
 #define requestPasswordResetForEmailInBackground _STC56327EF043EAC965706DADD304D6B460_
 #endif
+#ifndef continueGame
+#define continueGame _STCEE531DFCD2127C4840280FDE050E3DBA_
+#endif
 #ifndef currentInstallation
 #define currentInstallation _STC94D48507755C40AD0D31AF0B1FB3C4AF_
 #endif
@@ -1522,6 +1595,9 @@
 #endif
 #ifndef childObject
 #define childObject _STCC9D18932CEA4F3E0521459887E34404A_
+#endif
+#ifndef canDecodeFromHEIFFormat
+#define canDecodeFromHEIFFormat _STC1524FC78499436B12E59CDE08CC9F144_
 #endif
 #ifndef eventDictionary
 #define eventDictionary _STC880DD6314E6FBA182B26562EE0FE5FBA_
@@ -1595,23 +1671,29 @@
 #ifndef batchSavePath
 #define batchSavePath _STC163351315F5470B6FFFA7DA44FF58C88_
 #endif
-#ifndef swizzleResumeAndSuspendMethodForClass
-#define swizzleResumeAndSuspendMethodForClass _STC736DFEFE4C2E15D78FACF7407F6D20A8_
+#ifndef createBullets
+#define createBullets _STCCCB8E68D1146B75066AF7BFA5020B2FF_
 #endif
 #ifndef activitiesDictionary
 #define activitiesDictionary _STC2BADB9F74D242FDF805AA7F3B635BF35_
 #endif
+#ifndef playerPlaneTextureWithIndex
+#define playerPlaneTextureWithIndex _STCC7EB870B5716632FCE4779A2B5BBF6DD_
+#endif
 #ifndef logPageView
 #define logPageView _STC123556CBF808EC5620984D459DF81CDB_
+#endif
+#ifndef swizzleResumeAndSuspendMethodForClass
+#define swizzleResumeAndSuspendMethodForClass _STC736DFEFE4C2E15D78FACF7407F6D20A8_
+#endif
+#ifndef uploadWithCompletionHandler
+#define uploadWithCompletionHandler _STCE679FDB089DAE701688D3B11AE31B108_
 #endif
 #ifndef callObjectResultBlock
 #define callObjectResultBlock _STCDF8BB45E9B8AF3B45F0C31E974E8D2F7_
 #endif
 #ifndef fetchAllIfNeeded
 #define fetchAllIfNeeded _STC38F6643D5344FF22DF430E20B545864B_
-#endif
-#ifndef uploadWithCompletionHandler
-#define uploadWithCompletionHandler _STCE679FDB089DAE701688D3B11AE31B108_
 #endif
 #ifndef white_one
 #define white_one _STC5ABAACC90D952E357984FB734B46B793_
@@ -1672,6 +1754,9 @@
 #endif
 #ifndef installationDictionaryForCache
 #define installationDictionaryForCache _STC865C1508D95621B41B9BB58495082749_
+#endif
+#ifndef foePlaneCollisionAnimation
+#define foePlaneCollisionAnimation _STCA17855D44589BCB9764266875DB94397_
 #endif
 #ifndef fetchAll
 #define fetchAll _STC9CD03052CB124F4443B11FB5A167AC12_
@@ -1808,6 +1893,9 @@
 #ifndef rpcFunction
 #define rpcFunction _STC83406667DC95C39E71CB77E59711735A_
 #endif
+#ifndef closeNative
+#define closeNative _STCAF733DAD30F24C6982A2ECF69CC6EFB2_
+#endif
 #ifndef whereKey
 #define whereKey _STC7B986BCB4B0B8DB462A0E8AD4F866B37_
 #endif
@@ -1943,6 +2031,12 @@
 #ifndef nearGeoPoint
 #define nearGeoPoint _STC10730CF9004B50F0D00C87DF38C8FBB5_
 #endif
+#ifndef hitTextureWithPlaneType
+#define hitTextureWithPlaneType _STC6A2CB8FDDC6B9B98BB300AF5C87B689D_
+#endif
+#ifndef animatonIndex
+#define animatonIndex _STCE2DE1007283E305FCBFD0E5C81D08B7B_
+#endif
 #ifndef clearOperationWithSequence
 #define clearOperationWithSequence _STCB80935C636CB23115A463ECBDE3F6F8D_
 #endif
@@ -1981,6 +2075,9 @@
 #endif
 #ifndef sendPushDataToQueryInBackground
 #define sendPushDataToQueryInBackground _STC4F75BC49F8FAAE1BB7920744F7E897E0_
+#endif
+#ifndef canEncodeToHEIFFormat
+#define canEncodeToHEIFFormat _STC796AD4A31820E73D6664C158064AD361_
 #endif
 #ifndef determine
 #define determine _STCFACB021CAAF1B398A434700180A9F7AF_
@@ -2050,6 +2147,9 @@
 #endif
 #ifndef uploadCompletionHandler
 #define uploadCompletionHandler _STC65AFC002D50A7F7DA9E990D79D7B6A87_
+#endif
+#ifndef addLeftButton
+#define addLeftButton _STC8D6E5F6876E1EA9E537FAA02FE98FFFD_
 #endif
 #ifndef findObjectsInBackgroundWithTarget
 #define findObjectsInBackgroundWithTarget _STC33A1839CE9D94063F5914D6AB7B5EB9E_
@@ -2216,8 +2316,8 @@
 #ifndef defaultInstallation
 #define defaultInstallation _STCFC0E63817DF2BDBC67C0082525EE77DF_
 #endif
-#ifndef lastErrorCode
-#define lastErrorCode _STC8C0605BAEE658C9A725FF552CB2DE5FA_
+#ifndef textureWithType
+#define textureWithType _STCC56E3279D1467F159272D25F7AE1BDF3_
 #endif
 #ifndef uploadToQCloudWithRequest
 #define uploadToQCloudWithRequest _STCDFE1A318089EFE1B9E252352B668F63C_
@@ -2225,14 +2325,17 @@
 #ifndef uploadCompletionHandler
 #define uploadCompletionHandler _STC65AFC002D50A7F7DA9E990D79D7B6A87_
 #endif
+#ifndef lastErrorCode
+#define lastErrorCode _STC8C0605BAEE658C9A725FF552CB2DE5FA_
+#endif
 #ifndef requestMobilePhoneVerify
 #define requestMobilePhoneVerify _STC01672EE6FC37E5CB5E1A6714FE1C01E5_
 #endif
-#ifndef configAndChangeCurrentUserWithUser
-#define configAndChangeCurrentUserWithUser _STCE7FF57AB1C0C61A05E76CDB9723FB5D8_
-#endif
 #ifndef getFirstObjectInBackgroundWithBlock
 #define getFirstObjectInBackgroundWithBlock _STCA334A68ED966F683A6341C58D6520BB1_
+#endif
+#ifndef configAndChangeCurrentUserWithUser
+#define configAndChangeCurrentUserWithUser _STCE7FF57AB1C0C61A05E76CDB9723FB5D8_
 #endif
 #ifndef createSchemeForDatabaseQueue
 #define createSchemeForDatabaseQueue _STC435F78E0232BD0FFA168EA2C4B8DC53E_
@@ -2555,6 +2658,9 @@
 #ifndef getServerDate
 #define getServerDate _STC9E9C728BF3504D339FCED029671470F6_
 #endif
+#ifndef playerPlaneBlowupTextureWithIndex
+#define playerPlaneBlowupTextureWithIndex _STCC8D7AEED0EB43818AB72E170FD0A7A09_
+#endif
 #ifndef distanceInKilometersTo
 #define distanceInKilometersTo _STC7EAA29D95151D3779A4628FBBBB6EE59_
 #endif
@@ -2563,6 +2669,9 @@
 #endif
 #ifndef inboxQuery
 #define inboxQuery _STC117483D941D9E351BE3754757114009A_
+#endif
+#ifndef playerPlaneAction
+#define playerPlaneAction _STCDF88393BFF023ED5C9D290A871D170AF_
 #endif
 #ifndef cancelAll
 #define cancelAll _STC7B860735D9824101F006F4E744EC4996_
@@ -2584,6 +2693,9 @@
 #endif
 #ifndef saveNewFiles
 #define saveNewFiles _STC546E47DCF61A25CE85D4747781D3315B_
+#endif
+#ifndef createSmallPlane
+#define createSmallPlane _STC566F46E04297B8C5F81FBA1CA5E3882C_
 #endif
 #ifndef snapshotDictionary
 #define snapshotDictionary _STCB5DA513F14194B4748B528063348A099_
@@ -2713,6 +2825,9 @@
 #endif
 #ifndef prefixVersionForPath
 #define prefixVersionForPath _STC6432734691619B62ECC58EF162050A85_
+#endif
+#ifndef createMediumPlane
+#define createMediumPlane _STC29F701F8304B2CB84A328D62BB0EE40E_
 #endif
 #ifndef updatedDefaultACL
 #define updatedDefaultACL _STC3B508502BCB200F50939675B380E7239_
@@ -3008,6 +3123,9 @@
 #ifndef sharedCoder
 #define sharedCoder _STCE40B23DE0EB05BD8F96071EDA46F427A_
 #endif
+#ifndef createFoePlane
+#define createFoePlane _STCEC1F8E6A920162FEB024BCD7A0476325_
+#endif
 #ifndef _enableCrashReportRunloop
 #define _enableCrashReportRunloop _STC4CD03E56A0F20E5F3C90A01BA67E4EB7_
 #endif
@@ -3139,6 +3257,9 @@
 #endif
 #ifndef sharePlayingSystemSoundEffectWith
 #define sharePlayingSystemSoundEffectWith _STC69992E60C60F18027DC2F0A275A7D6CD_
+#endif
+#ifndef backNative
+#define backNative _STC0DD59CC8FA3B0D4B2DE1EC5259758A01_
 #endif
 #ifndef releaseAllDatabases
 #define releaseAllDatabases _STCFF0790934D8F099ED0588F2D66A2D8FE_
@@ -3350,6 +3471,9 @@
 #ifndef white_two_resh
 #define white_two_resh _STCEC70259EA5022B00CB8648B224F366BD_
 #endif
+#ifndef hitActionWithFoePlaneType
+#define hitActionWithFoePlaneType _STCA799567315E0C9EB9F5B90F3028D3F23_
+#endif
 #ifndef descendantFiles
 #define descendantFiles _STC8A5E250C936016DBD6297C73B195A865_
 #endif
@@ -3500,15 +3624,6 @@
 #ifndef smsCode
 #define smsCode _STCB62DA6370BA888621998343B382C995A_
 #endif
-#ifndef addProgressCallback
-#define addProgressCallback _STC64585BBB6CFA1B5F81F00A0579A716CF_
-#endif
-#ifndef completedBlock
-#define completedBlock _STCDD9B7C854ACFA2A29A7DE5F72A65B67C_
-#endif
-#ifndef createCallback
-#define createCallback _STC427CD52DB0DEEFFFD777E95B9C71AEB3_
-#endif
 #ifndef lastModify
 #define lastModify _STC730EBC4250130289CBCB012B2B210680_
 #endif
@@ -3544,15 +3659,6 @@
 #endif
 #ifndef setPinnedPublicKeys
 #define setPinnedPublicKeys set_STC521BB24C9DC67536ABDC2935993F2207_
-#endif
-#ifndef fields
-#define fields _STCB7FFCE9A8F0D04ED007704A726D03F6E_
-#endif
-#ifndef _fields
-#define _fields __STCB7FFCE9A8F0D04ED007704A726D03F6E_
-#endif
-#ifndef setFields
-#define setFields set_STCB7FFCE9A8F0D04ED007704A726D03F6E_
 #endif
 #ifndef requestLock
 #define requestLock _STCA0047C5D023C8214B5CDC1C8606872F4_
@@ -3707,6 +3813,15 @@
 #ifndef setUploadTasks
 #define setUploadTasks set_STCCA4AC171A873DBD8AAE02F606C1B7127_
 #endif
+#ifndef hp
+#define hp _STC4477BE8EAD3A982A8037290B9010DF19_
+#endif
+#ifndef _hp
+#define _hp __STC4477BE8EAD3A982A8037290B9010DF19_
+#endif
+#ifndef setHp
+#define setHp set_STC4477BE8EAD3A982A8037290B9010DF19_
+#endif
 #ifndef shouldCacheStatements
 #define shouldCacheStatements _STC27CA4B6FB66F4B4ECF7DDEEC69ED78BA_
 #endif
@@ -3769,6 +3884,15 @@
 #endif
 #ifndef setFailedURLsLock
 #define setFailedURLsLock set_STC47D321CCF73F491380C750724243CA63_
+#endif
+#ifndef isAuthed
+#define isAuthed _STCE168A39E898F723A1338FF36E8406C89_
+#endif
+#ifndef _isAuthed
+#define _isAuthed __STCE168A39E898F723A1338FF36E8406C89_
+#endif
+#ifndef setIsAuthed
+#define setIsAuthed set_STCE168A39E898F723A1338FF36E8406C89_
 #endif
 #ifndef diskCacheExpireType
 #define diskCacheExpireType _STC6EFB3E47DC4D01B7A450419BCA0DA14A_
@@ -4787,6 +4911,15 @@
 #ifndef setWeakCacheLock
 #define setWeakCacheLock set_STC932E4586D5F98F661C3EE45734A26E42_
 #endif
+#ifndef closeItem
+#define closeItem _STC93740E2895C5146A52AE0E392F9B6791_
+#endif
+#ifndef _closeItem
+#define _closeItem __STC93740E2895C5146A52AE0E392F9B6791_
+#endif
+#ifndef setCloseItem
+#define setCloseItem set_STC93740E2895C5146A52AE0E392F9B6791_
+#endif
 #ifndef mutableTaskDelegatesKeyedByTaskIdentifier
 #define mutableTaskDelegatesKeyedByTaskIdentifier _STC124FDCEE7BC092869E558BCC459188BD_
 #endif
@@ -4858,6 +4991,15 @@
 #endif
 #ifndef setTaskDidReceiveAuthenticationChallenge
 #define setTaskDidReceiveAuthenticationChallenge set_STCE3C37F53DFE2655264046AB93C8A5DF3_
+#endif
+#ifndef htmlUrl
+#define htmlUrl _STC514937F1D461682264B7D0CFFFEBA000_
+#endif
+#ifndef _htmlUrl
+#define _htmlUrl __STC514937F1D461682264B7D0CFFFEBA000_
+#endif
+#ifndef setHtmlUrl
+#define setHtmlUrl set_STC514937F1D461682264B7D0CFFFEBA000_
 #endif
 #ifndef taskDidSendBodyData
 #define taskDidSendBodyData _STC9B47D83459E783267FD67315EB5C68F2_
@@ -5020,6 +5162,15 @@
 #endif
 #ifndef setActualStack
 #define setActualStack set_STC454CE467190EB4EB605D44394CF49705_
+#endif
+#ifndef m_loading
+#define m_loading _STCA78CB468D96FEA6368169EAE410AB99C_
+#endif
+#ifndef _m_loading
+#define _m_loading __STCA78CB468D96FEA6368169EAE410AB99C_
+#endif
+#ifndef setM_loading
+#define setM_loading set_STCA78CB468D96FEA6368169EAE410AB99C_
 #endif
 #ifndef createTimeStamp
 #define createTimeStamp _STCBD556FD39A4D9D6ED8A7D70E38DC2CCC_
@@ -5300,15 +5451,6 @@
 #ifndef setVirtualChessType
 #define setVirtualChessType set_STCF9CCEF28EC2E57163841CD8BD6402AC6_
 #endif
-#ifndef automaticallyInflatesResponseImage
-#define automaticallyInflatesResponseImage _STC5009A4D5544CD669D61F080C94235FBD_
-#endif
-#ifndef _automaticallyInflatesResponseImage
-#define _automaticallyInflatesResponseImage __STC5009A4D5544CD669D61F080C94235FBD_
-#endif
-#ifndef setAutomaticallyInflatesResponseImage
-#define setAutomaticallyInflatesResponseImage set_STC5009A4D5544CD669D61F080C94235FBD_
-#endif
 #ifndef progressiveCoder
 #define progressiveCoder _STC6AD3649D36135D97548B7E3167CA68B3_
 #endif
@@ -5317,6 +5459,15 @@
 #endif
 #ifndef setProgressiveCoder
 #define setProgressiveCoder set_STC6AD3649D36135D97548B7E3167CA68B3_
+#endif
+#ifndef automaticallyInflatesResponseImage
+#define automaticallyInflatesResponseImage _STC5009A4D5544CD669D61F080C94235FBD_
+#endif
+#ifndef _automaticallyInflatesResponseImage
+#define _automaticallyInflatesResponseImage __STC5009A4D5544CD669D61F080C94235FBD_
+#endif
+#ifndef setAutomaticallyInflatesResponseImage
+#define setAutomaticallyInflatesResponseImage set_STC5009A4D5544CD669D61F080C94235FBD_
 #endif
 #ifndef HTTPHeaders
 #define HTTPHeaders _STC5FD1B6B96598840476065338AE8F90E2_
@@ -5363,6 +5514,15 @@
 #ifndef setCurrentHTTPBodyPart
 #define setCurrentHTTPBodyPart set_STC6A6CBF7E875313BA0DA2ACB78B676122_
 #endif
+#ifndef progressView
+#define progressView _STC1F1B6F0D7D425600D1F5563B583B86C0_
+#endif
+#ifndef _progressView
+#define _progressView __STC1F1B6F0D7D425600D1F5563B583B86C0_
+#endif
+#ifndef setProgressView
+#define setProgressView set_STC1F1B6F0D7D425600D1F5563B583B86C0_
+#endif
 #ifndef requestSerializer
 #define requestSerializer _STC0FC227AE30B45D63671B6E26B38FA75A_
 #endif
@@ -5381,15 +5541,6 @@
 #ifndef setPinnedCertificates
 #define setPinnedCertificates set_STCC494040248B379420290B710B0ED2687_
 #endif
-#ifndef urlCredential
-#define urlCredential _STC0700E4B82AEDB07F05411010A0B7D600_
-#endif
-#ifndef _urlCredential
-#define _urlCredential __STC0700E4B82AEDB07F05411010A0B7D600_
-#endif
-#ifndef setUrlCredential
-#define setUrlCredential set_STC0700E4B82AEDB07F05411010A0B7D600_
-#endif
 #ifndef externalQueryPath
 #define externalQueryPath _STCBE0868DBE55AD52B60B79CFBD3A7ED58_
 #endif
@@ -5398,6 +5549,15 @@
 #endif
 #ifndef setExternalQueryPath
 #define setExternalQueryPath set_STCBE0868DBE55AD52B60B79CFBD3A7ED58_
+#endif
+#ifndef urlCredential
+#define urlCredential _STC0700E4B82AEDB07F05411010A0B7D600_
+#endif
+#ifndef _urlCredential
+#define _urlCredential __STC0700E4B82AEDB07F05411010A0B7D600_
+#endif
+#ifndef setUrlCredential
+#define setUrlCredential set_STC0700E4B82AEDB07F05411010A0B7D600_
 #endif
 #ifndef sessionTokenField
 #define sessionTokenField _STC86660540D84942F80F33BB194A1B38AA_
@@ -5686,6 +5846,15 @@
 #endif
 #ifndef setXhs_1
 #define setXhs_1 set_STCD5662110B85AB29DA6511B25C2F0D160_
+#endif
+#ifndef theBool
+#define theBool _STCCF7149593AFBB796447692284754CF49_
+#endif
+#ifndef _theBool
+#define _theBool __STCCF7149593AFBB796447692284754CF49_
+#endif
+#ifndef setTheBool
+#define setTheBool set_STCCF7149593AFBB796447692284754CF49_
 #endif
 #ifndef propertyforKey
 #define propertyforKey _STCECBCBEC3FFA37DDCFF37683BFA05B1BD_
